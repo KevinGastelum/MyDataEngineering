@@ -1,15 +1,10 @@
-# End to End Data Engineering Project
+# Real time Reddit data extraction
 
-## Overview
+## Data Model
 
 End to End AWS project to extract, transform, and load (ETL) data from Reddit into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
-## Key Features
-
-- **Automated Data Processing Workflow**: Utilizing Apache Airflow and Celery for data processing.
-- **Data Storage**: PostgreSQL and Amazon S3 for data storage.
-- **Data Transformation**: Integrates AWS Glue, Lambda and Amazon Athena for effective data transformation and querying.
-- **Scalable Data Warehousing**: Utilizes Amazon Redshift for a high-performance data warehousing solution.
+<img src="images\RedditDataEngineering-.png">
 
 ## Technologies Used
 
@@ -21,6 +16,13 @@ End to End AWS project to extract, transform, and load (ETL) data from Reddit in
 - **Query Service**: Amazon Athena
 - **Data Warehousing**: Amazon Redshift
 - **Data Visualization**:
+
+## Data Pipeline
+
+- **Automated Data Processing Workflow**: Utilizing Apache Airflow and Celery for data processing.
+- **Data Storage**: PostgreSQL and Amazon S3 for data storage.
+- **Data Transformation**: Integrates AWS Glue, Lambda and Amazon Athena for effective data transformation and querying.
+- **Scalable Data Warehousing**: Utilizes Amazon Redshift for a high-performance data warehousing solution.
 
 ## Conclusion
 
