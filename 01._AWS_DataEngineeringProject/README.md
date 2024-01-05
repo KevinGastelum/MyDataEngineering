@@ -27,3 +27,9 @@ End to End AWS project to extract, transform, and load (ETL) data from Reddit in
 ## Conclusion
 
 This project showcases my ability to integrate various technologies to create a robust and scalable data pipeline. It demonstrates my expertise in handling big data and my commitment to delivering efficient and reliable data solutions.
+
+<!--
+
+Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
+
+-->
