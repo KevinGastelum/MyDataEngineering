@@ -37,7 +37,16 @@ Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena
 <!--
 Docker Commands =
 
+docker compose up -d --build
 docker compose up -d
 
+docker exec -it
+
+
+--Fresh Start steps
+Set up VENV - Conda
+run reqs.txt to install all required packages
+pull in config.conf settings , data, logs, plugins, tests
+run docker build
 
 -->
