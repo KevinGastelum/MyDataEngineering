@@ -1,13 +1,15 @@
-from airflow import DAG
-from datetime import datetime
 import os
 import sys
+from datetime import datetime
+from airflow import DAG
+from airflow.operators.python import PythonOperator
 
-sys.path.insert(__index:0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
   'owner': 'Kevin Gastelum',
-  'start_date': datetime(year: 2024, month: 1, day: 2)
+  'start_date': datetime(2024, 1, 2)
 }
 
 file_postfix = datetime.now().strftime("%Y%m%d")
@@ -17,7 +19,7 @@ dag = DAG(
   default_args=default_args,
   schedule_interval='@daily',
   catchup=False,
-  tag=['reddit', 'etl', 'pipeline']
+  tags=['reddit', 'etl', 'pipeline']
 )
 
 # Extracting data from Reddit

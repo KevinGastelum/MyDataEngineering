@@ -1,6 +1,6 @@
 # Real time Reddit data extraction
 
-## Data Model
+## End to End Data Warehousing --> Data Modeling --> Data Pipelines
 
 End to End AWS project to extract, transform, and load (ETL) data from Reddit into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
@@ -31,5 +31,13 @@ This project showcases my ability to integrate various technologies to create a 
 <!--
 
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
+
+-->
+
+<!--
+Docker Commands =
+
+docker compose up -d
+
 
 -->
