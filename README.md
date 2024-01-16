@@ -4,7 +4,7 @@
 
 End to End AWS project to extract, transform, and load (ETL) data from Reddit into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
-<img src="images\RedditDataEngineering-.png">
+<img src="01._AWS_DataEngineeringProject\images\RedditDataEngineering-.png">
 
 ## Technologies Used
 
