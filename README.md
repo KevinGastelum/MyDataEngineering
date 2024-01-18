@@ -50,3 +50,20 @@ pull in config.conf settings , data, logs, plugins, tests
 run docker build
 
 -->
+
+<!--
+FUTURE PROJECT NOTES:
+Build 3 different End to End projects
+AWS:
+
+Azure:
+https://www.youtube.com/watch?v=iQ41WqhHglk
+
+GCP:
+
+
+FCC (Docker, PSQL, ):
+https://www.youtube.com/watch?v=PHsC_t0j1dU
+
+
+-->
