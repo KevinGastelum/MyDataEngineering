@@ -32,9 +32,9 @@ This project showcases my ability to integrate various technologies to create a 
 
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
 
--->
 
-<!--
+
+### DOCKER
 Docker Commands =
 
 docker compose up -d --build
@@ -43,7 +43,8 @@ docker compose up -d
 docker exec -it
 
 
-# Fresh Start steps
+
+### FRESH Start steps
 -- Set up VENV - Conda
 conda create --name redditDE python=3.9
 conda activate redditDE
@@ -54,7 +55,9 @@ pip install -r requirements.txt
 pull in config.conf settings , data, logs, plugins, tests
 run docker build
 
-FUTURE PROJECT NOTES:
+
+
+### FUTURE PROJECT NOTES:
 Build 3 different End to End projects (AWS, Azure, GCP)
 
 AWS:
@@ -68,6 +71,7 @@ https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 Azure:
 Power BI
 https://www.youtube.com/watch?v=iQ41WqhHglk
+
 
 GCP:
 
