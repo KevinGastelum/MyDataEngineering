@@ -64,6 +64,7 @@ https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
 
 Azure:
+Power BI
 https://www.youtube.com/watch?v=iQ41WqhHglk
 
 GCP:
