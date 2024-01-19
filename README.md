@@ -59,7 +59,7 @@ AWS: (Docker, PSQL, Airflow), (EC2, S3, Lambda, Glue, Athena, Redshift) Reddit R
 https://www.youtube.com/watch?v=LSlt6iVI_9Y
 
 Zillow End to End (Quicksight)
-https://www.youtube.com/watch?v=Hfu3E0zLYDQ
+https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
 
 Azure:
