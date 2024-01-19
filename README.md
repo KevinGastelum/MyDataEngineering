@@ -53,9 +53,7 @@ pip install -r requirements.txt
 
 pull in config.conf settings , data, logs, plugins, tests
 run docker build
--->
 
-<!--
 FUTURE PROJECT NOTES:
 Build 3 different End to End projects (AWS, Azure, GCP)
 
