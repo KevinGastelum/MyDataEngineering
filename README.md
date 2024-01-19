@@ -55,10 +55,11 @@ run docker build
 FUTURE PROJECT NOTES:
 Build 3 different End to End projects
 
-AWS: (Docker, PSQL, Airflow), (EC2, S3, Lambda, Glue, Athena, Redshift) Reddit Real time
+AWS:
+Reddit Real time - (Docker, PSQL, Airflow), (EC2, S3, Lambda, Glue, Athena, Redshift)
 https://www.youtube.com/watch?v=LSlt6iVI_9Y
 
-Zillow End to End (Quicksight)
+Zillow End to End (AWS, Quicksight)
 https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
 
