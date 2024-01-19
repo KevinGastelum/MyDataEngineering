@@ -53,7 +53,7 @@ run docker build
 
 <!--
 FUTURE PROJECT NOTES:
-Build 3 different End to End projects
+Build 3 different End to End projects (AWS, Azure, GCP)
 
 AWS:
 Reddit Real time - (Docker, PSQL, Airflow), (EC2, S3, Lambda, Glue, Athena, Redshift)
