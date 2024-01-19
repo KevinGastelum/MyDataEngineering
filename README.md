@@ -58,6 +58,10 @@ Build 3 different End to End projects
 AWS: (Docker, PSQL, Airflow), (EC2, S3, Lambda, Glue, Athena, Redshift) Reddit Real time
 https://www.youtube.com/watch?v=LSlt6iVI_9Y
 
+Zillow End to End (Quicksight)
+https://www.youtube.com/watch?v=Hfu3E0zLYDQ
+
+
 Azure:
 https://www.youtube.com/watch?v=iQ41WqhHglk
 
