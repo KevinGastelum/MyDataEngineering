@@ -70,6 +70,7 @@ https://www.youtube.com/watch?v=iQ41WqhHglk
 GCP:
 
 
+
 FCC (Docker, PSQL, Build Pipeline from scratch, dbt, CRON, Airflow, Airbyte):
 https://www.youtube.com/watch?v=PHsC_t0j1dU
 
