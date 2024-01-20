@@ -13,6 +13,6 @@ DATABASE_PORT=parser.get('database', 'database_port')
 DATABASE_USER=parser.get('database', 'database_user')
 DATABASE_PASSWORD=parser.get('database', 'database_password')
 
-INPUT_PATH=parser.get('file_path', 'input_path')
-OUTPUT_PATH=parser.get('file_path', 'output_path')
+INPUT_PATH=parser.get('file_paths', 'input_path')
+OUTPUT_PATH=parser.get('file_paths', 'output_path')
 

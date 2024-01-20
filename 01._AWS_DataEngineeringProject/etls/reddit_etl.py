@@ -21,4 +21,3 @@ def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter:str, limi
     post_lists = []
 
     print(posts)
-

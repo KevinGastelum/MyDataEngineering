@@ -77,7 +77,15 @@ Power BI
 https://www.youtube.com/watch?v=iQ41WqhHglk
 
 
+
+Snowflake:
+https://www.youtube.com/watch?v=qDmqE89DSQQ
+
+
 GCP:
+
+
+
 
 
 FCC (Docker, PSQL, Build Pipeline from scratch, dbt, CRON, Airflow, Airbyte):
