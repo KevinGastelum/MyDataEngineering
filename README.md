@@ -51,7 +51,7 @@ docker stop $(docker ps -q)
 ### FRESH Start steps
 -- Set up VENV - Conda
 conda create --name redditDE python=3.9
-conda activate redditDE
+conda activate redditDE // netflixDE
 
 -- Run reqs.txt to install all required packages
 pip install -r requirements.txt
