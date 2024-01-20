@@ -17,16 +17,16 @@ End to End AWS project to extract, transform, and load (ETL) data from Reddit in
 - **Data Warehousing**: Amazon Redshift
 - **Data Visualization**:
 
-## Data Pipeline
+<!-- ## Data Pipeline
 
 - **Automated Data Processing Workflow**: Utilizing Apache Airflow and Celery for data processing.
 - **Data Storage**: PostgreSQL and Amazon S3 for data storage.
 - **Data Transformation**: Integrates AWS Glue, Lambda and Amazon Athena for effective data transformation and querying.
-- **Scalable Data Warehousing**: Utilizes Amazon Redshift for a high-performance data warehousing solution.
+- **Scalable Data Warehousing**: Utilizes Amazon Redshift for a high-performance data warehousing solution. -->
 
-## Conclusion
+## Objective
 
-This project showcases my ability to integrate various technologies to create a robust and scalable data pipeline. It demonstrates my expertise in handling big data and my commitment to delivering efficient and reliable data solutions.
+Showcases my ability to integrate various technologies to create a robust and scalable data pipeline. It demonstrates my expertise in handling big data and my capabilities to deliver efficient and reliable data solutions.
 
 <!--
 
