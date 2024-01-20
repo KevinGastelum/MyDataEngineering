@@ -83,7 +83,8 @@ https://www.youtube.com/watch?v=qDmqE89DSQQ
 
 
 GCP:
-
+Uber Data Analytics
+https://www.youtube.com/watch?v=WpQECq5Hx9g
 
 
 
