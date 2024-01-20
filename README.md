@@ -35,12 +35,16 @@ Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena
 
 
 ### DOCKER
-Docker Commands =
+
+docker ps
+docker-compose ps
 
 docker compose up -d --build
 docker compose up -d
 
 docker exec -it
+
+docker stop $(docker ps -q)
 
 
 
