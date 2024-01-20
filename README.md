@@ -44,7 +44,14 @@ docker compose up -d
 
 docker exec -it
 
-docker stop $(docker ps -q)
+docker stop $(docker ps -a -q)
+
+
+REMOVE all containers
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker system prune
+docker system prune -a --volumes
 
 
 
