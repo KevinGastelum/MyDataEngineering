@@ -21,7 +21,8 @@ def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
         print(e)
         sys.exit(1)
 
-# Define how we wabt 
+
+# Extracting Posts from Reddit
 def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter:str, limit=None):
     subreddit = reddit_instance.subreddit(subreddit)
     posts = subreddit.top(time_filter=time_filter, limit=limit)
@@ -37,6 +38,7 @@ def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter:str, limi
     return post_lists
 
 
+# Converting Reddit posts data into readable format
 def transform_data(post_df: pd.DataFrame):
     post_df['created_utc'] = pd.to_datetime(post_df['created_utc'], unit='s')
     post_df['over_18'] = np.where((post_df['over_18'] == True), True, False)
@@ -55,5 +57,6 @@ def transform_data(post_df: pd.DataFrame):
 def load_data_to_csv(data: pd.DataFrame, path: str):
     data.to_csv(path, index=False)
 
+## Check if our constants.py variables are coming through to our reddit_etl.py file
 # print(POST_FIELDS)
 
