@@ -1,0 +1,238 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+19bg4jf,I’m releasing a free data engineering boot camp in March,"Meeting 2 days per week for an hour each. 
+
+Right now I’m thinking: 
+
+- one week of SQL
+- one week of Python (focusing on REST APIs too) 
+- one week of Snowflake 
+- one week of orchestration with Airflow
+- one week of data quality 
+- one week of communication and soft skills 
+
+What other topics should be covered and/or removed? I want to keep it time boxed to 6 weeks. 
+
+What other things should I consider when launching this? 
+
+If you make a free account at dataexpert.io/signup you can get access once the boot camp launches. 
+
+Thanks for your feedback in advance!",241,106,eczachly,2024-01-20 16:55:10,https://www.reddit.com/r/dataengineering/comments/19bg4jf/im_releasing_a_free_data_engineering_boot_camp_in/,0.92,False,1705770201.0,False,False
+19brn6q,Thinking of Bailing on My New Job - Need Some Advice,"So, I hopped on board with this new company last month, and turns out they're on a bit of a staff exodus spree. Come next month, it's just gonna be me and two junior engineers left on the engineering team -  not just data engineering but the whole engineering team!! 😬
+
+Thinking of pulling the plug and bouncing to a new gig. As a data engineer, I'll be dealing with numerous data-related questions, but the challenge lies in not having someone to ask why the data is structured in a particular way.
+
+Any of you been in a situation like this? What did you do, and what should I be considering before making my exit?",14,5,Kindly-Screen-2557,2024-01-21 01:28:49,https://www.reddit.com/r/dataengineering/comments/19brn6q/thinking_of_bailing_on_my_new_job_need_some_advice/,1.0,False,False,False,False
+19b94kv,Linters and formatters for Python and SQL,"Hi techies!
+
+I started using ruff and sqlfluff for my repos. It’s truly amazing 🤩… I really recommend them. A must. 
+
+I was wondering if you are developing with these plus another similar tools and why. 
+
+In my case, my repos are coded with python for orchestration (airflow), python for processing (spark) and a lot of sql. 
+
+Great to hear your experience. 
+
+Have a great weekend everyone here 😎",10,4,A-Global-Citizen,2024-01-20 10:43:35,https://www.reddit.com/r/dataengineering/comments/19b94kv/linters_and_formatters_for_python_and_sql/,0.78,False,False,False,False
+19bvq2q,Is there interested in a Data streaming 101 course based on Rust and WebAssembly?,"A number of data folks I respect has recently nudged me with an idea to create a data streaming 101 course since I have been managing an open source data streaming project and a managed cloud service for over a year now.
+
+I have thought about it a few times in 2023, and I'd like to ask the community, if you folks would like a data streaming 101 course.
+
+A bunch of good ones already exist. Here is how this one would be different.
+
+The implementation and hands on labs of this data streaming course would be based on Rust and Web Assembly. It would be entirely self hosted. There would be a bit of complexity to grasp, but I would work to make it as simple as possible.
+
+I am thinking 7 emails with the course content delivered with text, video, and supporting code in a GitHub repo.
+
+The only investment for the course would be time. And that too not a lot. Say 2 - 3 hours to consume the content and 2 - 3 hours to implement the labs.
+
+Does this sound interesting? Let me know in the comments.",9,2,drc1728,2024-01-21 05:10:08,https://www.reddit.com/r/dataengineering/comments/19bvq2q/is_there_interested_in_a_data_streaming_101/,0.92,False,False,False,False
+19bnb55,Data Retrieval From Nontechnical Users - How To Standardize?,"When I need to collect data from people, I’m presented with countless options:
+
+Retrieval:
+
+* Email me the data,
+* Put the data on a shared drive,
+* Drop the data in an S3 bucket,
+* Create a forum,
+* Give people database access,
+* …
+
+Then comes validation:
+
+* Check the data manually,
+* Automate checking of common issues on the backend,
+* Reject incorrect data immediately from the frontend,
+* …
+
+Then how to handle the results of validation:
+
+* Clean it manually,
+* Attempt to automate cleaning of common issues and attempt to re-validate,
+* Have the user fix the data,
+* …
+
+Then after these you should have your data as expected, ready to be integrated into your platform and used for whatever. Until this point, however, there’s a lot of grey area for me.
+
+Ruling the decision is considerations like:
+
+* Corporate culture,
+* Engineers Technical Knowledge,
+* End Users Technical Knowledge,
+* Existing Infrastructure Available,
+* What’s quickest?
+* What’s easiest?
+* What’s securest?
+* What’s most robust to changing requirements?
+* …
+
+and not particularly in that order.
+
+Let’s say you’re developing a new platform for a company filled with nontechnical users. They store things in spreadsheets and have for years, manually maintaining integrity like a bunch of humanoid relational database monsters. Now the company is growing on an order of magnitude, they want a culture shift to manage the growth. They want to have a platform that they can rely on just as they’d relied on their HRDBMs for so long.
+
+So you have studied their workflow, learned how and why things operate the way they do. You’ve built systems to help lift a lot of the load, but now you find that you’re still manually patching data into the system yourself. 
+
+It’s time to develop a data integration standard. What do you do? How do you standardize this part of the pipeline?",4,10,DuckDatum,2024-01-20 22:07:50,https://www.reddit.com/r/dataengineering/comments/19bnb55/data_retrieval_from_nontechnical_users_how_to/,0.75,False,False,False,False
+19bi0pn,How do you guys prefer to Unit test/automate test ADF pipelines/databricks notebooks?,"Hi guys
+
+I've been googling lots of different unit tests/automated testing for ADF pipelines and databricks notebooks (ran in ADF) and I've got a basic idea lined up, but it's got me curious what other professionals in the industry use for testing and what's generally considered best practice for you guys.",4,3,IG-55,2024-01-20 18:17:49,https://www.reddit.com/r/dataengineering/comments/19bi0pn/how_do_you_guys_prefer_to_unit_testautomate_test/,0.84,False,False,False,False
+19b9cwv,"New to AWS, need some advice","I'm a DE with 2 years of experience as (lead) data/platform engineer using mainly Azure Synapse. Currently I am asked by our data architect to create a solution using the following requirements:
+
+-we receive an xml full load of a big dataset every day in an S3 bucket.
+-we want to create iceberg tables in S3 by doing CDC on the xml data (in some fashion)
+-goal is to be able to efficiently timetravel the database. 
+
+How would you tackle this problem?",3,5,Schuurspons93,2024-01-20 11:00:05,https://www.reddit.com/r/dataengineering/comments/19b9cwv/new_to_aws_need_some_advice/,1.0,False,False,False,False
+19b8e6v,Job title... What do you think?,"Hey all, quick question.
+
+I've been a DE roughly 3 years and just applied to a senior DE role at a consultancy and was pleasantly surprised to get offered the role. Hurrah.
+
+Anyway I received the contract and the title was technical project manager. I love being a data engineer and I don't want to not be close to the code or etl. In your experience if some one had technical project manager on their cv would you discount that as DE experience? Or are the roles synonymous?
+
+Thanks",3,4,tcfcfc,2024-01-20 09:53:20,https://www.reddit.com/r/dataengineering/comments/19b8e6v/job_title_what_do_you_think/,1.0,False,False,False,False
+19btc8i,Any real benefit to a queue service over a makeshift queue with Postgres for small scale stuff?,"Basically the title, if it can be done with Postgres… is something like rabbitmq worthwhile?",2,4,DuckDatum,2024-01-21 02:55:19,https://www.reddit.com/r/dataengineering/comments/19btc8i/any_real_benefit_to_a_queue_service_over_a/,1.0,False,False,False,False
+19bm0w0,Common Architectures for Event & Schedule Based Email Notifications System?,"Hello everyone. As is typical (for me at least), I’m looking to garner some insights on approches for a common kind of application before I built one.
+
+I’m going to build an email notification system. Its first set of requirements will be to send out notices a few weeks before some documents expire, unless those documents have been renewed already.
+
+The source data lives in an excel spreadsheet stored in a shared SharePoint drive. It gets updated at regular intervals by some kind of ghost entity that magically knows when/how to update the data.
+
+My first thoughts are that I’m going to need to store the document names and their expiration date, as well as a recipient list somewhere that can be polled daily. If the poll finds any records matching the conditions I’ve described, send an email to the documents recipient list. 
+
+However, I started to wonder if there might be a better approach. For example, maybe the polling service can simply update a `status` column based on how close a document is to expiration. If `status` gets set to `soon to expire`, then a [postgres] `NOTIFY` can get sent to a `LISTEN`ing channel. On the `LISTEN`ing channel, there can be an application that handles these “event based” emails. This decouples the polling service from the email service, and theoretically the email service can get used for any email.
+
+After this, I started to wonder Postgres actually has some built in method to automatically `NOTIFY` if a records `date` column approaches less than X days from current time. I’m doubtful about this, as it just sounds like a built in polling service, or maybe a nasty looking trigger function, but who knows.
+
+For reference I use Postgres for storage, Prefect for orchestration, Python for the nooks and crannies, … I want a solution that’s generally applicable though and can get reused for future projects. 
+
+What’s the typical “generally applicable” approach for email notifications? Thanks!",2,1,DuckDatum,2024-01-20 21:11:13,https://www.reddit.com/r/dataengineering/comments/19bm0w0/common_architectures_for_event_schedule_based/,1.0,False,1705786231.0,False,False
+19bhkx4,Urgent: Taking 2 extra semesters for a CS Minor as a Stats major?,"(The reason I put urgent is because the deadline for me to choose courses is in 2 days 🥲 i know not the best)
+
+Hello, I’m a fourth year undergrad student majoring in Statistics and minoring in GIS and Human Geography at a university in Canada and I’m looking to become a data engineer after graduating but I’ll likely start as a data analyst first before transitioning into a DE. 
+
+I’m wondering if it would be worth it to take CS courses for an extra 2 semesters to change my Human Geography minor into a CS minor. 
+
+The thing is, CS at my school can be pretty theoretical, and 2 required courses focus on making projects in Java and C which I’m not sure how relevant those languages are for DEs. However, I do have the option of choosing an SQL course and machine learning courses after I complete those required courses so it’s something I’m considering as I assume it is relevant to the data science industry. 
+
+However, if I’m not gonna really use a lot of things I learn such as math proofs, Java and C  during work then I honestly think those courses might be overkill, but if CS will overall teach me skills that are fundamental to the engineering aspect of DE then I’m willing to just push through and finish the CS minor. I know for a fact that I learn better in classroom settings than on my own so that is also something to consider. 
+
+For those who work as a data engineer, what are the most important languages/technical skills to learn in order to start a career as a DE? I know Python is very important and I’m currently using it a lot in one of my upper year stats courses, but how about languages such as Java or C? I’m already familiar with R and will learn SQL on my own. 
+
+If anyone can provide me insight on the current industry and tips on how to get hired in Canada or the US it would be much appreciated!",1,11,smol_llama,2024-01-20 17:59:11,https://www.reddit.com/r/dataengineering/comments/19bhkx4/urgent_taking_2_extra_semesters_for_a_cs_minor_as/,0.54,False,1705784300.0,False,False
+19b8kma,Marketing agency tech stack,"Hello guys, I've been running my business as a marketing agency owner for a couple of years right now. 
+
+I started developing my martech stack, duplicate for each client, made by a mix of OS and licensed products which are:
+1. Hubspot CRM (just for the sales part)
+2. Mautic (marketing automation)
+3. Sendgrid
+4. Mailsync (for feeding Hubspot timeline with SendGrid's events)
+5. Make.com (former Integromat) as IPaaS (I have an old subscription with a super cheap deal)
+6. Coda.io as a productivity tool shared with clients
+7. WordPress as a CMS with Elementor Pro
+7. Oviond for analytics dashboards
+
+I've started understanding the competitive advantage of OS (only Mautic and WordPress are on this list) by having them hosted on Google Cloud Platform with virtual images that I duplicate each time and two up-and-running main machines for maintenance. 
+
+I'm looking for any type of suggestions about this because I'm starting to look into RudderStack as a data lake for getting all events but probably it's too big for my clients and we don't have so many events to manage. Still thinking about it and I'm struggling a bit. 
+
+Thanks to anyone who will give me any feedback!
+See you",2,5,SpookyLibra45817,2024-01-20 10:05:28,https://www.reddit.com/r/dataengineering/comments/19b8kma/marketing_agency_tech_stack/,1.0,False,False,False,False
+19bx9w9,"ZeroETL vs. Pipelines, Jobs, Schedules",In the data space there is this new movement of ZeroETL (started by AWS) that advocates the replacement of traditional data movement pipelines (generally implemented using Spark and Airflow) with real-time CDC replication. What is your take on it ? Did anyone fully implemented it ?,1,0,matteopelati76,2024-01-21 06:44:32,https://www.reddit.com/r/dataengineering/comments/19bx9w9/zeroetl_vs_pipelines_jobs_schedules/,1.0,False,False,False,False
+19bvcjk,Need help with companies shortlisting,"Hi All, 
+Long story short-  I am trying to switch companies as i think i am going to be put into PIP at a FAANG. I have 2 years of experience as a data engineer. What other good companies that i can apply to? I know the market is pretty bad now a days but i wanna target and try applying to some good companies as well. I work in India. 
+1. I always wanted to work in European companies. Is there a chance now given current market? If yes how do i do it. Just go to company’s career site and apply or is there someother way?
+2. I also know that trying to work elsewhere is not very optimal rn . Even in India i would like to get some good data engineer companies.
+Please let me know if anyone has any ideas or suggestions.",1,1,mad_peace,2024-01-21 04:48:52,https://www.reddit.com/r/dataengineering/comments/19bvcjk/need_help_with_companies_shortlisting/,1.0,False,False,False,False
+19bnqyq,Organizing data and setting up directory structures for Databricks Unity Catalog,"My company wants to organize our data in Databricks and I have been looking at some documentation on best practices for directory structures. 
+
+One of the documentations suggested: “Catalogs often mirror organizational units or software development lifecycle scopes. You may choose, for example, to have a catalog for production data and a catalog for development data” 
+
+I’ve read in many articles that there should be a catalog for dev, prod, stage, etc… and one schema for each of the Bronze, Silver, and Gold medallion structures.
+
+Here’s what my company has in place at the moment:
+
+* We have different workspaces for test, dev, and prod (for example, dev\_us\_west, prod\_us\_west, test\_us\_east, test\_uk,...) 
+* In our current setup, catalogs within each workspace represent individual projects. For example, demand\_forecast, sales\_prediction,... 
+* The schemas group related tables. For example, inside the demand\_forecast catalog, there are the following schemas: ‘customers’, and ‘products’. The ‘customers’ schema contains tables like churn (raw, untransformed) and customer\_preference (transformed). And the ‘products’ schema contains tables like prices (raw), reviews (raw)
+* The way it works right now is if someone has a project that only needs some analysis and doesn't involve pushing codes into production, they will go into the test workspace. There, they can create a catalog for that project, and create the necessary schemas and tables. If someone needs to create a model that will be used in production, they will use the prod workspace and create a catalog for their project there. 
+* I’ve read that “*Databricks no longer recommends mounting external data locations to Databricks Filesystem”.* Right now, the way that we load files into Databricks is by using DBFS S3 bucket mount points. In the future, we would want to switch to using volumes to store unstructured data. Right now, each sub-directory in our S3 bucket contains files related to a project. 
+
+I’m not from a Data Engineering background and am not very experienced with Unity Catalog. Could you recommend best practices for isolating and organizing data using workspaces, catalogs, schemas, and volumes? 
+
+Thank you in advance!",1,0,lunalita_99,2024-01-20 22:27:43,https://www.reddit.com/r/dataengineering/comments/19bnqyq/organizing_data_and_setting_up_directory/,1.0,False,False,False,False
+19bghjl,Suggestions for a Scalable Search Engine for Aggregating Results from Multiple Queries,"Hello everyone,
+
+I'm currently working on a project that involves creating a searchable database. As the database is expected to grow into millions of records with titles, description and others, I'm looking for an efficient and scalable search engine solution.
+
+Here's a brief overview of my requirements:
+
+* **Data Size**: The database will contain millions of records.
+* **Functionality**: I need to aggregate and deduplicate search results from multiple queries. Each user can have multiple favorite search queries, and I want to provide a personalized feed based on these queries.
+* **Challenges**:
+   * Some queries might return thousands of results.
+   * The aggregated results need to be sorted globally (e.g., by date or relevance).
+   * The aggregated results should possibly be filtered by columns like filestypes\[\] and is\_free
+   * The solution needs to be efficient and scalable to handle the increasing data size and query load.
+   * The solution needs to be selfhosted.
+
+**Current Approach**: I'm currently considering using Typesense for its simplicity and speed, but I'm open to other solutions that might better suit my needs, especially considering the need for efficient multi-query aggregation and global sorting of results.
+
+I would appreciate any suggestions or insights on:
+
+* Which search engines you would recommend for this use case.
+* Strategies for efficiently aggregating and deduplicating results from multiple queries.
+* Any other considerations or tips for managing large-scale search operations.
+
+Thank you in advance for your help!
+
+Btw. if there are subreddits that are more suitable for my question please let me know.",1,3,LarsSorensen,2024-01-20 17:10:38,https://www.reddit.com/r/dataengineering/comments/19bghjl/suggestions_for_a_scalable_search_engine_for/,1.0,False,False,False,False
+19bb6ru,parallel ingestion in snowflake!?,"In on of my project, I have  a stored procedure in snowflake that is generating ingestion query of around 100 raw files into around 20 tables. Right now we are using sample Data, each one has few thousands rows. And ingestion time is around 10 minutes. 
+But i m sure in production environment each file will contain millions of rows any my estimate is that will takes 30 minutes to ingest. 
+
+Right now, I am running all ingestions queries in sequential manner, one by one. But I want to ingest Data parallely in asynchronous manner/Mutlithreading whichone is the right term, I have no idea. 
+Inside snowflake, I m using python which has features to do parallel processing. But is it possible to do so in snowflake. Or any theoritical modification, you are thinking to suggest. 
+
+From business perspective it's not necessary, since these are DWH layer and processing is of batch type. I m just exploring probable options from learning perspective. 
+
+Thanks in advance. Any lead will be appreciated.",1,18,asud_w_asud,2024-01-20 12:56:27,https://www.reddit.com/r/dataengineering/comments/19bb6ru/parallel_ingestion_in_snowflake/,0.67,False,1705755890.0,False,False
+19bqqbe,Career advice: More interesting job for less money?,"Hello everyone, I need some career advice, please: 
+
+I'm currently employed as a Data Analyst for an IT consulting company. However, my recent project involves tasks unrelated to data analytics, focusing more on process mapping and ERP adjustments. Despite expressing my concerns to my manager, they've mentioned that reassignment to a different project is unlikely until 2025.
+
+I've received an offer from a small AIaaS company to work as a Data Analyst within the Data Engineering team, and the role seems very exciting. My ultimate goal is to transition into a Data Engineering role by the end of the year.
+
+The dilemma is that my current job offers a great salary, extra vacation days, and access to diverse future projects. On the other hand, the startup offer involves a roughly 30% salary cut and no additional vacation days. While I can manage the pay cut since I live with my parents, it's a significant downgrade.
+
+So, what would you advise? Should I stick with my current job, even though I'm not enjoying it at all, but enjoying the perks while independently learning Data Engineering? Or should I accept the startup offer, taking a pay cut but gaining experience under the Data Engineering team?
+
+Thanks in advance for your perspectives. I truly appreciate it.",0,3,_Lavender_Brown_,2024-01-21 00:43:54,https://www.reddit.com/r/dataengineering/comments/19bqqbe/career_advice_more_interesting_job_for_less_money/,0.5,False,False,False,False
+19bcijh,Do you data lakehouse?,"Do you…
+
+- currently use a data lakehouse
+
+- if so, do you like it?
+
+- if not, do you want to?
+
+- if not, why not?
+
+(Data lakehouse = doing more analytics from your data lake using table formats like iceberg/delta/hudi to use the lake more like a traditional warehouse)",0,16,AMDataLake,2024-01-20 14:07:03,https://www.reddit.com/r/dataengineering/comments/19bcijh/do_you_data_lakehouse/,0.5,False,False,False,False

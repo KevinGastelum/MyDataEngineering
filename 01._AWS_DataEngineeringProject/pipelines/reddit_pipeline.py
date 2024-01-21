@@ -8,7 +8,7 @@ from etls.reddit_etl import connect_reddit, extract_posts, transform_data, load_
 from utils.constants import CLIENT_ID, OUTPUT_PATH, SECRET
 
 
-def reddit_pipeline(subreddit: str, time_filter='day', limit=None):
+def reddit_pipeline(file_name: str, subreddit: str, time_filter='day', limit=None):
   # Connect to reddit API
   instance = connect_reddit(CLIENT_ID, SECRET, 'kevapp') # Enter reddit user-agent or app name
   # Extract
@@ -17,6 +17,9 @@ def reddit_pipeline(subreddit: str, time_filter='day', limit=None):
   # Transform
   post_df = transform_data(post_df)
   # Load
-  load_data_to_csv(post_df, OUTPUT_PATH)
+  file_path = f'{OUTPUT_PATH}/{file_name}.csv'
+  load_data_to_csv(post_df, file_path)
+
+  return file_path
 
 # print(CLIENT_ID)
