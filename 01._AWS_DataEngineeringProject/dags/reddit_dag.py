@@ -5,11 +5,12 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
   'owner': 'Kevin Gastelum',
-  'start_date': datetime(2024, 1, 2)
+  'start_date': datetime(2024, 1, 20)
 }
 
 file_postfix = datetime.now().strftime("%Y%m%d")
@@ -34,3 +35,4 @@ extract = PythonOperator(
     },
     dag=dag
 )
+print()
