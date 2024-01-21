@@ -31,3 +31,6 @@ POST_FIELDS = (
   'spoiler',
   'stickied',
 )
+
+# Verify our ENV variables are commmunicatuing with constants.py
+# print(DATABASE_USER)
