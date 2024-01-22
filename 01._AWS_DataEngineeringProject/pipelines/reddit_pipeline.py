@@ -23,5 +23,5 @@ def reddit_pipeline(file_name: str, subreddit: str, time_filter='day', limit=Non
   return file_path
 
 
-## Check if our constants.py variables are coming through to our pipeline.py file
+## Verify our constants.py variables are communicating with our pipeline.py file
 # print(CLIENT_ID)

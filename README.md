@@ -66,6 +66,8 @@ pip install -r requirements.txt
 pull in config.conf settings , data, logs, plugins, tests
 run docker build
 
+-- Install AWS CLi
+
 
 
 ### FUTURE PROJECT NOTES:
