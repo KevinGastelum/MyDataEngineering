@@ -72,8 +72,11 @@ run docker build
 
 # ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
+
+
 Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
-# aws sts get-session-token --duration-seconds 3600
+configure aws
+aws sts get-session-token --duration-seconds 3600
 
 
 
