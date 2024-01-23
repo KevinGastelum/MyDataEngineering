@@ -85,21 +85,14 @@ https://{YOUR ACNT ID}.signin.aws.amazon.com/console
 
 
 - Create EC2 instance and launch
-
 sudo apt-get update
-
 sudo apt install python3-pip
-
 sudo apt install python3.10-venv
 - might need to restart terminal
-
 python3 -m venv netflixDE
-
 source netflixDE/bin/activate
-
 - Install AWS CLi
 pip install --upgrade awscli
-
 sudo pip install apache-airflow
 
 
