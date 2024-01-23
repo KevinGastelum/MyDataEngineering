@@ -66,7 +66,11 @@ pip install -r requirements.txt
 pull in config.conf settings , data, logs, plugins, tests
 run docker build
 
+
+
 -- Install AWS CLi
+
+# ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
 Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
 # aws sts get-session-token --duration-seconds 3600
