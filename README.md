@@ -68,6 +68,7 @@ run docker build
 
 
 
+
 -- Install AWS CLi
 
 Go to AWS -> Create user -> group -> EC2 instance -> S3 bucket
