@@ -87,7 +87,9 @@ sudo apt install python3-pip
 sudo apt install python3.10-venv
 - might need to restart terminal
 python3 -m venv netflixDE
+- Start Venv
 source netflixDE/bin/activate
+
 - Install AWS CLi
 pip install --upgrade awscli
 sudo pip install apache-airflow
