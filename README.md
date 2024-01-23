@@ -95,8 +95,9 @@ pip install --upgrade awscli
 sudo pip install apache-airflow
 
 
-- Conne
+-- SSH into AWS EC2 through VSCODE
 
+- Download then locate .pem file directory ie Downloads
 ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
 Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
