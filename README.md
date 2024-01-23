@@ -93,7 +93,7 @@ source netflixDE/bin/activate
 - Install AWS CLi
 pip install --upgrade awscli
 sudo pip install apache-airflow
-
+airflow standalone -- to launch
 
 -- OBTAIN SESSION TOKEN
 - Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
