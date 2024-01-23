@@ -40,5 +40,5 @@ POST_FIELDS = (
   'stickied',
 )
 
-# Verify our ENV variables are commmunicatuing with constants.py
+# Verify our ENV variables are commmunicating with constants.py
 # print(DATABASE_USER)
