@@ -84,7 +84,6 @@ aws sts get-session-token --duration-seconds 3600
 
 
 
-
 ### FUTURE PROJECT NOTES:
 Build 3 different End to End projects (AWS, Azure, GCP)
 
