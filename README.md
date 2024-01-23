@@ -34,7 +34,7 @@ KEVIN'S PERSONAL NOTES/INSTRUCTIONS
 
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
 
-### DOCKER Commands used
+-- DOCKER Commands used
 - Shows all containers
 docker ps
 docker-compose ps
@@ -71,7 +71,7 @@ run docker build
 run airflow on localhost:8080
 
 
--- Setting up AWS
+-- AWS SETUP
 
 - Go to AWS -> Create user -> Group -> EC2 instance -> S3 bucket
 
