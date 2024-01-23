@@ -68,7 +68,8 @@ run docker build
 
 -- Install AWS CLi
 
-
+Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
+# aws sts get-session-token --duration-seconds 3600
 
 ### FUTURE PROJECT NOTES:
 Build 3 different End to End projects (AWS, Azure, GCP)
@@ -86,14 +87,14 @@ Power BI
 https://www.youtube.com/watch?v=iQ41WqhHglk
 
 
+GCP:
+Uber Data Analytics
+https://www.youtube.com/watch?v=WpQECq5Hx9g
+
 
 Snowflake:
 https://www.youtube.com/watch?v=qDmqE89DSQQ
 
-
-GCP:
-Uber Data Analytics
-https://www.youtube.com/watch?v=WpQECq5Hx9g
 
 
 
