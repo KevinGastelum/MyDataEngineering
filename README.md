@@ -73,7 +73,7 @@ run airflow on localhost:8080
 
 -- Setting up AWS
 
-Go to AWS -> Create user -> Group -> EC2 instance -> S3 bucket
+- Go to AWS -> Create user -> Group -> EC2 instance -> S3 bucket
 
 Begin @ min 9 to watch video walkthrough
 https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
@@ -89,7 +89,9 @@ sudo apt install python3-pip
 sudo apt install python3.10-venv
 # might need to restart terminal
 
-python3 -m venv redditengineering_venv
+python3 -m venv netflixDE
+
+source netflixDE/bin/activate
 
 Install AWS CLi
 
