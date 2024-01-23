@@ -42,9 +42,7 @@ docker-compose ps
 - Build/Start or update your containers
 docker compose up -d --build
 docker compose up -d
-
 docker exec -it {container hash}
-
 docker stop $(docker ps -a -q)
 
 
@@ -95,14 +93,17 @@ pip install --upgrade awscli
 sudo pip install apache-airflow
 
 
--- SSH into AWS EC2 through VSCODE
+-- OBTAIN SESSION TOKEN
+- Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
+configure aws
+aws sts get-session-token --duration-seconds 3600
 
+
+-- SSH into AWS EC2 through VSCODE
 - Download then locate .pem file directory ie Downloads
 ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
-Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
-configure aws
-aws sts get-session-token --duration-seconds 3600
+
 
 
 
