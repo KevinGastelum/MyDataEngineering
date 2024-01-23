@@ -73,16 +73,24 @@ run airflow on localhost:8080
 
 -- Setting up AWS
 
-Go to AWS -> Create user -> group -> EC2 instance -> S3 bucket
+Go to AWS -> Create user -> Group -> EC2 instance -> S3 bucket
+
+Begin @ min 9 to watch video walkthrough
+https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
+
+Login to AWS with your new user (make sure user has admin privileges)
+
+Create EC2 instance and launch
+
+sudo apt-get update
+
+sudo apt install python3-pip
 
 
 
 Install AWS CLi
 
 
-Login to AWS with your new user (give user admin privileges)
-Begin @ min 9
-https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
 
 
