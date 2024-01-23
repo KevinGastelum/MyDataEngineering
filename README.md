@@ -70,9 +70,13 @@ run docker build
 
 -- Install AWS CLi
 
-# ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
+Go to AWS -> Create user -> group -> EC2 instance -> S3 bucket
 
+Login to AWS with your new user (give user admin privileges)
+Begin @ min 9
+https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
+ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
 Run the following command inside your AWS EC2 instance to generate your AWS Session token. --duration-seconds can be any number
 configure aws
