@@ -105,10 +105,6 @@ ssh -i "redditdataengineering-pair.pem" ubuntu@ec2{YOUR INSTANCE}
 
 
 
-
-
-
-
 ### FUTURE PROJECT NOTES:
 Build 3 different End to End projects (AWS, Azure, GCP)
 
