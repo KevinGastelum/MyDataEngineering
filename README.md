@@ -30,9 +30,9 @@ Showcases my ability to integrate various technologies to create a robust and sc
 
 <!--
 
+KEVIN'S PERSONAL NOTES/INSTRUCTIONS
+
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
-
-
 
 ### DOCKER Commands used
 - Shows all containers
@@ -90,16 +90,16 @@ sudo apt-get update
 sudo apt install python3-pip
 
 sudo apt install python3.10-venv
-# might need to restart terminal
+- might need to restart terminal
 
 python3 -m venv netflixDE
 
 source netflixDE/bin/activate
 
-Install AWS CLi
+- Install AWS CLi
+pip install --upgrade awscli
 
-
-
+sudo pip install apache-airflow
 
 
 
