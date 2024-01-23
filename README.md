@@ -44,7 +44,7 @@ docker compose up -d --build
 docker compose up -d
 docker exec -it {container hash}
 docker stop $(docker ps -a -q)
-
+docker compose down
 
 - REMOVE all containers
 docker stop $(docker ps -a -q)
