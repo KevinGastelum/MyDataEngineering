@@ -80,12 +80,11 @@ Obtain Reddit API Keys and insert into your config file
 Begin @ min 9 to watch video walkthrough
 https://www.youtube.com/watch?v=j_skupZ3zw0&t=3s
 
-
-Login to AWS with your new user (make sure user has admin privileges)
+- Login to AWS with your new user (make sure user has admin privileges)
 https://{YOUR ACNT ID}.signin.aws.amazon.com/console
 
 
-Create EC2 instance and launch
+- Create EC2 instance and launch
 
 sudo apt-get update
 
