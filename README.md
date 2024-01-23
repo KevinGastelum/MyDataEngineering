@@ -86,7 +86,10 @@ sudo apt-get update
 
 sudo apt install python3-pip
 
+sudo apt install python3.10-venv
+# might need to restart terminal
 
+python3 -m venv redditengineering_venv
 
 Install AWS CLi
 
