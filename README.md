@@ -34,11 +34,12 @@ Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena
 
 
 
-### DOCKER
-
+### DOCKER Commands used
+- Shows all containers
 docker ps
 docker-compose ps
 
+- Build/Start or update your containers
 docker compose up -d --build
 docker compose up -d
 
@@ -47,7 +48,7 @@ docker exec -it {container hash}
 docker stop $(docker ps -a -q)
 
 
--- REMOVE all containers
+- REMOVE all containers
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 docker system prune
@@ -55,21 +56,29 @@ docker system prune -a --volumes
 
 
 -- FRESH Start steps
-- Set up VENV - Conda
+- Set up VENV through Conda
 conda create --name redditDE python=3.9
 conda activate redditDE // netflixDE
 
 - Run reqs.txt to install all required packages
 pip install -r requirements.txt
 
-- Pull in config.conf settings , data, logs, plugins, tests
+- Pull/Create config.conf settings , data, logs, plugins, tests
+mkdir data logs plugins tests
+
 run docker build
 
+run airflow on localhost:8080
 
 
--- Install AWS CLi
+-- Setting up AWS
 
 Go to AWS -> Create user -> group -> EC2 instance -> S3 bucket
+
+
+
+Install AWS CLi
+
 
 Login to AWS with your new user (give user admin privileges)
 Begin @ min 9
