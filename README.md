@@ -63,12 +63,14 @@ conda activate redditDE // netflixDE
 - Run reqs.txt to install all required packages
 pip install -r requirements.txt
 
-- Pull/Create config.conf settings , data, logs, plugins, tests
+- Pull/Create config.conf settings , data/input, data/output, logs, plugins, tests
 mkdir data logs plugins tests
 
-run docker build
+compose up -d --build
 
 run airflow on localhost:8080
+
+Obtain Reddit API Keys and insert into your config file
 
 
 -- AWS SETUP
