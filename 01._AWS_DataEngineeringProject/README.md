@@ -25,15 +25,21 @@ I will be including other Data Engineering pipelines ([Azure](https://azure.micr
 
 ## Step 2 Setting up environment variables, credentials and API keys
 
-There are some files that I didnt include
+There are some files I didnt include so in order to get this working, you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
 ```bash
-#
-mkdir
-
+# Create directories data, plugins, tests, logs
+mkdir data plugins tests logs
+# Inside the data directory create an input and output directort
+mkdir data/input data/output
+# You can rename the config.conf.example file inside the config directory to config.conf. Just fill in the brackets with your credentials
+mv config/config.conf.example config/config.conf
+# It's considered best practice to create new virtual environment when starting a new project, run python venv or install conda for this.
+python3 -m venv redditDE
+source redditDE/bin/activate
+# Run requirements.txt to install all dependencies
+pip install -r requirements.txt
 ```
-
-It's considered best practice to create new virtual environment when starting a new project, run python venv or install conda for this.
 
 - Set up VENV, Credentials, and API keys
 - Set up Docker (run reqs.txt)
