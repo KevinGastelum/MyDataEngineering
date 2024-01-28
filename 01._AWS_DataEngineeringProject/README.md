@@ -25,6 +25,7 @@ I will be including other Data Engineering pipelines ([Azure](https://azure.micr
 
 ## Step 2 Setting up environment variables, credentials and API keys
 
+[](01._AWS_DataEngineeringProject\images\Step1-redditDE.png)
 There are some files I didnt include so in order to get this working, you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
 ```bash
