@@ -52,7 +52,7 @@ Install [Docker](https://docs.docker.com/get-docker/) if you don't already have 
 docker compose up -d --build
 ```
 
-You can access your Airflow DAG using localhost:8080
+You can access your Airflow DAG using localhost:8080 with your login creds. Trigger the DAG to pull data from the Reddit API
 
 <img src="images\airflow--vscode.png">
 
