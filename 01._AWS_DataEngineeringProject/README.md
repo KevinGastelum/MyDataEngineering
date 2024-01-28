@@ -43,8 +43,16 @@ pip install -r requirements.txt
 
 <img src="images\Step1-redditDE.png">
 
-- Set up VENV, Credentials, and API keys
-- Set up Docker (run reqs.txt)
+## Step 3 Set up Docker to run Apache Airflow, Celery, and Postgres Database
+
+Install [Docker](https://docs.docker.com/get-docker/) if you dont already have it and launch Docker
+
+```bash
+
+
+
+```
+
 - Set up AWS (EC2, S3, Lambda, Glue, Athena)
   Set up Ec2 instance and s3 bucket for
 
