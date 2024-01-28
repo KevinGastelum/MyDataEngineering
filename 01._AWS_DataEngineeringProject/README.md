@@ -1,8 +1,8 @@
 # AWS End to End Data Engineering Project
 
-## Real Time Reddit Data Extraction --> Data Warehousing --> Data Modeling --> Data Pipeline
+## Reddit real-time Data Extraction --> Data Warehousing --> Data Modeling --> Data Pipeline
 
-End to End AWS project to extract, transform, and load (ETL) data from Reddit into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
+End to End AWS project to extract, transform, and load (ETL) real-time data from Reddit posts into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
 <img src="images\RedditDataEngineering-.png">
 
