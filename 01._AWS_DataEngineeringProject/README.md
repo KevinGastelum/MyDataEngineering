@@ -1,6 +1,6 @@
 # AWS End to End Data Engineering Project
 
-## Steps to reproduce this Data Pipeline
+### Steps to reproduce this Data Pipeline
 
 - Step 1 - Download projects files
 - Step 2 - Set up your environment variables, credentials and API keys
