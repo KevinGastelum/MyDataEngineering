@@ -23,6 +23,18 @@ git checkout main
 
 I will be including other Data Engineering pipelines ([Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/docs/overview), [Snowflake](https://www.snowflake.com/en/)) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need, in this project we will set up an [AWS](https://aws.amazon.com/) pipeline.
 
+## Step 2 Setting up environment variables, credentials and API keys
+
+There are some files that I didnt include
+
+```bash
+#
+mkdir
+
+```
+
+It's considered best practice to create new virtual environment when starting a new project, run python venv or install conda for this.
+
 - Set up VENV, Credentials, and API keys
 - Set up Docker (run reqs.txt)
 - Set up AWS (EC2, S3, Lambda, Glue, Athena)
