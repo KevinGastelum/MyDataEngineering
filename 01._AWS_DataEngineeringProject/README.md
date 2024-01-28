@@ -5,7 +5,9 @@
 First download files
 
 ```bash
+# Clone the directory to your local drive using Git but to not checkout any files yet using --no-checkout
 git clone --no-checkout https://github.com/KevinGastelum/MyDataEngineering.git
+
 cd MyDataEngineering
 git sparse-checkout init --cone
 git sparse-checkout set 01._AWS_DataEngineeringProject
