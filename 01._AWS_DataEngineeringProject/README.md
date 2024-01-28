@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Step 3 Set up Docker to run Apache Airflow, Celery, Redis, and Postgres Database
 
-Install [Docker](https://docs.docker.com/get-docker/) if you dont already have it and launch
+Install [Docker](https://docs.docker.com/get-docker/) if you dont already have it and launch. Then run the following command in your terminal.
 
 ```bash
 # This builds our docker containers with Airflow, Celery, Redis and Postgres
