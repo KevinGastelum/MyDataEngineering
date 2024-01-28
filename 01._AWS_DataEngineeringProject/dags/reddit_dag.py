@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from pipelines.reddit_pipeline import reddit_pipeline
 from pipelines.aws_s3_pipeline import upload_s3_pipeline
-from etls.aws_etl import upload_to_s3
+# from etls.aws_etl import upload_to_s3
 
 
 default_args = {
