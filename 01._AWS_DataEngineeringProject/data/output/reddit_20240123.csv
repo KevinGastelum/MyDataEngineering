@@ -1,7 +1,7 @@
 id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,seltext
 19d18sj,How often do you get bored?,"I work at a company I would consider to be top-tier. Great pay for where I live, nice work culture, great people, and good upside potential (company could sell or do IPO in the next few years). But I just feel bored. It's not challenging anymore. When I came on board 6 months ago, I rebuilt everything from scratch and now it's all working almost flawlessly. Our team is small, and we've scaled efficiently so not created more work for ourselves. I do 2-3 hours of real work every day. I have 1-2 short meetings a day if that, answer questions, fix small things that break. I like to feel like I've done something at the end of the day, and more recently the past few months, this is rare. Honestly, most days I feel guilty for not working more. I take time during the day to listen to audiobooks (while working), I work out, take lunch with friends, or similar. It's the opposite of burnout. It's unnerving to not be busy or feel like I'm adding value.  
 
-Is anyone else's shop like this? What are your recommendations?",40,23,ntdoyfanboy,2024-01-22 17:36:51,https://www.reddit.com/r/dataengineering/comments/19d18sj/how_often_do_you_get_bored/,0,False,False,False,False,"I work at a company I would consider to be top-tier. Great pay for where I live, nice work culture, great people, and good upside potential (company could sell or do IPO in the next few years). But I just feel bored. It's not challenging anymore. When I came on board 6 months ago, I rebuilt everything from scratch and now it's all working almost flawlessly. Our team is small, and we've scaled efficiently so not created more work for ourselves. I do 2-3 hours of real work every day. I have 1-2 short meetings a day if that, answer questions, fix small things that break. I like to feel like I've done something at the end of the day, and more recently the past few months, this is rare. Honestly, most days I feel guilty for not working more. I take time during the day to listen to audiobooks (while working), I work out, take lunch with friends, or similar. It's the opposite of burnout. It's unnerving to not be busy or feel like I'm adding value.  
+Is anyone else's shop like this? What are your recommendations?",40,24,ntdoyfanboy,2024-01-22 17:36:51,https://www.reddit.com/r/dataengineering/comments/19d18sj/how_often_do_you_get_bored/,0,False,False,False,False,"I work at a company I would consider to be top-tier. Great pay for where I live, nice work culture, great people, and good upside potential (company could sell or do IPO in the next few years). But I just feel bored. It's not challenging anymore. When I came on board 6 months ago, I rebuilt everything from scratch and now it's all working almost flawlessly. Our team is small, and we've scaled efficiently so not created more work for ourselves. I do 2-3 hours of real work every day. I have 1-2 short meetings a day if that, answer questions, fix small things that break. I like to feel like I've done something at the end of the day, and more recently the past few months, this is rare. Honestly, most days I feel guilty for not working more. I take time during the day to listen to audiobooks (while working), I work out, take lunch with friends, or similar. It's the opposite of burnout. It's unnerving to not be busy or feel like I'm adding value.  
 
 Is anyone else's shop like this? What are your recommendations?"
 19cxuav,Am I too fussy?,"Hi guys! seeking some advice on my data engineering career.
@@ -16,7 +16,7 @@ Another question I have: why do folks stay at a bad company? I have seen tons of
 
 Those are my main points because I am starting to think that I am the problem and I should stay at a company although it doesn't have all the requirements I need...
 
-Thoughts on this?",32,80,data_macrolide,2024-01-22 15:14:12,https://www.reddit.com/r/dataengineering/comments/19cxuav/am_i_too_fussy/,0,False,False,False,False,"Hi guys! seeking some advice on my data engineering career.
+Thoughts on this?",31,81,data_macrolide,2024-01-22 15:14:12,https://www.reddit.com/r/dataengineering/comments/19cxuav/am_i_too_fussy/,0,False,False,False,False,"Hi guys! seeking some advice on my data engineering career.
 
 Long story short: in 3 years I have had 4 different jobs. I left all of them. I don't know if I am asking too much to companies or I am the problem.
 
@@ -46,7 +46,7 @@ I’ve written a very simple Python program that pulls the data from the API on 
 
 I’m not a data engineer by any stretch of the imagination but I figured this would be the right sub to ask this question. 
 
-Is it possible for Python to pull the data from the API and insert into an Access database while also performing some ETL? Am I in way over my head if I’m very new to Python?",18,11,jebert32,2024-01-22 21:08:49,https://www.reddit.com/r/dataengineering/comments/19d6f86/first_time_connecting_to_an_api/,0,False,False,False,False,"Backstory - First let me say I’m a newish BI analyst and in a department of me. We are starting to develop a data culture but I need to show value. I’m using PBI and made several reports from on prem databases. 
+Is it possible for Python to pull the data from the API and insert into an Access database while also performing some ETL? Am I in way over my head if I’m very new to Python?",21,11,jebert32,2024-01-22 21:08:49,https://www.reddit.com/r/dataengineering/comments/19d6f86/first_time_connecting_to_an_api/,0,False,False,False,False,"Backstory - First let me say I’m a newish BI analyst and in a department of me. We are starting to develop a data culture but I need to show value. I’m using PBI and made several reports from on prem databases. 
 
 My goal is to connect to an API and put the acquired data into a MS Access database. The API returns the data in JSON format. 
 
@@ -71,7 +71,7 @@ Sure, you can say ""documentation"", but even in the best case, you have a Confl
 
 Does anybody do this in what they would consider a ""good"" way? Or even any way at all that isn't just documentation?
 
-We're looking into OpenMetadata as a tool to help with some of this on a more granular level, but it still doesn't answer it at the scale I'm talking about.",15,10,theDro54,2024-01-22 12:30:27,https://www.reddit.com/r/dataengineering/comments/19cukvp/how_do_you_manage_the_amount_of_data_assets_in/,1,False,False,False,False,"I've been wondering recently just how much of a problem this really is.
+We're looking into OpenMetadata as a tool to help with some of this on a more granular level, but it still doesn't answer it at the scale I'm talking about.",15,10,theDro54,2024-01-22 12:30:27,https://www.reddit.com/r/dataengineering/comments/19cukvp/how_do_you_manage_the_amount_of_data_assets_in/,0,False,False,False,False,"I've been wondering recently just how much of a problem this really is.
 
 To run a data engineering department, you have, in some capacity, all of the following:  
 \- source data (API's, files, external DB tables)  
@@ -140,7 +140,7 @@ https://preview.redd.it/qcyo7njr2zdc1.png?width=2932&format=png&auto=webp&s=f2e6
 5. Terraform(*Cloud Infrastructure Management*)
 6. Docker(*containerization*) and Dockerhub(*Distribute container images*)
 7. SQL(*Data Manipulation*)
-8. Makefile",11,5,AffectionateEmu8146,2024-01-22 10:57:15,https://www.reddit.com/r/dataengineering/comments/19ct24n/university_subreddit_data_dashboard/,0,False,False,False,False,"Github link: [https://github.com/Zzdragon66/university-reddit-data-dashboard](https://github.com/Zzdragon66/university-reddit-data-dashboard)
+8. Makefile",12,5,AffectionateEmu8146,2024-01-22 10:57:15,https://www.reddit.com/r/dataengineering/comments/19ct24n/university_subreddit_data_dashboard/,0,False,False,False,False,"Github link: [https://github.com/Zzdragon66/university-reddit-data-dashboard](https://github.com/Zzdragon66/university-reddit-data-dashboard)
 
 * Any Suggestions are welcome. If you find this project useful, consider giving it a star on GitHub. This helps me know there's interest and supports the project's visibility.
 * GPU on GCP right now is hard to get, so terraform may fail on the project initialization. You may change the docker command in DAG and \`main.tf\` to run the deep learning docker image without nvidia-gpu
@@ -203,7 +203,7 @@ get a data engineer job after a few years.
 
 &#x200B;
 
-dont know if it matters but im in canada.",7,4,BornYoghurt8710,2024-01-22 19:54:20,https://www.reddit.com/r/dataengineering/comments/19d4lq3/my_path_on_being_a_data_engineer_advice/,0,False,False,False,False,"have an education in software development check.
+dont know if it matters but im in canada.",8,4,BornYoghurt8710,2024-01-22 19:54:20,https://www.reddit.com/r/dataengineering/comments/19d4lq3/my_path_on_being_a_data_engineer_advice/,0,False,False,False,False,"have an education in software development check.
 
 do allot of courses on courserea and build a portfolio
 
@@ -214,19 +214,6 @@ get a data engineer job after a few years.
 &#x200B;
 
 dont know if it matters but im in canada."
-19con24,Doubts on being a Data Engineer,"Hello Guys,
-I’m working as a Data Engineer at mid size company. I mostly work on Snowflake, and Tableau. But, I’m trying to convince my manager to assign a ETL project so that I can get some exposure to Aws and Snowpark.
-In parallel, I want to expand my expertise as well, so here are my queries: 
-Firstly, I want to learn spark, how can I start learning, to learn it quicker?
-Secondly, the reason I chose a career in data is because I didn’t enjoy DSA, I’m bad at and no motivation to learn as well. So, is it the end of road for me to achieve a data role at FAANG?
-Thirdly, how do you guys manage time after work to do side projects when learning new skills?
-Finally, Azure or Aws? I found azure to be too much drag and drop. And, more tool based. What do you guys recommend?",7,5,GulabiGovind,2024-01-22 05:48:13,https://www.reddit.com/r/dataengineering/comments/19con24/doubts_on_being_a_data_engineer/,1,False,False,False,False,"Hello Guys,
-I’m working as a Data Engineer at mid size company. I mostly work on Snowflake, and Tableau. But, I’m trying to convince my manager to assign a ETL project so that I can get some exposure to Aws and Snowpark.
-In parallel, I want to expand my expertise as well, so here are my queries: 
-Firstly, I want to learn spark, how can I start learning, to learn it quicker?
-Secondly, the reason I chose a career in data is because I didn’t enjoy DSA, I’m bad at and no motivation to learn as well. So, is it the end of road for me to achieve a data role at FAANG?
-Thirdly, how do you guys manage time after work to do side projects when learning new skills?
-Finally, Azure or Aws? I found azure to be too much drag and drop. And, more tool based. What do you guys recommend?"
 19cvtuu,Advice on data infrastructure,"Hello! I'm trying to set up a new infrastructure for data in my organization. I'm not a data engineer, but I'm trying to understand the problem and look for the best solutions. I wanted to ask you for some advice:
 
 I need to extract data from a source (using Airbyte), place this data in a warehouse (using Clickhouse), transform this data to generate better visualizations (dbt) and eventually visualize this data (Metabase).
@@ -243,7 +230,7 @@ I thought that Reverse ETL could connect to Postgres, replicate the data that I 
 
 Any information, advice or help would be great!
 
-https://preview.redd.it/qhmeb6g1wzdc1.png?width=938&format=png&auto=webp&s=b497632952d22c447aa79da1dc842c4a967d338f",6,8,Doveliver2,2024-01-22 13:39:04,https://www.reddit.com/r/dataengineering/comments/19cvtuu/advice_on_data_infrastructure/,1,False,False,False,False,"Hello! I'm trying to set up a new infrastructure for data in my organization. I'm not a data engineer, but I'm trying to understand the problem and look for the best solutions. I wanted to ask you for some advice:
+https://preview.redd.it/qhmeb6g1wzdc1.png?width=938&format=png&auto=webp&s=b497632952d22c447aa79da1dc842c4a967d338f",5,8,Doveliver2,2024-01-22 13:39:04,https://www.reddit.com/r/dataengineering/comments/19cvtuu/advice_on_data_infrastructure/,0,False,False,False,False,"Hello! I'm trying to set up a new infrastructure for data in my organization. I'm not a data engineer, but I'm trying to understand the problem and look for the best solutions. I wanted to ask you for some advice:
 
 I need to extract data from a source (using Airbyte), place this data in a warehouse (using Clickhouse), transform this data to generate better visualizations (dbt) and eventually visualize this data (Metabase).
 
@@ -272,7 +259,7 @@ So, whats your anwsers?  :)
 
 &#x200B;
 
-https://preview.redd.it/y6e0pb721ydc1.jpg?width=1200&format=pjpg&auto=webp&s=8e41af35453dcc8f7c682a456328a24d482b4d81",6,8,No_Structure3465,2024-01-22 06:29:33,https://www.reddit.com/r/dataengineering/comments/19cpb97/the_best_way_to_reduce_aws_emr_costs/,0,False,False,False,False,"Hi, guys,
+https://preview.redd.it/y6e0pb721ydc1.jpg?width=1200&format=pjpg&auto=webp&s=8e41af35453dcc8f7c682a456328a24d482b4d81",5,8,No_Structure3465,2024-01-22 06:29:33,https://www.reddit.com/r/dataengineering/comments/19cpb97/the_best_way_to_reduce_aws_emr_costs/,0,False,False,False,False,"Hi, guys,
 
 We believe the best way to reduce costs is to measure them first, so i got three questions.
 
@@ -285,7 +272,19 @@ So, whats your anwsers?  :)
 &#x200B;
 
 https://preview.redd.it/y6e0pb721ydc1.jpg?width=1200&format=pjpg&auto=webp&s=8e41af35453dcc8f7c682a456328a24d482b4d81"
-19cnj0r,Pandas - Delta - MinIO,"Hi guys, i am using Pandas to read and write Deltalake table from minIO as dataframe to perform some data processing. Everytime i need to download all delta folder from minIO bucket to local machine, read it as dataframe, perform processing, save it as delta folder and push back to minIO bucket. Then i have to delete the temporary folder in local machine. Is there a way to connect directly from pandas to minIO deltalake like Spark connector? Do you know any document or sample code about using pandas or polars connector instead of Spark for processing data in cluster? Thanks for reading",4,9,resrrdttrt,2024-01-22 04:45:58,https://www.reddit.com/r/dataengineering/comments/19cnj0r/pandas_delta_minio/,0,False,False,False,False,"Hi guys, i am using Pandas to read and write Deltalake table from minIO as dataframe to perform some data processing. Everytime i need to download all delta folder from minIO bucket to local machine, read it as dataframe, perform processing, save it as delta folder and push back to minIO bucket. Then i have to delete the temporary folder in local machine. Is there a way to connect directly from pandas to minIO deltalake like Spark connector? Do you know any document or sample code about using pandas or polars connector instead of Spark for processing data in cluster? Thanks for reading"
+19con24,Doubts on being a Data Engineer,"Hello Guys,
+I’m working as a Data Engineer at mid size company. I mostly work on Snowflake, and Tableau. But, I’m trying to convince my manager to assign a ETL project so that I can get some exposure to Aws and Snowpark.
+In parallel, I want to expand my expertise as well, so here are my queries: 
+Firstly, I want to learn spark, how can I start learning, to learn it quicker?
+Secondly, the reason I chose a career in data is because I didn’t enjoy DSA, I’m bad at and no motivation to learn as well. So, is it the end of road for me to achieve a data role at FAANG?
+Thirdly, how do you guys manage time after work to do side projects when learning new skills?
+Finally, Azure or Aws? I found azure to be too much drag and drop. And, more tool based. What do you guys recommend?",6,5,GulabiGovind,2024-01-22 05:48:13,https://www.reddit.com/r/dataengineering/comments/19con24/doubts_on_being_a_data_engineer/,0,False,False,False,False,"Hello Guys,
+I’m working as a Data Engineer at mid size company. I mostly work on Snowflake, and Tableau. But, I’m trying to convince my manager to assign a ETL project so that I can get some exposure to Aws and Snowpark.
+In parallel, I want to expand my expertise as well, so here are my queries: 
+Firstly, I want to learn spark, how can I start learning, to learn it quicker?
+Secondly, the reason I chose a career in data is because I didn’t enjoy DSA, I’m bad at and no motivation to learn as well. So, is it the end of road for me to achieve a data role at FAANG?
+Thirdly, how do you guys manage time after work to do side projects when learning new skills?
+Finally, Azure or Aws? I found azure to be too much drag and drop. And, more tool based. What do you guys recommend?"
 19d44ul,What questions to ask when deciding on partitioning strategy?,"Partitioning isn't always a win, like any optimization it's a mix balancing trade-offs in favor of the type of workloads that higher priority and seen more often.  
 
 
@@ -293,7 +292,7 @@ When determining how large data set should be partitioned, what questions do you
 
 
 When determining how large a data set should be partitioned, what questions do you ask yourself?  
-",4,4,AMDataLake,2024-01-22 19:34:51,https://www.reddit.com/r/dataengineering/comments/19d44ul/what_questions_to_ask_when_deciding_on/,1,False,False,False,False,"Partitioning isn't always a win, like any optimization it's a mix balancing trade-offs in favor of the type of workloads that higher priority and seen more often.  
+",3,5,AMDataLake,2024-01-22 19:34:51,https://www.reddit.com/r/dataengineering/comments/19d44ul/what_questions_to_ask_when_deciding_on/,0,False,False,False,False,"Partitioning isn't always a win, like any optimization it's a mix balancing trade-offs in favor of the type of workloads that higher priority and seen more often.  
 
 
 When determining how large data set should be partitioned, what questions do you ask yourself?  
@@ -317,7 +316,7 @@ There are several open source tools that help with this (Disclosure: I am buildi
 [Terrakube](https://github.com/AzBuilder/terrakube)  
 
 
-Feel free to check them out and share feedback if you are already using any of them. Also please share any challenges you face while using Terraform as a team, it would be useful for us to learn!",5,0,utpalnadiger,2024-01-22 15:15:47,https://www.reddit.com/r/dataengineering/comments/19cxvi9/define_and_manage_infrastructure_using_hcl/,1,False,False,False,False,"Hey r/dataengineering,  
+Feel free to check them out and share feedback if you are already using any of them. Also please share any challenges you face while using Terraform as a team, it would be useful for us to learn!",3,0,utpalnadiger,2024-01-22 15:15:47,https://www.reddit.com/r/dataengineering/comments/19cxvi9/define_and_manage_infrastructure_using_hcl/,0,False,False,False,False,"Hey r/dataengineering,  
 We have seen increased Terraform adoption amongst Data Engineers over the last 2 or so years, but have seen that most of them aren't aware of  Terraform Automation and Collaboration tools that help in CI/CD for terraform and enable RBAC, drift detection and concurrency in the process, so that Terraform can be used efficiently at scale.  
 
 
@@ -357,7 +356,7 @@ Thanks you for your help!"
 
 I figure this will result in three smaller projects that steal code from the POC and depreciation of the POC. So, what is typically done to the POC?
 
-I use git like most.",3,7,DuckDatum,2024-01-23 02:13:46,https://www.reddit.com/r/dataengineering/comments/19dde12/what_do_you_do_with_depreciated_applications_in/,1,False,False,False,False,"I recently launched a POC data pipeline and now that it’s seeing production workloads I want to refactor it. It’s like a combination of 3 data pipelines, synchronously working, and I want to turn it into 3 smaller pipelines that run asynchronously.
+I use git like most.",5,7,DuckDatum,2024-01-23 02:13:46,https://www.reddit.com/r/dataengineering/comments/19dde12/what_do_you_do_with_depreciated_applications_in/,1,False,False,False,False,"I recently launched a POC data pipeline and now that it’s seeing production workloads I want to refactor it. It’s like a combination of 3 data pipelines, synchronously working, and I want to turn it into 3 smaller pipelines that run asynchronously.
 
 I figure this will result in three smaller projects that steal code from the POC and depreciation of the POC. So, what is typically done to the POC?
 
@@ -392,7 +391,7 @@ Would like to hear all your suggestions and any github repo examples would be hi
 
 Be brutally honest... better to crush my dreams now rather than study for months only to find out later.
 
-I have no experience in data engineering, but I do have a phd in a stem field and 4 years working as a data scientist",1,4,KimchiFitness,2024-01-23 02:52:12,https://www.reddit.com/r/dataengineering/comments/19de5wg/entry_level_fully_remote_how_unrealistic/,0,False,False,False,False,"My goal is to get a fully-remote, entry-level job in data engineering. How unrealistic is that?
+I have no experience in data engineering, but I do have a phd in a stem field and 4 years working as a data scientist",4,5,KimchiFitness,2024-01-23 02:52:12,https://www.reddit.com/r/dataengineering/comments/19de5wg/entry_level_fully_remote_how_unrealistic/,0,False,False,False,False,"My goal is to get a fully-remote, entry-level job in data engineering. How unrealistic is that?
 
 Be brutally honest... better to crush my dreams now rather than study for months only to find out later.
 
@@ -422,7 +421,7 @@ Are there open source projects that accept volunteers from non-technical backgro
 How do I get started?
 
 What would be good open source projects to target?"
-19d2m9p,Need Help with Interview Practice,"I took a job as a data and analytics engineer two years ago. The job is very limited in its growth and skill ability, and the majority of the harder data engineering work is done through an out-of-the-country contracting firm. My position is mainly translating requirements for them to be able to build and maintain. I am looking to leave this firm to continue growing my skill set, but I am out of practice interviewing, especially in the current market. I am specifically targeting Sr. Data Engineer positions with growth potential as either a Staff Engineer or a Data Architect. Does anyone have any groups for mock interviews and/or study curriculum in order to review for interviews? I specifically need assistance in Python algorithms and system design.",1,0,Jonesy-2010,2024-01-22 18:31:56,https://www.reddit.com/r/dataengineering/comments/19d2m9p/need_help_with_interview_practice/,1,False,False,False,False,"I took a job as a data and analytics engineer two years ago. The job is very limited in its growth and skill ability, and the majority of the harder data engineering work is done through an out-of-the-country contracting firm. My position is mainly translating requirements for them to be able to build and maintain. I am looking to leave this firm to continue growing my skill set, but I am out of practice interviewing, especially in the current market. I am specifically targeting Sr. Data Engineer positions with growth potential as either a Staff Engineer or a Data Architect. Does anyone have any groups for mock interviews and/or study curriculum in order to review for interviews? I specifically need assistance in Python algorithms and system design."
+19d2m9p,Need Help with Interview Practice,"I took a job as a data and analytics engineer two years ago. The job is very limited in its growth and skill ability, and the majority of the harder data engineering work is done through an out-of-the-country contracting firm. My position is mainly translating requirements for them to be able to build and maintain. I am looking to leave this firm to continue growing my skill set, but I am out of practice interviewing, especially in the current market. I am specifically targeting Sr. Data Engineer positions with growth potential as either a Staff Engineer or a Data Architect. Does anyone have any groups for mock interviews and/or study curriculum in order to review for interviews? I specifically need assistance in Python algorithms and system design.",1,1,Jonesy-2010,2024-01-22 18:31:56,https://www.reddit.com/r/dataengineering/comments/19d2m9p/need_help_with_interview_practice/,1,False,False,False,False,"I took a job as a data and analytics engineer two years ago. The job is very limited in its growth and skill ability, and the majority of the harder data engineering work is done through an out-of-the-country contracting firm. My position is mainly translating requirements for them to be able to build and maintain. I am looking to leave this firm to continue growing my skill set, but I am out of practice interviewing, especially in the current market. I am specifically targeting Sr. Data Engineer positions with growth potential as either a Staff Engineer or a Data Architect. Does anyone have any groups for mock interviews and/or study curriculum in order to review for interviews? I specifically need assistance in Python algorithms and system design."
 19d1i7l,How would you get targets/budgets from Gsheets into BigQuery in my situation?,"First off, I rolled into some DE work from data analysis, which means I've not that much technical knowledge. I got all the core data sorted out, but this little silly thing is costing me too much time.
 
 I'm trying to figure out a good way to get targets/budgets that are entered in a Google Sheet into BigQuery. All transformations in BQ managed through Dataform. The input would be a wide table from Google Sheets with a column for each week (or month), while the rows have the target/budget type and who's target/budget (usually a column or 2 or 3 with identifying data) it is. I want to use a wide table because that makes it easier for management to adjust the numbers if need it. After that I of course need to unpivot it in a long table.
@@ -526,7 +525,7 @@ We’ve helped hundreds privately and thousands in total to get a role in the da
 
 &#x200B;
 
-I’ll do my best to get to every question!",0,23,chrisgarzon19,2024-01-22 23:22:46,https://www.reddit.com/r/dataengineering/comments/19d9p1u/ceo_of_data_engineer_academy_here_q_a_next_24/,0,False,False,False,False,"Ask me anything related to data, data engineering, your app process, a blueprint, etc.
+I’ll do my best to get to every question!",0,24,chrisgarzon19,2024-01-22 23:22:46,https://www.reddit.com/r/dataengineering/comments/19d9p1u/ceo_of_data_engineer_academy_here_q_a_next_24/,0,False,False,False,False,"Ask me anything related to data, data engineering, your app process, a blueprint, etc.
 
 My goal is to provide as much value as I possibly can as a thank you to this community.
 
