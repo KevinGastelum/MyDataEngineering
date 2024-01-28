@@ -23,7 +23,7 @@ git checkout main
 
 I will be including other Data Engineering pipelines ([Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/docs/overview), [Snowflake](https://www.snowflake.com/en/)) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need, in this project we will set up an [AWS](https://aws.amazon.com/) pipeline.
 
-## Step 2 Setting up environment variables, credentials and API keys
+## Step 2 - Setting up environment variables, credentials and API keys
 
 There are some files I didnt include so in order to get this working, you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 <img src="images\Step1-redditDE.png">
 
-## Step 3 Set up Docker to run Apache Airflow, Celery, Redis, and Postgres Database
+## Step 3 - Set up Docker to run Apache Airflow, Celery, Redis, and Postgres Database
 
 Install [Docker](https://docs.docker.com/get-docker/) if you don't already have it and launch. Then run the following command in your terminal.
 
@@ -51,6 +51,8 @@ Install [Docker](https://docs.docker.com/get-docker/) if you don't already have 
 # This builds our docker containers with Airflow, Celery, Redis and Postgres
 docker compose up -d --build
 ```
+
+You can access your Airflow DAG using localhost:8080
 
 <img src="images\airflow--vscode.png">
 
