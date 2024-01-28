@@ -33,7 +33,9 @@ Showcases my ability to integrate various technologies to create a robust and sc
 KEVIN'S PERSONAL NOTES/INSTRUCTIONS
 
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
-Take screenshot EC2 CLI, && S3 Bucket with reddit files
+
+Docker/Airflow Screenshot
+EC2 CLI && S3 Bucket with reddit file screenshot
 
 
 
