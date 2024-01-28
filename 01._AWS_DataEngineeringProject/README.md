@@ -2,7 +2,7 @@
 
 ## Steps to reproduce this Data Pipeline
 
-First download files
+Step 1 - Download project files to your local directory using Git
 
 ```bash
 # Clone the directory to your local drive using Git but to not checkout any files yet using --no-checkout
@@ -13,6 +13,7 @@ cd MyDataEngineering
 git sparse-checkout init --cone
 git sparse-checkout set 01._AWS_DataEngineeringProject
 git checkout main
+# I will be including other Data Engineering pipelines (Azure, GCP, Snowflake) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need
 
 ```
 
