@@ -2,7 +2,7 @@
 
 ## Steps to reproduce this Data Pipeline
 
-Step 1 - Download project files to your local directory using Git
+### Step 1 - Download project files to your local directory using Git
 
 ```bash
 # Clone the directory to your local drive using Git but to not checkout any files yet using --no-checkout
