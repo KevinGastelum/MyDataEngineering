@@ -41,6 +41,7 @@ mkdir data plugins tests logs
 mkdir data/input data/output
 ```
 
+```bash
 # You can rename the config.conf.example file inside the config directory to config.conf. Just fill in the brackets with your credentials
 
 mv config/config.conf.example config/config.conf
@@ -49,7 +50,7 @@ mv config/config.conf.example config/config.conf
 
 pip install -r requirements.txt
 
-````
+```
 
 <img src="images\Step1-redditDE.png">
 
@@ -60,7 +61,7 @@ Install [Docker](https://docs.docker.com/get-docker/) if you don't already have 
 ```bash
 # This builds our docker containers with Airflow, Celery, Redis and Postgres
 docker compose up -d --build
-````
+```
 
 You can access your Airflow DAG using localhost:8080 with your login creds.
 
