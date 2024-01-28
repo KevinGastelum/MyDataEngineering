@@ -13,9 +13,9 @@ cd MyDataEngineering
 git sparse-checkout init --cone
 git sparse-checkout set 01._AWS_DataEngineeringProject
 git checkout main
-# I will be including other Data Engineering pipelines (Azure, GCP, Snowflake) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need
-
 ```
+
+I will be including other Data Engineering pipelines (Azure, GCP, Snowflake) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need
 
 - Set up Docker
 -
