@@ -1,4 +1,12 @@
-# AWS End to End Data Engineering Project Steps
+# AWS End to End Data Engineering Project
+
+## Steps to reproduce this Data Pipeline
+
+- Step 1 Download projects files
+- Step 2 Set up your environment variables, credentials and API keys
+- Step 3 Set up Docker to run Apache Airflow, Celery, and Postgres Database
+- Step 4 Set up AWS (EC2, S3, Lambda, Glue, Athena)
+- Step 5 Ensure everything is running correctly
 
 ## Step 1 - Download project files to your local directory using Git
 
