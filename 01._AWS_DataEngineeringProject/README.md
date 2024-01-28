@@ -2,7 +2,7 @@
 
 ## Steps to reproduce this Data Pipeline
 
-- Download files
+First download files
 
 ```bash
 git clone --no-checkout https://github.com/KevinGastelum/MyDataEngineering.git
