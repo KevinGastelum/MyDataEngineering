@@ -1,0 +1,153 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,seltext
+1ac9fpf,What was your DE job from hell?,"I used to work at an extremely big company (actually one of the biggest corps in the world) as a data engineer. Their offer was great, great salary, fully remote and other nice perks.
+
+I joined in and my first thought was how incredibly disorganized everything was. There wasn't even like an internal tooling to check your organization members. I only knew who my direct boss was, but I had no idea about any further hierarchy or even who my other teammates were.
+
+It took them literally around a month and a half for them to assign work to me. Despite being part of an established team, I was ""loaned"" to another team led by a contractor and this guy was completely unaware about my capacities, so he was not able to properly assign work to me because he just couldn't find a task that fit me. The work I was assigned was literally just writing view definitions with SELECTs and JOINs. They'd give me a humongous Excel listing the columns they wanted, and their datatypes, but it was a major PITA because the amount of columns was huge, and every single one of them had an encoded name, so I was essentially modeling data from a blackbox. I NEVER knew what this data was, who was its consumer, or what could they do with it.
+
+To this day, I'm still not sure what these people were doing, as in, what was being developed? What did the pipelines process? Were there even pipelines? No clue, all I I did was looking at an Impala UI and writing SELECT.
+
+Needless to say, I left pretty fast. Happy to be at a place where you're actually aware of what is going on.",58,31,yourAvgSE,2024-01-27 12:05:53,https://www.reddit.com/r/dataengineering/comments/1ac9fpf/what_was_your_de_job_from_hell/,0,False,False,False,False,"I used to work at an extremely big company (actually one of the biggest corps in the world) as a data engineer. Their offer was great, great salary, fully remote and other nice perks.
+
+I joined in and my first thought was how incredibly disorganized everything was. There wasn't even like an internal tooling to check your organization members. I only knew who my direct boss was, but I had no idea about any further hierarchy or even who my other teammates were.
+
+It took them literally around a month and a half for them to assign work to me. Despite being part of an established team, I was ""loaned"" to another team led by a contractor and this guy was completely unaware about my capacities, so he was not able to properly assign work to me because he just couldn't find a task that fit me. The work I was assigned was literally just writing view definitions with SELECTs and JOINs. They'd give me a humongous Excel listing the columns they wanted, and their datatypes, but it was a major PITA because the amount of columns was huge, and every single one of them had an encoded name, so I was essentially modeling data from a blackbox. I NEVER knew what this data was, who was its consumer, or what could they do with it.
+
+To this day, I'm still not sure what these people were doing, as in, what was being developed? What did the pipelines process? Were there even pipelines? No clue, all I I did was looking at an Impala UI and writing SELECT.
+
+Needless to say, I left pretty fast. Happy to be at a place where you're actually aware of what is going on."
+1accv8x,How would you break into cloud data engineer?,"Let me tell you all my story. 
+I am currently a mid level data engineer in a middle size retail company. The company is quite stable and have public stock. 
+
+The reason why I considering cloud data engineer  is because the market where I am right now is very heavy into cloud and spark. So if i need to advance my paygrade I need to have experience with these field.
+
+The problem is my company does everything on premise. So most thing will do via python, SQL with some legacy cron but mostly using Airflow to orchestrate thing.   Also some use CDC Debezium, Kafka for some critical streaming data.   I also provide dashboard with alert daily in the form of Superset  also.
+
+There is no spark usage because the data is not that big and the cost and infra need for it outweight ours need at the moment. Some data do exist in Google BigQuery but thats the reponsibility of other team. I do ingest it for some case.
+
+How would I gain 'actual' experience for those fields? I do study and does some demo workshop pipeline with AWS, Google and Azure but its all very basic with static data.
+
+As for spark i do pratice with my personal project and make it as custom docker image. But again it not the same as what you will face in actual work environment right?
+
+Thank for taking your time to read and for any advice. Sorry if something might seem weird as english is not my native language.",9,2,vclz,2024-01-27 15:10:16,https://www.reddit.com/r/dataengineering/comments/1accv8x/how_would_you_break_into_cloud_data_engineer/,0,False,False,False,False,"Let me tell you all my story. 
+I am currently a mid level data engineer in a middle size retail company. The company is quite stable and have public stock. 
+
+The reason why I considering cloud data engineer  is because the market where I am right now is very heavy into cloud and spark. So if i need to advance my paygrade I need to have experience with these field.
+
+The problem is my company does everything on premise. So most thing will do via python, SQL with some legacy cron but mostly using Airflow to orchestrate thing.   Also some use CDC Debezium, Kafka for some critical streaming data.   I also provide dashboard with alert daily in the form of Superset  also.
+
+There is no spark usage because the data is not that big and the cost and infra need for it outweight ours need at the moment. Some data do exist in Google BigQuery but thats the reponsibility of other team. I do ingest it for some case.
+
+How would I gain 'actual' experience for those fields? I do study and does some demo workshop pipeline with AWS, Google and Azure but its all very basic with static data.
+
+As for spark i do pratice with my personal project and make it as custom docker image. But again it not the same as what you will face in actual work environment right?
+
+Thank for taking your time to read and for any advice. Sorry if something might seem weird as english is not my native language."
+1acb6bb,Hit a Rough Patch in Data Engineering Mid Career Life Amidst New Family Responsibilities – Need Advice!,"I'm contacting this incredible community for collective wisdom and a pep talk. Here's the gist:
+
+I've been in the data engineering game for about 7 years now, starting my journey at a well-known bank where I cut my teeth on all things data – from Spark  Scala, Hive, Hadoop, Kafka to Kibana. I moved up the ranks, eventually taking on a tech lead role and entering the data pipeline wizardry.
+
+Fast forward, I made the leap from a stable, permanent job to the world of freelancing. It's been a wild ride with some dummy projects (but short-term), but the freedom/money was great at first.
+
+But here's the twist – I've recently started a family, and the timing couldn't be more challenging. When riding solo, I was on top of my game, but now that I need stability more than ever, I'm in troubled waters.
+
+Since 2021, I've felt my skills stagnating, and I'm not the interview champ I once was. It's like I've lost my mojo, and it's hitting me hard, especially when my family is counting on me. The industry has sprinted ahead (DBT, ML, Cloud Certs), and I'm a few paces behind, trying to catch up.
+
+Has anyone faced a similar career vs. family challenge? How did you handle it?
+- Tips for upskilling and staying relevant in the freelance market while juggling family life?
+
+For context, my background is heavy in data processing and pipeline development. Still, while working on premise, I did a lot of coding and data product builds (we still needed to get these new cloud services features without paying a provider).
+
+I'm all ears for any advice or resources.",9,30,SpiritedSparrow8314,2024-01-27 13:46:35,https://www.reddit.com/r/dataengineering/comments/1acb6bb/hit_a_rough_patch_in_data_engineering_mid_career/,0,False,False,False,False,"I'm contacting this incredible community for collective wisdom and a pep talk. Here's the gist:
+
+I've been in the data engineering game for about 7 years now, starting my journey at a well-known bank where I cut my teeth on all things data – from Spark  Scala, Hive, Hadoop, Kafka to Kibana. I moved up the ranks, eventually taking on a tech lead role and entering the data pipeline wizardry.
+
+Fast forward, I made the leap from a stable, permanent job to the world of freelancing. It's been a wild ride with some dummy projects (but short-term), but the freedom/money was great at first.
+
+But here's the twist – I've recently started a family, and the timing couldn't be more challenging. When riding solo, I was on top of my game, but now that I need stability more than ever, I'm in troubled waters.
+
+Since 2021, I've felt my skills stagnating, and I'm not the interview champ I once was. It's like I've lost my mojo, and it's hitting me hard, especially when my family is counting on me. The industry has sprinted ahead (DBT, ML, Cloud Certs), and I'm a few paces behind, trying to catch up.
+
+Has anyone faced a similar career vs. family challenge? How did you handle it?
+- Tips for upskilling and staying relevant in the freelance market while juggling family life?
+
+For context, my background is heavy in data processing and pipeline development. Still, while working on premise, I did a lot of coding and data product builds (we still needed to get these new cloud services features without paying a provider).
+
+I'm all ears for any advice or resources."
+1ac74ox,Is the job market up for DE in south east Asia now?,"How is the job market for data engineering in south east Asia now? Or is it still bad as last year? I have been on market for six months now and not receiving any enquiries(not even HR calls).
+
+
+PS: I am a foreigner to these countries and so my job chances are limited to the opportunities which can sponsor visas in those countries.",3,2,NeighborhoodCold5339,2024-01-27 09:28:20,https://www.reddit.com/r/dataengineering/comments/1ac74ox/is_the_job_market_up_for_de_in_south_east_asia_now/,0,False,False,False,False,"How is the job market for data engineering in south east Asia now? Or is it still bad as last year? I have been on market for six months now and not receiving any enquiries(not even HR calls).
+
+
+PS: I am a foreigner to these countries and so my job chances are limited to the opportunities which can sponsor visas in those countries."
+1acbse2,Looking for advise - Which is better?,"Hey all, I am the data guy at my company. I have a Data Analyst working under me, but other than that we are the only people focused on data-related tasks. We currently pull all data from reporting databases, which are just replicas of the system's OLTP database. This, predictably, has been hampering us as we grow and more operations folks want to obtain data, but don't understand the DB structure and/or the database fails at retrieving relevant data points in a reasonable amount of time. We do all our reporting in Metabase.
+
+I am putting together some relatively simple ETL pipelines to create a DW / Data Lake and would like to get some feedback on architectures that I am exploring:
+
+[Data Lake Architecture](https://preview.redd.it/jm5o8e9cqzec1.png?width=1245&format=png&auto=webp&s=c8bf6dbd2934a763786aec59b82b6d43541c4445)
+
+[Data Warehouse Architecture](https://preview.redd.it/bvn8zygeqzec1.png?width=1188&format=png&auto=webp&s=44b5e1bdfaacb0351da4036bb09df3a57ae8e325)
+
+One thing I am particularly unsure about is the number of EC2 instances running Airbyte / dbt / Airflow. Do we want these running separately? That seems harder to get them to communicate with each other. Should I just run them all on one EC2?
+
+Overall, I am leaning to the Data Warehouse Architecture route. It seems easier to implement as it doesn't involve Glue and Athena. The reason to not use redshift is cost and its probably not necessary. Our DB is in the 100s of GB range so its not a massive amount of data. Any thoughts? I'm not married to either architecture so I'm open to alternative options. ",3,6,TetrapodTyranny,2024-01-27 14:17:56,https://www.reddit.com/r/dataengineering/comments/1acbse2/looking_for_advise_which_is_better/,1,False,False,False,False,"Hey all, I am the data guy at my company. I have a Data Analyst working under me, but other than that we are the only people focused on data-related tasks. We currently pull all data from reporting databases, which are just replicas of the system's OLTP database. This, predictably, has been hampering us as we grow and more operations folks want to obtain data, but don't understand the DB structure and/or the database fails at retrieving relevant data points in a reasonable amount of time. We do all our reporting in Metabase.
+
+I am putting together some relatively simple ETL pipelines to create a DW / Data Lake and would like to get some feedback on architectures that I am exploring:
+
+[Data Lake Architecture](https://preview.redd.it/jm5o8e9cqzec1.png?width=1245&format=png&auto=webp&s=c8bf6dbd2934a763786aec59b82b6d43541c4445)
+
+[Data Warehouse Architecture](https://preview.redd.it/bvn8zygeqzec1.png?width=1188&format=png&auto=webp&s=44b5e1bdfaacb0351da4036bb09df3a57ae8e325)
+
+One thing I am particularly unsure about is the number of EC2 instances running Airbyte / dbt / Airflow. Do we want these running separately? That seems harder to get them to communicate with each other. Should I just run them all on one EC2?
+
+Overall, I am leaning to the Data Warehouse Architecture route. It seems easier to implement as it doesn't involve Glue and Athena. The reason to not use redshift is cost and its probably not necessary. Our DB is in the 100s of GB range so its not a massive amount of data. Any thoughts? I'm not married to either architecture so I'm open to alternative options. "
+1ac543u,Is 1010data still relevant?,"I'm working for a client as an ETL developer who is using 1010data . The tool uses XML to do the transformations compared to current SQL based tools. Having a good grip on this tool, will it help me in future or should I look for other opportunities elsewhere?",3,4,stinger_sks_22,2024-01-27 07:11:34,https://www.reddit.com/r/dataengineering/comments/1ac543u/is_1010data_still_relevant/,1,False,False,False,False,"I'm working for a client as an ETL developer who is using 1010data . The tool uses XML to do the transformations compared to current SQL based tools. Having a good grip on this tool, will it help me in future or should I look for other opportunities elsewhere?"
+1acghfv,What to use for shared data modelling?,"Hi guys our pipelines are migrating to the azure stack so ADF with Databricks spark transforms and then output to delta tables ADLS gen 2 storage and on to consumption mainly in Power BI.
+
+But it looks like we'll be building the models very slightly differently in each PBI report which looks crazy inefficient to me. I think we should be building out common reusable data models for each function in our large corporate business.
+
+Are Common Data Models the answer here or is there another best practice we should be doing? No one seems to be thinking about shared data models in my org",2,5,Secure_Bandicoot_576,2024-01-27 17:49:12,https://www.reddit.com/r/dataengineering/comments/1acghfv/what_to_use_for_shared_data_modelling/,1,False,False,False,False,"Hi guys our pipelines are migrating to the azure stack so ADF with Databricks spark transforms and then output to delta tables ADLS gen 2 storage and on to consumption mainly in Power BI.
+
+But it looks like we'll be building the models very slightly differently in each PBI report which looks crazy inefficient to me. I think we should be building out common reusable data models for each function in our large corporate business.
+
+Are Common Data Models the answer here or is there another best practice we should be doing? No one seems to be thinking about shared data models in my org"
+1aciszo,Singlestore Zoom call reviews,"
+
+I’m sorry to be mean , but offlate some of the weekly zoom calls have really bad speakers . There is a guy who wears Blippi glasses and when asked questions , he says the tutorial is in progress and asks the audience to follow his LinkedIn profile . It sounds more like he is interested in getting followers rather than he knowing the subject . I doubt he knows things about langchain, llama index , etc , when asked about it , he gives a nod and lame smile . These zoom calls were excellent when Akmal ran the show . I never missed Akmal’s calls. Nowadays I get out of the call when that blippi joins . 
+#singlestore #weeklycalls",0,0,plutobot-0203,2024-01-27 19:29:53,https://www.reddit.com/r/dataengineering/comments/1aciszo/singlestore_zoom_call_reviews/,0,False,False,False,False,"
+
+I’m sorry to be mean , but offlate some of the weekly zoom calls have really bad speakers . There is a guy who wears Blippi glasses and when asked questions , he says the tutorial is in progress and asks the audience to follow his LinkedIn profile . It sounds more like he is interested in getting followers rather than he knowing the subject . I doubt he knows things about langchain, llama index , etc , when asked about it , he gives a nod and lame smile . These zoom calls were excellent when Akmal ran the show . I never missed Akmal’s calls. Nowadays I get out of the call when that blippi joins . 
+#singlestore #weeklycalls"
+1acda11,Epic report writer to data engineer,"
+
+Hi,
+I currently work as a Business intelligence developer with my cogito,  clarity, caboodle, and revenue data model certs. I know that EPIC will be transitioning to azure in a couple years. I know BID cap out somewhere around 120k in my area.
+
+How can I best prepare myself to be a data engineer within Healthcare? Should I prepare for DP 203 Microsoft certified azure data engineer and learn python? 
+I want to be able to reach at least starting 125k+ fully remote salary in the midwest.
+
+Thanks",2,4,Bionic50,2024-01-27 15:29:15,https://www.reddit.com/r/dataengineering/comments/1acda11/epic_report_writer_to_data_engineer/,0,False,False,False,False,"
+
+Hi,
+I currently work as a Business intelligence developer with my cogito,  clarity, caboodle, and revenue data model certs. I know that EPIC will be transitioning to azure in a couple years. I know BID cap out somewhere around 120k in my area.
+
+How can I best prepare myself to be a data engineer within Healthcare? Should I prepare for DP 203 Microsoft certified azure data engineer and learn python? 
+I want to be able to reach at least starting 125k+ fully remote salary in the midwest.
+
+Thanks"
+1ac4a9i,How to use latest airflow jars?,"I have a GitHub repo filled with scala code where the CI creates jar and submits to gcs bucket. Then airflow will use this jar. The jars in gcs bucket are timestamped. 
+
+How do I get airflow to use the latest jar always? Airflow python code in DAG which belongs to same GitHub repo is currently hard coded to a specific timestamp version and its tedious to constantly update it. Is there a way to just say, use the latest bucket timestamp for this jar name?",1,2,alwaysSearching23,2024-01-27 06:17:33,https://www.reddit.com/r/dataengineering/comments/1ac4a9i/how_to_use_latest_airflow_jars/,1,False,False,False,False,"I have a GitHub repo filled with scala code where the CI creates jar and submits to gcs bucket. Then airflow will use this jar. The jars in gcs bucket are timestamped. 
+
+How do I get airflow to use the latest jar always? Airflow python code in DAG which belongs to same GitHub repo is currently hard coded to a specific timestamp version and its tedious to constantly update it. Is there a way to just say, use the latest bucket timestamp for this jar name?"
+1ac9sco,Career in Data Engineering vs Cybersecurity which one is/will be more demanding,I know the above two fields are completely different… but would love to get your valuable inputs if i have to choose between this two which will be the safe bet for long run? Thanks,0,14,niaznishu,2024-01-27 12:27:46,https://www.reddit.com/r/dataengineering/comments/1ac9sco/career_in_data_engineering_vs_cybersecurity_which/,0,False,False,False,False,I know the above two fields are completely different… but would love to get your valuable inputs if i have to choose between this two which will be the safe bet for long run? Thanks
+1acgj4m,DE is the dream job. How common are overtime?,"I know it depends but say you're on a Junior role. How much of overtime or staying behind can I expect? 
+
+Also, how much of the job is about coding? Like how many hours do you spend programming? 
+
+Thanks",0,14,Timeframe98,2024-01-27 17:51:13,https://www.reddit.com/r/dataengineering/comments/1acgj4m/de_is_the_dream_job_how_common_are_overtime/,0,False,False,False,False,"I know it depends but say you're on a Junior role. How much of overtime or staying behind can I expect? 
+
+Also, how much of the job is about coding? Like how many hours do you spend programming? 
+
+Thanks"
