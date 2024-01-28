@@ -31,15 +31,24 @@ There are some files I didnt include so you'll need to create these files and di
 # It's considered best practice to create new virtual environment when starting a new project, run python venv or use Conda for this.
 conda create --name redditDE python=3.9
 conda activate redditDE
+```
+
+```bash
 # Create directories - data, plugins, tests, logs
 mkdir data plugins tests logs
 # Inside the data directory create an input and output directort
 mkdir data/input data/output
-# You can rename the config.conf.example file inside the config directory to config.conf. Just fill in the brackets with your credentials
-mv config/config.conf.example config/config.conf
-# Run requirements.txt to install all dependencies
-pip install -r requirements.txt
 ```
+
+# You can rename the config.conf.example file inside the config directory to config.conf. Just fill in the brackets with your credentials
+
+mv config/config.conf.example config/config.conf
+
+# Run requirements.txt to install all dependencies
+
+pip install -r requirements.txt
+
+````
 
 <img src="images\Step1-redditDE.png">
 
@@ -50,7 +59,7 @@ Install [Docker](https://docs.docker.com/get-docker/) if you don't already have 
 ```bash
 # This builds our docker containers with Airflow, Celery, Redis and Postgres
 docker compose up -d --build
-```
+````
 
 You can access your Airflow DAG using localhost:8080 with your login creds.
 
