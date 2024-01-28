@@ -52,12 +52,17 @@ Install [Docker](https://docs.docker.com/get-docker/) if you don't already have 
 docker compose up -d --build
 ```
 
-You can access your Airflow DAG using localhost:8080 with your login creds. Trigger the DAG to pull data from the Reddit API
+You can access your Airflow DAG using localhost:8080 with your login creds.
 
 <img src="images\airflow--vscode.png">
 
-- Set up AWS (EC2, S3, Lambda, Glue, Athena)
-  Set up Ec2 instance and s3 bucket for
+## Step 4 - Set up AWS (EC2, S3, Lambda, Glue, Athena)
+
+Trigger the DAG to pull data from the Reddit API
+<img src="images\EC2--S3.png">
+
+<!-- - Set up AWS (EC2, S3, Lambda, Glue, Athena)
+  Set up Ec2 instance and s3 bucket for -->
 
 <!-- End to End AWS project to extract, transform, and load (ETL) real-time data from Reddit posts into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
