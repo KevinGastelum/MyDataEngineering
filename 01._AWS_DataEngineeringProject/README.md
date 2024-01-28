@@ -9,7 +9,7 @@ First download files
 git clone --no-checkout https://github.com/KevinGastelum/MyDataEngineering.git
 # Change directory to MyDataEngineering
 cd MyDataEngineering
-# Check out the AWS DataEngineering project with the following commands
+# Check out the AWS DataEngineering project files with the following commands
 git sparse-checkout init --cone
 git sparse-checkout set 01._AWS_DataEngineeringProject
 git checkout main
