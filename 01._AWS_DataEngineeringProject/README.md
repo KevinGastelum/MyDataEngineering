@@ -31,7 +31,7 @@ There are some files I didnt include so you'll need to create these files and di
 # It's considered best practice to create new virtual environment when starting a new project, run python venv or use Conda for this.
 conda create --name redditDE python=3.9
 conda activate redditDE
-# Create directories data, plugins, tests, logs
+# Create directories - data, plugins, tests, logs
 mkdir data plugins tests logs
 # Inside the data directory create an input and output directort
 mkdir data/input data/output
