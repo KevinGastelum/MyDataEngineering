@@ -1,6 +1,20 @@
 # AWS End to End Data Engineering Project
 
-## Instructions to reproduce this project
+## Steps to reproduce this Data Pipeline
+
+- Download files
+
+```bash
+git clone --no-checkout https://github.com/KevinGastelum/MyDataEngineering.git
+cd MyDataEngineering
+git sparse-checkout init --cone
+git sparse-checkout set 01._AWS_DataEngineeringProject
+git checkout main
+
+```
+
+- Set up Docker
+-
 
 <!-- End to End AWS project to extract, transform, and load (ETL) real-time data from Reddit posts into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
