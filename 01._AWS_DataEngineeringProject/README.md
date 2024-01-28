@@ -17,8 +17,10 @@ git checkout main
 
 I will be including other Data Engineering pipelines ([Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/docs/overview), [Snowflake](https://www.snowflake.com/en/)) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need, in this project we will set up an [AWS](https://aws.amazon.com/) pipeline.
 
-- Set up Docker
--
+- Set up VENV, Credentials, and API keys
+- Set up Docker (run reqs.txt)
+- Set up AWS (EC2, S3, Lambda, Glue, Athena)
+  Set up Ec2 instance and s3 bucket for
 
 <!-- End to End AWS project to extract, transform, and load (ETL) real-time data from Reddit posts into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
 
