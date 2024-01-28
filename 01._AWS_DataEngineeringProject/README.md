@@ -43,11 +43,11 @@ mkdir data/input data/output
 
 ```bash
 # You can rename the config.conf.example file inside the config directory to config.conf. Just fill in the brackets with your credentials
-
 mv config/config.conf.example config/config.conf
+```
 
+```bash
 # Run requirements.txt to install all dependencies
-
 pip install -r requirements.txt
 
 ```
