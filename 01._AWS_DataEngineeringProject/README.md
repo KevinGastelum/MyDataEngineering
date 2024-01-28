@@ -23,7 +23,7 @@ git checkout main
 
 I will be including other Data Engineering pipelines ([Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/docs/overview), [Snowflake](https://www.snowflake.com/en/)) inside my MyDataEngineering repo so make sure to only clone the files for the Pipeline you need, in this project we will set up an [AWS](https://aws.amazon.com/) pipeline.
 
-## Step 2 - Setting up environment variables, credentials and API keys
+## Step 2 - Setting up Environment variables, credentials, and API keys
 
 There are some files I didnt include so you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
