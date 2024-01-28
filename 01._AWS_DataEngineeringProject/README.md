@@ -1,6 +1,6 @@
 # AWS End to End Data Engineering Project
 
-## Steps to reproduce this Data Pipeline
+Steps to reproduce this Data Pipeline
 
 ## Step 1 - Download project files to your local directory using Git
 
