@@ -34,9 +34,9 @@ KEVIN'S PERSONAL NOTES/INSTRUCTIONS
 
 Take screensshots of Docker/Airflow, AWS EC2/S3, SQL/Celery, Glue/Lambda, Athena/Redshift, Visuals
 
-Docker/Airflow Screenshot
+Docker/ VSCODE Screenshot
 EC2 CLI && S3 Bucket with reddit file screenshot
-
+Airflow / Celery screenshot
 
 
 -- DOCKER Commands used
