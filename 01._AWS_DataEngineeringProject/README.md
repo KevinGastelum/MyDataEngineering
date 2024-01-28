@@ -60,7 +60,7 @@ You can access your Airflow DAG using localhost:8080 with your login creds.
 
 Create an EC2 instance with access to your S3 bucket - https://repost.aws/knowledge-center/ec2-instance-access-s3-bucket
 
-Trigger the DAG to pull data from the Reddit API
+Trigger the DAG to pull data from the Reddit API (make sure your Reddit data is being stored in your S3 bucket)
 
 <img src="images\EC2--S3.png">
 
