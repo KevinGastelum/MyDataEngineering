@@ -35,7 +35,7 @@ KEVIN'S PERSONAL NOTES/INSTRUCTIONS
 Take screensshots of Docker/VSCode, AWS EC2/S3, Airflow/Celery, Glue/Lambda, Athena/Redshift, Visuals
 
 Docker/ VSCODE Screenshot -- Connecting to Airflow locally through Docker container
-EC2 CLI && S3 Bucket with reddit file screenshot
+EC2 CLI && S3 Bucket with reddit file screenshot -- Setting up AWS EC2 instance and S3 bucket for automated Data storage
 Airflow / Celery screenshot -- Connecting to AWS from Airflow
 
 
