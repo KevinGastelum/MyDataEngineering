@@ -27,9 +27,8 @@ I will be including other Data Engineering pipelines ([Azure](https://azure.micr
 
 There are some files I didnt include so you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
-It's considered best practice to create new virtual environment when starting a new project.
-
 ```bash
+# It's considered best practice to create new virtual environment when starting a new project.
 # Run python venv or use Conda for this.
 conda create --name redditDE python=3.9
 conda activate redditDE
@@ -42,13 +41,13 @@ mkdir data plugins tests logs
 mkdir data/input data/output
 ```
 
+<img src="images\Step1-redditDE.png">
+
 ```bash
 # You can rename the config.conf.example file inside the config directory to config.conf.
 # Just fill in the brackets with your credentials
 mv config/config.conf.example config/config.conf
 ```
-
-<img src="images\Step1-redditDE.png">
 
 ```bash
 # Run requirements.txt to install all dependencies
