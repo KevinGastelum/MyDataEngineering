@@ -28,7 +28,7 @@ End to End AWS project to extract, transform, and load (ETL) real-time data from
 
 Showcases my ability to integrate various technologies to create a robust and scalable data pipeline. Demonstrate my expertise in handling big data and my capabilities to deliver efficient and reliable data solutions.
 
-## Step by Step Walkthrough [HERE](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject)
+## [Walkthrough HERE](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#aws-end-to-end-data-engineering-project)
 
 <!--
 
