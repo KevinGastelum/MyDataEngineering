@@ -46,7 +46,7 @@ mkdir data/input data/output
 ```bash
 # You can rename the config.conf.example file inside the config directory to config.conf.
 mv config/config.conf.example config/config.conf
-# Just fill in the brackets with your credentials
+# Just fill in the brackets with your credentials (SEE EXAMPLE ABOVE)
 ```
 
 ```bash
