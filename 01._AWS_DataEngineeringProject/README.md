@@ -10,7 +10,7 @@
 
 ## Step 1 - Download project files to your local directory using Git
 
-```bash
+```sh
 # Clone the directory to your local drive using Git but to not checkout any files yet using --no-checkout
 git clone --no-checkout https://github.com/KevinGastelum/MyDataEngineering.git
 # Change directory to MyDataEngineering
