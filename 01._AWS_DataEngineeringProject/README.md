@@ -49,7 +49,7 @@ mv config/config.conf.example config/config.conf
 # Just fill in the brackets with your credentials (SEE EXAMPLE ABOVE)
 ```
 
-```bash
+```python
 # Run requirements.txt to install all dependencies
 pip install -r requirements.txt
 
