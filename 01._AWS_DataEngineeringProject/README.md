@@ -25,7 +25,7 @@ I will be including other Data Engineering pipelines ([Azure](https://azure.micr
 
 ## Step 2 - Setting up Environment variables, credentials, and API keys
 
-There are some files I didnt include so you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
+There are some files I didnt include for privacy reasons so you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
 ```bash
 # It's considered best practice to create new virtual environment when starting a new project.
