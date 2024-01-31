@@ -32,10 +32,17 @@ I will be including other Data Engineering pipelines ([Azure](https://azure.micr
 
 There are some files I didnt include for privacy reasons so you'll need to create these files and directories which will contain your environment variables, credentials, and APIs.
 
+It's considered best practice to create new virtual environment when starting a new project.
+
 ```bash
-# It's considered best practice to create new virtual environment when starting a new project.
-# Run python venv or use Conda for this.
+# Using Conda for this.
 conda create --name redditDE python=3.9
+conda activate redditDE
+```
+
+```bash
+# Using Python for this.
+pyth create --name redditDE python=3.9
 conda activate redditDE
 ```
 
