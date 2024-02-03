@@ -42,8 +42,12 @@ conda activate redditDE
 
 ```bash
 # Using Python for this.
-pyth create --name redditDE python=3.9
-conda activate redditDE
+python -m venv redditDE
+# Activating on Windows
+.\venv\Scripts\activate
+
+#Activating on Linux/Mac
+source venv/bin/activate
 ```
 
 ```bash
