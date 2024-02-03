@@ -50,6 +50,8 @@ python -m venv redditDE
 source venv/bin/activate
 ```
 
+Next in your terminal create the directories data, plugins, tests, and logs:
+
 ```bash
 # Create directories - data, plugins, tests, logs
 mkdir data plugins tests logs
