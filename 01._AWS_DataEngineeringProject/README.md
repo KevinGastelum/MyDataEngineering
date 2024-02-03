@@ -40,7 +40,7 @@ conda create --name redditDE python=3.9
 conda activate redditDE
 ```
 
-Python:
+Or in Python:
 
 ```bash
 python -m venv redditDE
