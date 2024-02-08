@@ -53,7 +53,7 @@ docker exec -it {container hash}
 docker stop $(docker ps -a -q)
 docker compose down
 
-- REMOVE all containers
+- REMOVE all containers Steps
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 docker system prune

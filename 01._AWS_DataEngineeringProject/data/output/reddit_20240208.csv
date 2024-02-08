@@ -1,0 +1,627 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,seltext
+1al2r0o,One Trillion Row Challenge (1TRC),"I really liked the simplicity of the [One Billion Row Challenge (1BRC)](https://github.com/gunnarmorling/1brc) that took off last month.  It was fun to see lots of people apply different tools to the same simple-yet-clear problem “How do you parse, process, and aggregate a large CSV file as quickly as possible?”For fun, my colleagues and I made a One Trillion Row Challenge (1TRC) dataset 🙂.  
+
+Data lives on S3 in Parquet format (CSV made zero sense here) in a public bucket at s3://coiled-datasets-rp/1trc and is roughly 12 TiB uncompressed.
+
+We (the Dask team) were able to complete the TRC query in around six minutes for around $1.10.For more information see [this blogpost](https://medium.com/coiled-hq/one-trillion-row-challenge-5bfd4c3b8aef) and [this repository](https://github.com/coiled/1trc/)",98,8,mrocklin,2024-02-07 13:19:59,https://www.reddit.com/r/dataengineering/comments/1al2r0o/one_trillion_row_challenge_1trc/,0,False,False,False,False,"I really liked the simplicity of the [One Billion Row Challenge (1BRC)](https://github.com/gunnarmorling/1brc) that took off last month.  It was fun to see lots of people apply different tools to the same simple-yet-clear problem “How do you parse, process, and aggregate a large CSV file as quickly as possible?”For fun, my colleagues and I made a One Trillion Row Challenge (1TRC) dataset 🙂.  
+
+Data lives on S3 in Parquet format (CSV made zero sense here) in a public bucket at s3://coiled-datasets-rp/1trc and is roughly 12 TiB uncompressed.
+
+We (the Dask team) were able to complete the TRC query in around six minutes for around $1.10.For more information see [this blogpost](https://medium.com/coiled-hq/one-trillion-row-challenge-5bfd4c3b8aef) and [this repository](https://github.com/coiled/1trc/)"
+1al3d2f,"Are data engineers really just ""software engineers""?","Ok, to preface, I'm venting a bit here but it's also somewhat of a genuine question.   
+Story - I recently applied to a senior DE position for a well known consulting company. For the record, I've worked in Senior DE/BI roles over the past few years and I have a number of former colleagues and friends who work at this specific company so I know their tech stack and business fairly well. Also, for the record I am not a software engineer. I can hack my way through python or an OOP/functional language but SQL is my native dialect. Anyways, I applied for this role and the only glaring omission on my resume was Python experience. Given that I qualified in every other way the recruiter had me move forward to the technical assessment. The assessment was conducted in codility and there were three parts, a python coding portion, a sql coding portion and AWS questions. Coming out of the assessment I felt pretty good but I knew full well that my python solution was pretty rudimentary (admittedly), however it was functional and passed the test cases correctly. Anyways, I find out a few days later from the internal recruiter that my test results didn't fare so well. Although my sql solution was excellent and most of the AWS questions I answered correctly, my python solution wasn't efficient enough and failed on too many edge cases. As such the technical team couldn't recommend I move forward with the interview process (much to my dismay). Now, again... I never said I was a competent Python programmer, in fact I fully admitted that I had very little hands on experience in a business setting coding with python but I'm very familiar with OOP concepts and can pick up any language if/when needed. Either way it seemed like in this case my solution needed to impress the team more than it did.   
+So, this brings me back to something the recruiter told me initially... her exact words were ""our data engineers are really software engineers at heart"". I'm wondering if this is becoming more and more the case as time goes on. When I got into BI and DE years ago SQL was the language of most importance (at least in my past roles)... now it seems that that isn't quite the case anymore. Thoughts?",92,91,MasterKluch,2024-02-07 13:50:55,https://www.reddit.com/r/dataengineering/comments/1al3d2f/are_data_engineers_really_just_software_engineers/,0,False,False,False,False,"Ok, to preface, I'm venting a bit here but it's also somewhat of a genuine question.   
+Story - I recently applied to a senior DE position for a well known consulting company. For the record, I've worked in Senior DE/BI roles over the past few years and I have a number of former colleagues and friends who work at this specific company so I know their tech stack and business fairly well. Also, for the record I am not a software engineer. I can hack my way through python or an OOP/functional language but SQL is my native dialect. Anyways, I applied for this role and the only glaring omission on my resume was Python experience. Given that I qualified in every other way the recruiter had me move forward to the technical assessment. The assessment was conducted in codility and there were three parts, a python coding portion, a sql coding portion and AWS questions. Coming out of the assessment I felt pretty good but I knew full well that my python solution was pretty rudimentary (admittedly), however it was functional and passed the test cases correctly. Anyways, I find out a few days later from the internal recruiter that my test results didn't fare so well. Although my sql solution was excellent and most of the AWS questions I answered correctly, my python solution wasn't efficient enough and failed on too many edge cases. As such the technical team couldn't recommend I move forward with the interview process (much to my dismay). Now, again... I never said I was a competent Python programmer, in fact I fully admitted that I had very little hands on experience in a business setting coding with python but I'm very familiar with OOP concepts and can pick up any language if/when needed. Either way it seemed like in this case my solution needed to impress the team more than it did.   
+So, this brings me back to something the recruiter told me initially... her exact words were ""our data engineers are really software engineers at heart"". I'm wondering if this is becoming more and more the case as time goes on. When I got into BI and DE years ago SQL was the language of most importance (at least in my past roles)... now it seems that that isn't quite the case anymore. Thoughts?"
+1aldl7r,How do these companies make money?,"I am currently a student of data engineering, and I just built my first pipelines using terraform, airflow, dbt, cosmos, snowflake, bigquery etc..
+
+But all the tools I used were free... How the heck does Hashicorp (for terraform), Apache (for airflow), DBT labs (for dbt), and Astronomer (for cosmos) make any money? 
+
+Sorry just one of those embarrasingly basic questions but I still don't get it",39,20,KimchiFitness,2024-02-07 21:03:09,https://www.reddit.com/r/dataengineering/comments/1aldl7r/how_do_these_companies_make_money/,0,False,False,False,False,"I am currently a student of data engineering, and I just built my first pipelines using terraform, airflow, dbt, cosmos, snowflake, bigquery etc..
+
+But all the tools I used were free... How the heck does Hashicorp (for terraform), Apache (for airflow), DBT labs (for dbt), and Astronomer (for cosmos) make any money? 
+
+Sorry just one of those embarrasingly basic questions but I still don't get it"
+1akz3j6,Should I leave my data engineering role for data science,"Currently on 38k in London straight out of uni. I’m coming onto have one year of experience and have found other jobs in data science for about 45-50k. The roles are Python heavy which is ok for me because I did data science as a masters. My current role is purely sql and azure.
+
+Can anyone with experience let me know if the job prospects for data science are greater than data engineering?
+
+Both would be in the same industry (insurnace)",16,27,Due_Statistician2604,2024-02-07 09:26:00,https://www.reddit.com/r/dataengineering/comments/1akz3j6/should_i_leave_my_data_engineering_role_for_data/,0,False,False,False,False,"Currently on 38k in London straight out of uni. I’m coming onto have one year of experience and have found other jobs in data science for about 45-50k. The roles are Python heavy which is ok for me because I did data science as a masters. My current role is purely sql and azure.
+
+Can anyone with experience let me know if the job prospects for data science are greater than data engineering?
+
+Both would be in the same industry (insurnace)"
+1al96or,“Lakehouse” - Realtime data,"So we use S3 for ingesting raw source data. We save it in unchanged format from source. Then in the next stage we transform them using python apps and save them as parquet files to S3 again. After that we take parquet files and load them into Postgres as final stage for consumers. 
+
+How do you handle realtime events data in such architecture to make them available to consumers within lets say 1-5s? I think dumping data from Kafka/RabbitMQ to go through the entire pipeline (raw, parquet, postgres) would take longer and saving them directly into postgres is probably not a good idea. Maybe dumping into S3 AND into Postgres? Or having another database for “realtime” events? Or is there any best practice for such case?",15,9,romanzdk,2024-02-07 18:00:39,https://www.reddit.com/r/dataengineering/comments/1al96or/lakehouse_realtime_data/,0,False,False,False,False,"So we use S3 for ingesting raw source data. We save it in unchanged format from source. Then in the next stage we transform them using python apps and save them as parquet files to S3 again. After that we take parquet files and load them into Postgres as final stage for consumers. 
+
+How do you handle realtime events data in such architecture to make them available to consumers within lets say 1-5s? I think dumping data from Kafka/RabbitMQ to go through the entire pipeline (raw, parquet, postgres) would take longer and saving them directly into postgres is probably not a good idea. Maybe dumping into S3 AND into Postgres? Or having another database for “realtime” events? Or is there any best practice for such case?"
+1al8dni,Navigating the Data Engineering Landscape 2024,"Hey there! I'm a dev advocate at Airbyte, and we put together a list of industry trends all data engineers should know about - as well as some practical tips to make sure you're ahead of the curve. We also spoke with experts across the industry to get their take!  
+
+
+What trends are you most worried/excited/nonplussed by?
+
+[https://airbyte.com/blog/data-engineering-landscape-2024](https://airbyte.com/blog/data-engineering-landscape-2024)",14,0,Chemical-Treat6596,2024-02-07 17:28:01,https://www.reddit.com/r/dataengineering/comments/1al8dni/navigating_the_data_engineering_landscape_2024/,0,False,False,False,False,"Hey there! I'm a dev advocate at Airbyte, and we put together a list of industry trends all data engineers should know about - as well as some practical tips to make sure you're ahead of the curve. We also spoke with experts across the industry to get their take!  
+
+
+What trends are you most worried/excited/nonplussed by?
+
+[https://airbyte.com/blog/data-engineering-landscape-2024](https://airbyte.com/blog/data-engineering-landscape-2024)"
+1akzzx2,What is compute engine in SnowFlake?,"Like Hadoop has mapreduce 
+Databricks and Aws glue use Spark
+What does snowflake use for computing?",12,7,mysticsoul1,2024-02-07 10:32:10,https://www.reddit.com/r/dataengineering/comments/1akzzx2/what_is_compute_engine_in_snowflake/,0,False,False,False,False,"Like Hadoop has mapreduce 
+Databricks and Aws glue use Spark
+What does snowflake use for computing?"
+1alffov,Is switching to Python from Scala/Java in big data worth it?,"I recently found out that my manager wants to assign me to a project in my company that will be in PySpark. The thing is that I have never really worked in Python, I've always been a Java/Scala dev. Should I agree to participate in that project, or should I stick with Scala/Java? Maybe if they don't find a Scala project for me, I'll have to find another job, idk.
+
+I'd switch to Python, but it feels to me like some toy language that is a wrapper around something written in other languages, I've seen code bases in Python, they get messy, there's just a bunch of functions in each file, instead of having a class per each file with some name that tells you what it does. Also the absence of type safety is kind of annoying. Today I also found a bug in Apache Iceberg for which there's a workaround in Scala, but no workaround in Python, which made me think that Scala is better, once again.
+
+On the other hand, I've been thinking that I should probably delve deeper into Airflow, I've always just kind of coded in Spark, maybe I'd write some simple stuff in Airflow, but I never actually coded anything complicated in it. Airflow is in Python and there's pretty much no alternatives, because everyone uses it. Can one consider themselves a data engineer without actually knowing much of Airflow?
+
+I know some people will probably say ""Why not learn both?"" or whatever. In my experience it's not a good idea, because sometimes, in job interviews they ask in-depth questions about a particular language, for example how the GC works in the JVM, you may even be given some code and asked if it compiles... etc. You may have to write some stuff in Java or Scala using functional programming, and if you have been focusing on Python for a few months, you literally forget certain details of the syntax and tell the interviewer ""Sorry, I forgot how to do this one little thing in Scala, I need to google, because I've been doing some python recently"" and they may think that you are not the right fit for this job, you know?
+
+What's your opinion on all this? As you can see I lean towards sticking with Scala, but I know almost nothing about Python, so maybe you guys can convince me that I should switch.",4,15,Outrageous-Heat-6353,2024-02-07 22:19:45,https://www.reddit.com/r/dataengineering/comments/1alffov/is_switching_to_python_from_scalajava_in_big_data/,0,False,False,False,False,"I recently found out that my manager wants to assign me to a project in my company that will be in PySpark. The thing is that I have never really worked in Python, I've always been a Java/Scala dev. Should I agree to participate in that project, or should I stick with Scala/Java? Maybe if they don't find a Scala project for me, I'll have to find another job, idk.
+
+I'd switch to Python, but it feels to me like some toy language that is a wrapper around something written in other languages, I've seen code bases in Python, they get messy, there's just a bunch of functions in each file, instead of having a class per each file with some name that tells you what it does. Also the absence of type safety is kind of annoying. Today I also found a bug in Apache Iceberg for which there's a workaround in Scala, but no workaround in Python, which made me think that Scala is better, once again.
+
+On the other hand, I've been thinking that I should probably delve deeper into Airflow, I've always just kind of coded in Spark, maybe I'd write some simple stuff in Airflow, but I never actually coded anything complicated in it. Airflow is in Python and there's pretty much no alternatives, because everyone uses it. Can one consider themselves a data engineer without actually knowing much of Airflow?
+
+I know some people will probably say ""Why not learn both?"" or whatever. In my experience it's not a good idea, because sometimes, in job interviews they ask in-depth questions about a particular language, for example how the GC works in the JVM, you may even be given some code and asked if it compiles... etc. You may have to write some stuff in Java or Scala using functional programming, and if you have been focusing on Python for a few months, you literally forget certain details of the syntax and tell the interviewer ""Sorry, I forgot how to do this one little thing in Scala, I need to google, because I've been doing some python recently"" and they may think that you are not the right fit for this job, you know?
+
+What's your opinion on all this? As you can see I lean towards sticking with Scala, but I know almost nothing about Python, so maybe you guys can convince me that I should switch."
+1al0znu,Using EFS for bigger python packages in AWS Lambda,Has anyone successfully tried the 250 MB Lambda Layer limit workaround by packaging their dependencies in EFS? Does it affect Lambda init time? What about concurrency - how many concurrent lambda executions can read from the shared EFS? Can serverless be used to deploy such lambda functions that use EFS for the importing the modules? Please don't suggest using containerized lambda functions .,5,1,Traditional_Love_648,2024-02-07 11:39:19,https://www.reddit.com/r/dataengineering/comments/1al0znu/using_efs_for_bigger_python_packages_in_aws_lambda/,1,False,False,False,False,Has anyone successfully tried the 250 MB Lambda Layer limit workaround by packaging their dependencies in EFS? Does it affect Lambda init time? What about concurrency - how many concurrent lambda executions can read from the shared EFS? Can serverless be used to deploy such lambda functions that use EFS for the importing the modules? Please don't suggest using containerized lambda functions .
+1algpln,What more do companies want? [Rant/RealityCheck],"If I can help a large company save $30k dollars per month, by moving a data pipeline from pure S3 batch processing, to near real time, S3 event driven processing.
+
+And also save the company 100s of TB of data per month, by interacting with both Data Producers and consumers and finding the right columns and schema/data model to reduce external API calls and reduce data size at data lake.
+
+What more do companies want when they see my resume or take an initial round of interview? Whatever interviews I have given so far, don't seem to focus too much on my achievements, rather pin point shortcomings in my understanding of certain terms/concepts they want me to know.
+
+I am honestly asking you guys, why won't Engg Managers or Team Leads look past shortcomings to see that a person csn actively identify gaps and be really productive, while in the age of ChatGPT learn and understand the concepts or terms in Data engg that he/she may not be aware of?
+
+Please give me detailed answers no matter how you see me question here",3,4,sid_reddit141,2024-02-07 23:12:36,https://www.reddit.com/r/dataengineering/comments/1algpln/what_more_do_companies_want_rantrealitycheck/,0,False,False,False,False,"If I can help a large company save $30k dollars per month, by moving a data pipeline from pure S3 batch processing, to near real time, S3 event driven processing.
+
+And also save the company 100s of TB of data per month, by interacting with both Data Producers and consumers and finding the right columns and schema/data model to reduce external API calls and reduce data size at data lake.
+
+What more do companies want when they see my resume or take an initial round of interview? Whatever interviews I have given so far, don't seem to focus too much on my achievements, rather pin point shortcomings in my understanding of certain terms/concepts they want me to know.
+
+I am honestly asking you guys, why won't Engg Managers or Team Leads look past shortcomings to see that a person csn actively identify gaps and be really productive, while in the age of ChatGPT learn and understand the concepts or terms in Data engg that he/she may not be aware of?
+
+Please give me detailed answers no matter how you see me question here"
+1ale3kb,Information Security skills for Data Engineer,"Hi,
+
+I am a data engineer and I was wondering if there is any information security certification (like CISSP, etc) I can take to boost my career in DE field.
+
+Regards,",3,1,MediumCat4064,2024-02-07 21:24:15,https://www.reddit.com/r/dataengineering/comments/1ale3kb/information_security_skills_for_data_engineer/,1,False,False,False,False,"Hi,
+
+I am a data engineer and I was wondering if there is any information security certification (like CISSP, etc) I can take to boost my career in DE field.
+
+Regards,"
+1alcsfo,"What's the best option for automated ""long-running"" ETL pipelines?","I'm asking here because I assume you all know so much better.
+
+I'm not a data engineer and I'm working now just using Colab for a project I need to automate. It fetches data from BigQuery, then process the data, does NLP inference with a few APIs (hosting the models elsewhere) and then processes it back to another BigQuery table. Not difficult stuff but because it will process maybe around 10,000 - 20,000 rows and uses several NLPs to analyze it, it can take up to 30-45 mins, longer if there are errors and so on. 
+
+I have looked at Prefect? I'm not picky for the tool and can really work with low-code solutions as long as it is intuitive. Would be great to have it serverless and then obviously run on a schedule (in batches - one time per day) so it's easy to set up and run. Is there a tool like this that isn't super expensive? I have one like this but it's with NodeJS so no dice. 
+
+If not, what are the best choices here? Would love some suggestions!",2,1,ilsilfverskiold,2024-02-07 20:29:24,https://www.reddit.com/r/dataengineering/comments/1alcsfo/whats_the_best_option_for_automated_longrunning/,1,False,False,False,False,"I'm asking here because I assume you all know so much better.
+
+I'm not a data engineer and I'm working now just using Colab for a project I need to automate. It fetches data from BigQuery, then process the data, does NLP inference with a few APIs (hosting the models elsewhere) and then processes it back to another BigQuery table. Not difficult stuff but because it will process maybe around 10,000 - 20,000 rows and uses several NLPs to analyze it, it can take up to 30-45 mins, longer if there are errors and so on. 
+
+I have looked at Prefect? I'm not picky for the tool and can really work with low-code solutions as long as it is intuitive. Would be great to have it serverless and then obviously run on a schedule (in batches - one time per day) so it's easy to set up and run. Is there a tool like this that isn't super expensive? I have one like this but it's with NodeJS so no dice. 
+
+If not, what are the best choices here? Would love some suggestions!"
+1al7hv9,Automatically syncing DBT column schema with actual columns in corresponding SQL,"I couldn't find a subreddit for dbt or an answer to this on Google so I'll put this to you guys
+
+I want to generate a database documentation for my dbt models which contains a list of columns contained in each table. I know I can use `dbt docs generate`  to create the documentation but as far as I understand I need to manually document the existing columns in the schema.yml so that they show in the documentation? So every time someone delete/add a column in the SQL they would need to reflect that change in the schema.yml file?  
+
+
+It seems like there should be a way to automatically sync that column list from the corresponding SQL file but I don't seem to find how to do it. Does anyone have a solution?  
+",2,2,Kenoai,2024-02-07 16:52:06,https://www.reddit.com/r/dataengineering/comments/1al7hv9/automatically_syncing_dbt_column_schema_with/,1,False,False,False,False,"I couldn't find a subreddit for dbt or an answer to this on Google so I'll put this to you guys
+
+I want to generate a database documentation for my dbt models which contains a list of columns contained in each table. I know I can use `dbt docs generate`  to create the documentation but as far as I understand I need to manually document the existing columns in the schema.yml so that they show in the documentation? So every time someone delete/add a column in the SQL they would need to reflect that change in the schema.yml file?  
+
+
+It seems like there should be a way to automatically sync that column list from the corresponding SQL file but I don't seem to find how to do it. Does anyone have a solution?  
+"
+1akxu61,Have an interview and need some guidance,"I am currently a data analyst and have an opportunity to make a switch to a DE role. It’s a mid level role, and would be an internal transfer. I am very good with SQL, have a bit more than general data modeling experience, have set up all the data infrastructure for my team (DAGs / tasks / data models in our BI tools), but my Python is very basic. 
+
+Looking for some guidance on the Python bit, as I’ve been trying to study up in my freetime a bit more. I know the interview will go over general syntax, data manipulation, working with SQL DBs, and a few other things. I’m planning to focus catching up on pandas mainly, but would love some guidance from yall on if there are specifics I should focus on? Thanks in advance!",2,1,NoDistractionz,2024-02-07 07:52:41,https://www.reddit.com/r/dataengineering/comments/1akxu61/have_an_interview_and_need_some_guidance/,0,False,False,False,False,"I am currently a data analyst and have an opportunity to make a switch to a DE role. It’s a mid level role, and would be an internal transfer. I am very good with SQL, have a bit more than general data modeling experience, have set up all the data infrastructure for my team (DAGs / tasks / data models in our BI tools), but my Python is very basic. 
+
+Looking for some guidance on the Python bit, as I’ve been trying to study up in my freetime a bit more. I know the interview will go over general syntax, data manipulation, working with SQL DBs, and a few other things. I’m planning to focus catching up on pandas mainly, but would love some guidance from yall on if there are specifics I should focus on? Thanks in advance!"
+1alj1tz,Linux and DE work,"I recently landed a DE role , I was mostly a DA.
+Currently the company will explore Kafka and Flink. My question is whats the best Linux set up in my case? Especially If I want to transition to cloud in the future ( AZURE or AWS). Im still quite new to the concept but I really wanna learn how to handle Linux (since i have an old laptop) and use it in a DE roles.
+
+Current old laptop specs:
+
+OS Name
+Microsoft Windows 10 Pro
+Version
+10.0.19044 Build 19044
+Other OS Description
+Not Available
+OS Manufacturer
+Microsoft Corporation
+System Name
+DESKTOP-JVTQVG3
+System Manufacturer
+LENOVO
+System Model
+6277CTO
+System Type
+x64-based PC
+System SKU
+LENOVO_MT_6277CTO
+Processor
+Intel(R) Core(TM) 15-3230M CPU @ 2.60GHz, 2601 Mhz, 2 Core(s), 4 Logical Pr...
+BIOS Version/Date
+LENOVO HEET35WW (1.16 ), 8/13/2013
+SMBIOS Version
+2.7
+Embedded Controller Version
+1.16
+BIOS Mode
+UEFI
+BaseBoard Manufacturer
+LENOVO
+BaseBoard Product
+6277CTO
+BaseBoard Version
+Not Available
+Platform Role
+Mobile
+Secure Boot State
+Off
+PCR7 Configuration
+Binding Not Possible
+Windows Directory
+C:\Windows
+System Directory
+C.)Windows\system32",1,4,johnnyjohn993reddit,2024-02-08 00:58:43,https://www.reddit.com/r/dataengineering/comments/1alj1tz/linux_and_de_work/,1,False,False,False,False,"I recently landed a DE role , I was mostly a DA.
+Currently the company will explore Kafka and Flink. My question is whats the best Linux set up in my case? Especially If I want to transition to cloud in the future ( AZURE or AWS). Im still quite new to the concept but I really wanna learn how to handle Linux (since i have an old laptop) and use it in a DE roles.
+
+Current old laptop specs:
+
+OS Name
+Microsoft Windows 10 Pro
+Version
+10.0.19044 Build 19044
+Other OS Description
+Not Available
+OS Manufacturer
+Microsoft Corporation
+System Name
+DESKTOP-JVTQVG3
+System Manufacturer
+LENOVO
+System Model
+6277CTO
+System Type
+x64-based PC
+System SKU
+LENOVO_MT_6277CTO
+Processor
+Intel(R) Core(TM) 15-3230M CPU @ 2.60GHz, 2601 Mhz, 2 Core(s), 4 Logical Pr...
+BIOS Version/Date
+LENOVO HEET35WW (1.16 ), 8/13/2013
+SMBIOS Version
+2.7
+Embedded Controller Version
+1.16
+BIOS Mode
+UEFI
+BaseBoard Manufacturer
+LENOVO
+BaseBoard Product
+6277CTO
+BaseBoard Version
+Not Available
+Platform Role
+Mobile
+Secure Boot State
+Off
+PCR7 Configuration
+Binding Not Possible
+Windows Directory
+C:\Windows
+System Directory
+C.)Windows\system32"
+1aldru6,Suggestions on warehouse and etl,"So my team's warehouse is an on-prem SQL warehouse and we use a mixture of stored procedures, CData Sync (3rd party tool), Synapse for ETL. 
+
+Since the data is growing, we need scalibility in the warehouse. The different ETL procedures for different sources is an headacheare and we are highly dependent on CData Sync, which is another pain in the arsë. Our plan is to to shift our warehouse from on-prem to cloud, and keep a standardized ETL tool.
+
+I am responsible for the analysis, but this is my first company and I've only worked here for 1.5 year (So I don't have much idea on what is going on in the industry as such). I don't know why I'm given this responsibility but I am interested in doing the analysis. Now the internet is full of amazing suggestions, however I would want to know the answers and suggestions from people who have experience working on different warehouses and ETL tools in the industry. Hence, it would be really helpful if you answer these questions - 
+
+Any amount of questions answered would be helpful.
+
+1. What warehouses and ETL tools were used in your past companies and your present company?
+
+2. Which warehouse did you prefer the most and why?
+
+3. Which ETL tool did you prefer the most and why?
+
+4. Any recommendations?
+
+5. What would you look for when changing the warehouse and ETL tool?
+
+P.S. Advice and tips appreciated ✨",1,1,beeneww,2024-02-07 21:10:39,https://www.reddit.com/r/dataengineering/comments/1aldru6/suggestions_on_warehouse_and_etl/,1,False,False,False,False,"So my team's warehouse is an on-prem SQL warehouse and we use a mixture of stored procedures, CData Sync (3rd party tool), Synapse for ETL. 
+
+Since the data is growing, we need scalibility in the warehouse. The different ETL procedures for different sources is an headacheare and we are highly dependent on CData Sync, which is another pain in the arsë. Our plan is to to shift our warehouse from on-prem to cloud, and keep a standardized ETL tool.
+
+I am responsible for the analysis, but this is my first company and I've only worked here for 1.5 year (So I don't have much idea on what is going on in the industry as such). I don't know why I'm given this responsibility but I am interested in doing the analysis. Now the internet is full of amazing suggestions, however I would want to know the answers and suggestions from people who have experience working on different warehouses and ETL tools in the industry. Hence, it would be really helpful if you answer these questions - 
+
+Any amount of questions answered would be helpful.
+
+1. What warehouses and ETL tools were used in your past companies and your present company?
+
+2. Which warehouse did you prefer the most and why?
+
+3. Which ETL tool did you prefer the most and why?
+
+4. Any recommendations?
+
+5. What would you look for when changing the warehouse and ETL tool?
+
+P.S. Advice and tips appreciated ✨"
+1al7ryy,How to Organise Your dbt Projects Better And Boost Domain Expertise,,1,1,ivanovyordan,2024-02-07 17:03:39,https://open.substack.com/pub/datagibberish/p/dbt-screaming-architecture?r=odlo3&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true,1,False,False,False,False,
+1al5i0k,Airflow - How to reduce cost?,"Hi,
+
+I'm using Airflow since 4 years to schedule dags/tasks, in a different companies. Before that, I was mainly using cron on Linux servers, so I really appreciate Airflow's features.  
+However, in my case, **DAGs and tasks are often quite basics**, and **do not require a cluster infrastructure**. The tasks are mainly python scripts, that use network resources (few memory and cpu).And only few people access to Airflow web server.
+
+&#x200B;
+
+The main problem here, it's that **Airflow can be quite expensive** in some cases. 
+
+\- If you are using cloud services to host it (like Astronomer, Google Cloud Composer, etc..), prices can be crazy
+
+\- If you handle the infrastructure, the maintenance cost can be also important (especially if you don't have dedicated team for that).
+
+&#x200B;
+
+But, in any case, I don't want to switch back to cron jobs for several reasons:
+
+\- The main dashboard of Airflow is super useful, especially to spot errors
+
+\- You can easily restart tasks in the past
+
+\- You can easily access logs for a dedicated task
+
+\- And other cool features
+
+&#x200B;
+
+So I'm trying to **host Airflow on a single server**. But, I have the feeling that Airflow is not optimal to run on a single server. First, because it doesn't support standalone database like Sqlite in production environment, so you need resources to run database server like MySQL or PostgreSQL on your server. Also, you have the web server that consume some resources.
+
+I'm quite interested to know how you optimize costs? And what do you think about hosting Airflow on a single server? Do you know any other similar tools that are better for a single server infrastructure?
+
+Thanks in advance!",1,1,4-sushi,2024-02-07 15:27:52,https://www.reddit.com/r/dataengineering/comments/1al5i0k/airflow_how_to_reduce_cost/,1,False,False,False,False,"Hi,
+
+I'm using Airflow since 4 years to schedule dags/tasks, in a different companies. Before that, I was mainly using cron on Linux servers, so I really appreciate Airflow's features.  
+However, in my case, **DAGs and tasks are often quite basics**, and **do not require a cluster infrastructure**. The tasks are mainly python scripts, that use network resources (few memory and cpu).And only few people access to Airflow web server.
+
+&#x200B;
+
+The main problem here, it's that **Airflow can be quite expensive** in some cases. 
+
+\- If you are using cloud services to host it (like Astronomer, Google Cloud Composer, etc..), prices can be crazy
+
+\- If you handle the infrastructure, the maintenance cost can be also important (especially if you don't have dedicated team for that).
+
+&#x200B;
+
+But, in any case, I don't want to switch back to cron jobs for several reasons:
+
+\- The main dashboard of Airflow is super useful, especially to spot errors
+
+\- You can easily restart tasks in the past
+
+\- You can easily access logs for a dedicated task
+
+\- And other cool features
+
+&#x200B;
+
+So I'm trying to **host Airflow on a single server**. But, I have the feeling that Airflow is not optimal to run on a single server. First, because it doesn't support standalone database like Sqlite in production environment, so you need resources to run database server like MySQL or PostgreSQL on your server. Also, you have the web server that consume some resources.
+
+I'm quite interested to know how you optimize costs? And what do you think about hosting Airflow on a single server? Do you know any other similar tools that are better for a single server infrastructure?
+
+Thanks in advance!"
+1al5dz2,Difference between Lambda & Kappa in detail,"Hi guys!  
+I need to create a system architecture for a university course. 
+
+Roughly said there isa fictional company that has an existing BI-system with data warehouse & ML-toolsto analyse historical data. Now I need to implement a real-time functionality to display temperature sensor data so that the workers can react quickly once the temperature is too high in the production machines.  
+I could use the existing BI-system as batch layer and put a streaming layer on top for the sensor data. Now in my opinion, it would make sense to process all data together via Kafka & Flink and THEN send the processed data to the already existing DWH in the batch layer.  
+And now we're getting to my question: There are so many different definitions as to where exactly Lambda differentiates itself from Kappa that I'm confused as to what is correct. Here's the different definitions that I read so far:
+
+1. If the data source sends data to a batch layer AND a streaming layer (so sending it to 2 different places), it's lambda. So according to this definition, my solution would be Kappa because the data doesn't split right at the source, but instead after processing. So I'd put a Kappa Architecture on top of an existing Architecture.
+2. It's Lambda if the speed layer sends data to the batch layer AND to the serving layer, so that it can be batch processed and at the same time be shown in a realtime dashboard. According to this definition, my solution would be Lambda.
+3. It's Lambda if there is a Batch, Streaming & Serving Layer in the Architecture.   
+
+
+If someone could help me to figure this out, that would be highly appreciated!",1,1,No_Dentist7884,2024-02-07 15:22:53,https://www.reddit.com/r/dataengineering/comments/1al5dz2/difference_between_lambda_kappa_in_detail/,1,False,False,False,False,"Hi guys!  
+I need to create a system architecture for a university course. 
+
+Roughly said there isa fictional company that has an existing BI-system with data warehouse & ML-toolsto analyse historical data. Now I need to implement a real-time functionality to display temperature sensor data so that the workers can react quickly once the temperature is too high in the production machines.  
+I could use the existing BI-system as batch layer and put a streaming layer on top for the sensor data. Now in my opinion, it would make sense to process all data together via Kafka & Flink and THEN send the processed data to the already existing DWH in the batch layer.  
+And now we're getting to my question: There are so many different definitions as to where exactly Lambda differentiates itself from Kappa that I'm confused as to what is correct. Here's the different definitions that I read so far:
+
+1. If the data source sends data to a batch layer AND a streaming layer (so sending it to 2 different places), it's lambda. So according to this definition, my solution would be Kappa because the data doesn't split right at the source, but instead after processing. So I'd put a Kappa Architecture on top of an existing Architecture.
+2. It's Lambda if the speed layer sends data to the batch layer AND to the serving layer, so that it can be batch processed and at the same time be shown in a realtime dashboard. According to this definition, my solution would be Lambda.
+3. It's Lambda if there is a Batch, Streaming & Serving Layer in the Architecture.   
+
+
+If someone could help me to figure this out, that would be highly appreciated!"
+1al4xd2,A visual tool to generate hive queries,"Hi, our organization has lots of hive jobs. Logic wise they are simple, we read from base tables -> apply transformations-> dump into final table.
+
+Issue is there are 100+ columns which makes these scripts super long. When we need to add new column it gets very cumbersome to do.
+
+Are there any visual tools available where we can drag and drop tables to create a flow ? Or anything similar to improve readability and maintainability of code would be really helpful",1,0,data-geeko,2024-02-07 15:02:24,https://www.reddit.com/r/dataengineering/comments/1al4xd2/a_visual_tool_to_generate_hive_queries/,1,False,False,False,False,"Hi, our organization has lots of hive jobs. Logic wise they are simple, we read from base tables -> apply transformations-> dump into final table.
+
+Issue is there are 100+ columns which makes these scripts super long. When we need to add new column it gets very cumbersome to do.
+
+Are there any visual tools available where we can drag and drop tables to create a flow ? Or anything similar to improve readability and maintainability of code would be really helpful"
+1al1yne,What do think I should do to update a database automatically using Airflow,"Hi guys. 
+
+Right now I have dag in Airflow that uses operators to get data everyday from an endpoint, transform it and putting it into several tables. The thing is the endpoint doesn’t let me get updates data from a specific date, so I have to filter once I get the whole raw data
+
+What do you think I should do? Is there’s any Data engineering tool to let me create pipelines and deal with databases or is Airflow good to do this kind of things?
+
+Thanks in advance",1,4,Moradisten,2024-02-07 12:37:16,https://www.reddit.com/r/dataengineering/comments/1al1yne/what_do_think_i_should_do_to_update_a_database/,0,False,False,False,False,"Hi guys. 
+
+Right now I have dag in Airflow that uses operators to get data everyday from an endpoint, transform it and putting it into several tables. The thing is the endpoint doesn’t let me get updates data from a specific date, so I have to filter once I get the whole raw data
+
+What do you think I should do? Is there’s any Data engineering tool to let me create pipelines and deal with databases or is Airflow good to do this kind of things?
+
+Thanks in advance"
+1al0usn,Data orchestration and API limits,"Im looking for a way to orchestrate data and requests dynamically based on some sample ids (that can be in the hundreds or thousands) without any invasive API workarounds.
+
+&#x200B;
+
+I'm looking for something such as a load balancer, which can take the \[sample size\] as input and spread it through multiple subflows with different schedules dynamically. The idea would be to spread the calls across the day and to make the result of each subflow independent, such as if one fails, I do not have to re run the entire samples, just the subsample which failed. How can I do this?
+
+&#x200B;
+
+I'm using prefect.",1,1,Different_Fee6785,2024-02-07 11:30:31,https://www.reddit.com/r/dataengineering/comments/1al0usn/data_orchestration_and_api_limits/,1,False,False,False,False,"Im looking for a way to orchestrate data and requests dynamically based on some sample ids (that can be in the hundreds or thousands) without any invasive API workarounds.
+
+&#x200B;
+
+I'm looking for something such as a load balancer, which can take the \[sample size\] as input and spread it through multiple subflows with different schedules dynamically. The idea would be to spread the calls across the day and to make the result of each subflow independent, such as if one fails, I do not have to re run the entire samples, just the subsample which failed. How can I do this?
+
+&#x200B;
+
+I'm using prefect."
+1akzasi,Database / Data Model for Recommendation Systems,"Hey folks!
+
+Has anyone ever set up a database for a recommendation system? 
+
+I would love to know what database you used and what data model to set it up. 
+
+I is basically collecting feedback data for ML outputs to set up a pipeline to refine the models over time and run A/B tests. 
+
+The user information is stored pretty standard in a table with id, name, some metadata fields (e.g. tags), a description, and some more information. The recommendations are texts, so they are stored with id, text, title, and some metadata fields (e.g. topic, ...).   
+What can happen, that too many recommendations pass through the different filters, so we rerank and filter them.   
+
+
+I am flexible to set it up relational or NoSQL. The feedback is in form of clicks or likes and is related to the user and the item. So I probably need an interaction type, also the value for the interaction (e.g. in the form of up or down vote or a 1 value in the case of a click).  
+If anyone has seen this in the wild:   
+\- What database did you use?   
+\- How did you set up the data models of recommendations and the feedback?   
+\- What is the potential tradeoff between NoSQL and relational?   
+\- Did you also store non-interactions (e.g., did not click), or should I leave this implicit?   
+\- Should I even store this in one, or should I store it separately? 
+
+Thanks!",1,2,SpiritedAd895,2024-02-07 09:41:42,https://www.reddit.com/r/dataengineering/comments/1akzasi/database_data_model_for_recommendation_systems/,1,False,False,False,False,"Hey folks!
+
+Has anyone ever set up a database for a recommendation system? 
+
+I would love to know what database you used and what data model to set it up. 
+
+I is basically collecting feedback data for ML outputs to set up a pipeline to refine the models over time and run A/B tests. 
+
+The user information is stored pretty standard in a table with id, name, some metadata fields (e.g. tags), a description, and some more information. The recommendations are texts, so they are stored with id, text, title, and some metadata fields (e.g. topic, ...).   
+What can happen, that too many recommendations pass through the different filters, so we rerank and filter them.   
+
+
+I am flexible to set it up relational or NoSQL. The feedback is in form of clicks or likes and is related to the user and the item. So I probably need an interaction type, also the value for the interaction (e.g. in the form of up or down vote or a 1 value in the case of a click).  
+If anyone has seen this in the wild:   
+\- What database did you use?   
+\- How did you set up the data models of recommendations and the feedback?   
+\- What is the potential tradeoff between NoSQL and relational?   
+\- Did you also store non-interactions (e.g., did not click), or should I leave this implicit?   
+\- Should I even store this in one, or should I store it separately? 
+
+Thanks!"
+1akxqwr,Book advice,"Not so long ago there was a post here comparing Fundamentals of Data Engineering to the Data Warehouse Toolkit where people seemed to have had a much better experience with the latter, and found the other book inflated and without much content.
+
+Another book I've seen thrown around is Designing data intensive applications, what has been your experience with it. Is there another suggestion that might be better?",1,4,soposih_jaevel,2024-02-07 07:46:19,https://www.reddit.com/r/dataengineering/comments/1akxqwr/book_advice/,0,False,False,False,False,"Not so long ago there was a post here comparing Fundamentals of Data Engineering to the Data Warehouse Toolkit where people seemed to have had a much better experience with the latter, and found the other book inflated and without much content.
+
+Another book I've seen thrown around is Designing data intensive applications, what has been your experience with it. Is there another suggestion that might be better?"
+1akxlj3,Synthetic Data In A Nutshell — Why Founding Went 10x In This Market,,1,0,sbalnojan,2024-02-07 07:35:37,https://svenbalnojan.medium.com/synthetic-data-in-a-nutshell-why-founding-went-10x-in-this-market-50ffe9ec6223,0,False,False,False,False,
+1algef8,Is it better databricks cluster or compute engine?,"Let's say that you have 10 compute engine that last for 20 minutes with minimum specs and you have one databricks cluster with 10 notebooks.
+
+They do the same process, same code, same resources (ELT), which one is better in terms of cost?",0,3,CauliflowerJolly4599,2024-02-07 22:59:47,https://www.reddit.com/r/dataengineering/comments/1algef8/is_it_better_databricks_cluster_or_compute_engine/,0,False,False,False,False,"Let's say that you have 10 compute engine that last for 20 minutes with minimum specs and you have one databricks cluster with 10 notebooks.
+
+They do the same process, same code, same resources (ELT), which one is better in terms of cost?"
+1alftfc,AI Copilot for writing and running SQL,"I built an AI Agent that can connect to your database and run queries: [https://www.chaturdata.com/](https://www.chaturdata.com/)
+
+It works like a SQL copilot for advanced SQL and you can use it through ChatGPT as a CustomGPT too.
+
+There's a lot of text-to-sql ai tools out there, here are the 2 key differences about my approach:
+
+1. AI Agent - I give the Agent a bunch of tools and let it decide what tools to call, in what order, with which parameters, in order to help the user. this means you can ask super vague questions and the agent helps you think through coming up with good SQL
+2. AI-generated Data Dictionary & embeddings - I use an LLM to create metadata about the db schemas including things like join keys, column descriptions, and table contents. I also convert this metadata into embeddings. this powers a kNN search that the agent can use to find the right data in the db.
+
+It's free, would love your feedback if you get to try it out!",0,3,p5256,2024-02-07 22:35:23,https://www.reddit.com/r/dataengineering/comments/1alftfc/ai_copilot_for_writing_and_running_sql/,0,False,False,False,False,"I built an AI Agent that can connect to your database and run queries: [https://www.chaturdata.com/](https://www.chaturdata.com/)
+
+It works like a SQL copilot for advanced SQL and you can use it through ChatGPT as a CustomGPT too.
+
+There's a lot of text-to-sql ai tools out there, here are the 2 key differences about my approach:
+
+1. AI Agent - I give the Agent a bunch of tools and let it decide what tools to call, in what order, with which parameters, in order to help the user. this means you can ask super vague questions and the agent helps you think through coming up with good SQL
+2. AI-generated Data Dictionary & embeddings - I use an LLM to create metadata about the db schemas including things like join keys, column descriptions, and table contents. I also convert this metadata into embeddings. this powers a kNN search that the agent can use to find the right data in the db.
+
+It's free, would love your feedback if you get to try it out!"
+1aldbi2,AWS Lambda or SageMaker Implementation,"Hey everyone, 
+
+
+I have a model and I’m ready to deploy in AWS.  I’ve been trying to research which implementation is best between Lambda and SageMaker and I’m hoping to get some informed opinions. 
+
+# More Background 
+
+1) The model is a PyTorch prebuilt model and works great off the shelf for our purposes, so we won’t need to do any training. (Otherwise I'm thinking we'd definitely need to with SageMaker)
+
+2) Using GPUs would be great but not necessary. Does either option use GPU?  I would assume SageMaker could/does, but it's not clear from anything I've read.
+
+3) Concerns around speed are huge.  We are expecting for the most part it will be quiet and then we'll receive a bolus of requests in the hundreds/min.  We're concerned that if the model takes to long to load or warm-up then it will lead to bad user experiences.  So we definitely want fast warm-up times
+
+4) It seems that when implementing in Lambda we have the choice to embed the model in a docker image on ECR or placing the model artifacts in an S3 bucket.  Is one of those options better for speed than the other?
+
+
+Thank you for your responses!
+
+- Data Scallion",0,1,data_scallion,2024-02-07 20:51:51,https://www.reddit.com/r/dataengineering/comments/1aldbi2/aws_lambda_or_sagemaker_implementation/,0,False,False,False,False,"Hey everyone, 
+
+
+I have a model and I’m ready to deploy in AWS.  I’ve been trying to research which implementation is best between Lambda and SageMaker and I’m hoping to get some informed opinions. 
+
+# More Background 
+
+1) The model is a PyTorch prebuilt model and works great off the shelf for our purposes, so we won’t need to do any training. (Otherwise I'm thinking we'd definitely need to with SageMaker)
+
+2) Using GPUs would be great but not necessary. Does either option use GPU?  I would assume SageMaker could/does, but it's not clear from anything I've read.
+
+3) Concerns around speed are huge.  We are expecting for the most part it will be quiet and then we'll receive a bolus of requests in the hundreds/min.  We're concerned that if the model takes to long to load or warm-up then it will lead to bad user experiences.  So we definitely want fast warm-up times
+
+4) It seems that when implementing in Lambda we have the choice to embed the model in a docker image on ECR or placing the model artifacts in an S3 bucket.  Is one of those options better for speed than the other?
+
+
+Thank you for your responses!
+
+- Data Scallion"
+1alcila,Crash course - PySpark/Aache Airlow (Interview purpose)," I'm looking for a crash course that can help me quickly pick up Pyspark and Apache Airflow I work in Python, AWS, and JavaScript. I also have good experience with RDS. Nowadays, companies are looking for a wide range of skills, so I want to make sure I have a basic understanding of how Pyspark/Apache Airflow works. I prefer a more hands-on course rather than just theory, but I'm looking for something quick as I don't have much time or money to join a boot camp. ",0,2,kchatter20,2024-02-07 20:18:13,https://www.reddit.com/r/dataengineering/comments/1alcila/crash_course_pysparkaache_airlow_interview_purpose/,0,False,False,False,False," I'm looking for a crash course that can help me quickly pick up Pyspark and Apache Airflow I work in Python, AWS, and JavaScript. I also have good experience with RDS. Nowadays, companies are looking for a wide range of skills, so I want to make sure I have a basic understanding of how Pyspark/Apache Airflow works. I prefer a more hands-on course rather than just theory, but I'm looking for something quick as I don't have much time or money to join a boot camp. "
+1ala1ut,Redshift,Make sense managed storage for instance single node in redshift?,0,1,Dwoler,2024-02-07 18:36:03,https://www.reddit.com/r/dataengineering/comments/1ala1ut/redshift/,0,False,False,False,False,Make sense managed storage for instance single node in redshift?
+1al2sze,The Data Consulting Club Opens!,"Hey everyone! We've been on calls with hundreds of data consultancies for the past 12 weeks to build our product.  
+
+
+But what stood out much more wasn't just the product needs data consultants have: **It was the need for a community for data consultants**.   
+
+
+I'm not gonna bore you with the details. Here's the short version: 
+
+* There's no community for data consultants, so we created one (as a [LinkedIn group](https://www.linkedin.com/groups/14385539/) for now). 
+* There is tons of content around data, but there's next to nothing about running a data consulting practice.
+* Almost every consultancy looks into productizing, and again, we couldn't find any content on that topic that is a good fit for the data space.
+* Our blog post for more details; here'sconsulting world out there by creating a community and content just for them.  
+
+
+*We'd love any thoughts you have on this topic you might have! P.S.: If you want to read up on our motivation, feel free to check out our* [blog post.](https://arch.dev/blog/the-data-consulting-club-opens/)
+
+ ",0,0,sbalnojan,2024-02-07 13:22:45,https://www.reddit.com/r/dataengineering/comments/1al2sze/the_data_consulting_club_opens/,0,False,False,False,False,"Hey everyone! We've been on calls with hundreds of data consultancies for the past 12 weeks to build our product.  
+
+
+But what stood out much more wasn't just the product needs data consultants have: **It was the need for a community for data consultants**.   
+
+
+I'm not gonna bore you with the details. Here's the short version: 
+
+* There's no community for data consultants, so we created one (as a [LinkedIn group](https://www.linkedin.com/groups/14385539/) for now). 
+* There is tons of content around data, but there's next to nothing about running a data consulting practice.
+* Almost every consultancy looks into productizing, and again, we couldn't find any content on that topic that is a good fit for the data space.
+* Our blog post for more details; here'sconsulting world out there by creating a community and content just for them.  
+
+
+*We'd love any thoughts you have on this topic you might have! P.S.: If you want to read up on our motivation, feel free to check out our* [blog post.](https://arch.dev/blog/the-data-consulting-club-opens/)
+
+ "
+1al86xn,Switch to data engineering,"I recently got a new job...or so I thought.
+
+After 3 years as full stack SWE, I was offered another role, also as full stack SWE. Pay much better than my current (nearly double).
+
+In the time between signing the contract and starting, the original work was deprioritised and I've been offered a role as a data engineer in a different team instead (same comp and contractual job title still SWE).
+
+I don't really know what it involves in detail. They mentioned AWS Glue, which I've never used and that the scale of data didn't sound very big (think they said 1m rows of CSV per day). It sounded like basically just ETL at a fairly small scale, but I may be underestimating the complexity.
+
+I'm not sure what to make of it. There is a senior data engineer in the team that I'd be able to learn from (4 devs total but the other two also new to data engineering). And they said that the team as a whole would be upskilling to become more specialist data engineers over time so it would be an overall shift of career direction rather than a one off project.
+
+On the one hand, that sounds fine. I've nothing against data as such. I just haven't worked anywhere before where there was enough data hanging around that data engineering was a standalone job.
+
+Also on the positive side, the pay is great.
+
+My concerns would be:
+
+I don't know much about data; I've barely used SQL even in my backend work as most of it has been non-relational
+
+I guess DE is a much smaller field than web dev so worried this would make me less employable in the long run (and unable to return to web dev for my next role if I don't like DE)
+
+I'd be one of a number of newbies working on the project so not sure if I'll be learning best practices or the senior will be too busy keeping the show vaguely on the road
+
+what if I'm rubbish at data stuff and fail my probation? At least with web dev I know I'm reasonably competent whereas my aptitude for DE is completely unknown
+
+Although it'd be a bit awkward, I could probably still keep my current SWE job. I'm minded to give DE a go anyway, even though it's not what I signed up for, but interested in any other perspectives",0,6,West_Sheepherder7225,2024-02-07 17:20:27,https://www.reddit.com/r/dataengineering/comments/1al86xn/switch_to_data_engineering/,0,False,False,False,False,"I recently got a new job...or so I thought.
+
+After 3 years as full stack SWE, I was offered another role, also as full stack SWE. Pay much better than my current (nearly double).
+
+In the time between signing the contract and starting, the original work was deprioritised and I've been offered a role as a data engineer in a different team instead (same comp and contractual job title still SWE).
+
+I don't really know what it involves in detail. They mentioned AWS Glue, which I've never used and that the scale of data didn't sound very big (think they said 1m rows of CSV per day). It sounded like basically just ETL at a fairly small scale, but I may be underestimating the complexity.
+
+I'm not sure what to make of it. There is a senior data engineer in the team that I'd be able to learn from (4 devs total but the other two also new to data engineering). And they said that the team as a whole would be upskilling to become more specialist data engineers over time so it would be an overall shift of career direction rather than a one off project.
+
+On the one hand, that sounds fine. I've nothing against data as such. I just haven't worked anywhere before where there was enough data hanging around that data engineering was a standalone job.
+
+Also on the positive side, the pay is great.
+
+My concerns would be:
+
+I don't know much about data; I've barely used SQL even in my backend work as most of it has been non-relational
+
+I guess DE is a much smaller field than web dev so worried this would make me less employable in the long run (and unable to return to web dev for my next role if I don't like DE)
+
+I'd be one of a number of newbies working on the project so not sure if I'll be learning best practices or the senior will be too busy keeping the show vaguely on the road
+
+what if I'm rubbish at data stuff and fail my probation? At least with web dev I know I'm reasonably competent whereas my aptitude for DE is completely unknown
+
+Although it'd be a bit awkward, I could probably still keep my current SWE job. I'm minded to give DE a go anyway, even though it's not what I signed up for, but interested in any other perspectives"
+1alcsiq,Considering quitting current DA role in order to full send DE path,"First thing first I have enough in my SECOND savings (yes second) to last me 6 months, and obv longer if I cut down on discretionary expenses and even longer if I had to then tap into my primary savings, and even then that’s after a month worth of PTO I would be paid out. So just to get it out the way, financially I’d would not be suicide.
+
+Secondly, I am a DA who is basically an excel monkey, I have been up skilling the last 8 months, I have personal projects and have cloud certs to match. 
+
+The way my resume is worded, recruiters have been interested and are reaching out on a weekly basis for DE/BI/Analytics Engineer roles, I have already had one interview last week, have another scheduled for tomorrow and have a call with another recruiter today which could turn into another interview.
+
+My day to day in my current job is a shi*t show, we are using excel well past its limits and the powers that be don’t care and want the show to run on. The tool we use, aka excel, always crashes and works against us heavily, deadlines aren’t realistic because again, excel. Zero automation, the pipeline report(again excel) is pulling from a DW SAP/Oracle source is never updated on time, which means our deadlines thus become fire drills every week.
+
+ It’s really weighing on my mental health at this point because:
+ 1) I know there is a better way to do this
+ 2) I’m stuck using an absolute sh*t work flow
+ 3) manager and higher ups don’t care and don’t want change. 
+4) and I can’t do anything about it
+
+It’s very frustrating 
+
+So part rant/ part question: Am I using sensible judgment considering this “break” in order to learn more DE concepts and put more effort into getting into the DE field? Or should I just stay in this position with trash tools to atleast keep a paycheck coming in while constantly fighting my tools? It’s one thing if I’m spending hours trying to get a code to compile, it’s another story fighting excel from crashing for 4 hours a day to just get the macros and pivots to work…
+
+(I am by no means a DE super user, I say that to say I know my stuff but I’m not like a 10-20 year vet of this stuff, I know how make things work in the cloud/ETL/Python/SQL/DataBricks/SSIS/PowerBi/DB’s ect but majority of my day to day is just DA stuff (again with excel) but I have experience with SSIS and PowerBI.
+
+
+Thanks for listening to my Ted talk.",0,10,PoloParachutes,2024-02-07 20:29:31,https://www.reddit.com/r/dataengineering/comments/1alcsiq/considering_quitting_current_da_role_in_order_to/,0,False,False,False,False,"First thing first I have enough in my SECOND savings (yes second) to last me 6 months, and obv longer if I cut down on discretionary expenses and even longer if I had to then tap into my primary savings, and even then that’s after a month worth of PTO I would be paid out. So just to get it out the way, financially I’d would not be suicide.
+
+Secondly, I am a DA who is basically an excel monkey, I have been up skilling the last 8 months, I have personal projects and have cloud certs to match. 
+
+The way my resume is worded, recruiters have been interested and are reaching out on a weekly basis for DE/BI/Analytics Engineer roles, I have already had one interview last week, have another scheduled for tomorrow and have a call with another recruiter today which could turn into another interview.
+
+My day to day in my current job is a shi*t show, we are using excel well past its limits and the powers that be don’t care and want the show to run on. The tool we use, aka excel, always crashes and works against us heavily, deadlines aren’t realistic because again, excel. Zero automation, the pipeline report(again excel) is pulling from a DW SAP/Oracle source is never updated on time, which means our deadlines thus become fire drills every week.
+
+ It’s really weighing on my mental health at this point because:
+ 1) I know there is a better way to do this
+ 2) I’m stuck using an absolute sh*t work flow
+ 3) manager and higher ups don’t care and don’t want change. 
+4) and I can’t do anything about it
+
+It’s very frustrating 
+
+So part rant/ part question: Am I using sensible judgment considering this “break” in order to learn more DE concepts and put more effort into getting into the DE field? Or should I just stay in this position with trash tools to atleast keep a paycheck coming in while constantly fighting my tools? It’s one thing if I’m spending hours trying to get a code to compile, it’s another story fighting excel from crashing for 4 hours a day to just get the macros and pivots to work…
+
+(I am by no means a DE super user, I say that to say I know my stuff but I’m not like a 10-20 year vet of this stuff, I know how make things work in the cloud/ETL/Python/SQL/DataBricks/SSIS/PowerBi/DB’s ect but majority of my day to day is just DA stuff (again with excel) but I have experience with SSIS and PowerBI.
+
+
+Thanks for listening to my Ted talk."
+1al7lro,Databricks vs Snowflake: A Complete 2024 Comparison,,0,0,sync_jeff,2024-02-07 16:56:43,https://medium.com/sync-computing/databricks-vs-snowflake-a-complete-2024-comparison-462eac35b639,0,False,False,False,False,
