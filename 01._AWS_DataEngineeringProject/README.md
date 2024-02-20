@@ -45,9 +45,9 @@ Or in Python:
 ```bash
 python -m venv redditDE
 # Activating on Windows
-.\venv\Scripts\activate
+.\redditDE\Scripts\activate
 #Activating on Linux/Mac
-source venv/bin/activate
+source redditDE/bin/activate
 ```
 
 Next in your terminal create the directories data, plugins, tests, and logs:
