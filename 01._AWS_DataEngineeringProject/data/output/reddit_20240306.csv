@@ -1,0 +1,562 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,seltext
+1b7ojk4,An actual post in my company Slack today ,Mentally preparing myself for the eventual request to untangle this mess ,251,47,OneSixteenthRobot,2024-03-06 02:44:28,https://i.redd.it/nepsf40anmmc1.png,0,False,False,False,False,Mentally preparing myself for the eventual request to untangle this mess 
+1b7fz0q,Company is converting to Databricks!,"We are currently going through a massive reorg and conversion. The existing ETL is built with Ab Initio and the DB is Teradata. We are now moving everything to Databricks / azure. Any advice on learning databricks? I have never utilized python, and now apparently pyspark is what will be used to build the ETL in Databricks. How different is pyspark to python and any advices on learning this as well? I was new to DE when I got here and inherited the legacy systems, so this is going to be the first tools / coding I do from the ground up. Thanks for any advice! ",50,69,ApatheticRart,2024-03-05 20:42:27,https://www.reddit.com/r/dataengineering/comments/1b7fz0q/company_is_converting_to_databricks/,0,False,False,False,False,"We are currently going through a massive reorg and conversion. The existing ETL is built with Ab Initio and the DB is Teradata. We are now moving everything to Databricks / azure. Any advice on learning databricks? I have never utilized python, and now apparently pyspark is what will be used to build the ETL in Databricks. How different is pyspark to python and any advices on learning this as well? I was new to DE when I got here and inherited the legacy systems, so this is going to be the first tools / coding I do from the ground up. Thanks for any advice! "
+1b7fcgo,"Is everyone becoming a data engineer? And is it still worth embarking on this career journey?""","   
+I'm currently working in the data aspect of engineering. The path I've embarked upon involves SQL, on-premises ETL tools, and reporting. However, I'm eager to transition into Cloud Data Engineering. I've begun analyzing the requirements companies post for such roles and the number of applicants for each position. It's overwhelming to observe that almost everyone is now identifying as a data engineer, regardless of their experience. I know individuals who transitioned from roles such as Database Administration or C/C++ programming to data engineering. Each job application I've seen attracts anywhere from 500 to 1200 applicants. Additionally, companies are requesting a minimum of 10 skills for data engineering roles, spanning from database management to developing streaming applications. With over 10 years of experience, I wonder if I can secure a job within a year, considering the multitude of skills I need to acquire and the intense competition. Is the effort truly worth it, especially given that I need to start from learning Python to mastering various cloud platforms?
+
+   
+To be honest, I'm more inclined to master a select few skills rather than trying to be a jack of all trades. I'm aiming to specialize in those areas and work towards achieving a decent pay, perhaps around $100k to $120k, instead of chasing after the salaries of data engineers who are earning approximately $250- 500k with over 10 years of experience. 
+
+ I'd appreciate your thoughts on this matter. ",36,34,AccomplishedHat9906,2024-03-05 20:17:40,https://www.reddit.com/r/dataengineering/comments/1b7fcgo/is_everyone_becoming_a_data_engineer_and_is_it/,0,False,False,False,False,"   
+I'm currently working in the data aspect of engineering. The path I've embarked upon involves SQL, on-premises ETL tools, and reporting. However, I'm eager to transition into Cloud Data Engineering. I've begun analyzing the requirements companies post for such roles and the number of applicants for each position. It's overwhelming to observe that almost everyone is now identifying as a data engineer, regardless of their experience. I know individuals who transitioned from roles such as Database Administration or C/C++ programming to data engineering. Each job application I've seen attracts anywhere from 500 to 1200 applicants. Additionally, companies are requesting a minimum of 10 skills for data engineering roles, spanning from database management to developing streaming applications. With over 10 years of experience, I wonder if I can secure a job within a year, considering the multitude of skills I need to acquire and the intense competition. Is the effort truly worth it, especially given that I need to start from learning Python to mastering various cloud platforms?
+
+   
+To be honest, I'm more inclined to master a select few skills rather than trying to be a jack of all trades. I'm aiming to specialize in those areas and work towards achieving a decent pay, perhaps around $100k to $120k, instead of chasing after the salaries of data engineers who are earning approximately $250- 500k with over 10 years of experience. 
+
+ I'd appreciate your thoughts on this matter. "
+1b7f9f6,How do you detect source schema changes?,"If you have an un-versioned source which unexpectedly changes its schema, how do you deal with that situation? 
+
+Do you maintain a manually entered schema and trigger alert on reads if schema validation fails?
+
+Is it assumed the pipeline will eventually break, so you write your pipeline in a more 'defensive' way?
+
+Is there a Sentry-like tool for ETL pipelines, meaning it can alert when things break?
+
+Please excuse my lack of knowledge on this topic, I'm very new to DE.",21,28,Mysterious-Coat5856,2024-03-05 20:14:15,https://www.reddit.com/r/dataengineering/comments/1b7f9f6/how_do_you_detect_source_schema_changes/,0,False,False,False,False,"If you have an un-versioned source which unexpectedly changes its schema, how do you deal with that situation? 
+
+Do you maintain a manually entered schema and trigger alert on reads if schema validation fails?
+
+Is it assumed the pipeline will eventually break, so you write your pipeline in a more 'defensive' way?
+
+Is there a Sentry-like tool for ETL pipelines, meaning it can alert when things break?
+
+Please excuse my lack of knowledge on this topic, I'm very new to DE."
+1b7xuw3,"End-End Stock Streaming Project(K8S, Airflow, Kafka, Spark, Pytorch, Docker, Cassandra, Grafna)","Hello everyone, recently I completed another personal project. Any suggestions are welcome.
+
+[Github Repo](https://github.com/Zzdragon66/stock-streaming-project)
+
+## Project Description
+
+* This project leverages Python, Kafka, and Spark to process real-time streaming data from both stock markets and Reddit. It employs a Long Short-Term Memory (LSTM) deep learning model to conduct real-time predictions on SPY (S&P 500 ETF) stock data. Additionally, the project utilizes Grafana for the real-time visualization of stock data, predictive analytics, and reddit data, providing a comprehensive and dynamic overview of market trends and sentiments.
+
+## Demo
+
+&#x200B;
+
+https://i.redd.it/t85j4210dpmc1.gif
+
+## Project Structure
+
+&#x200B;
+
+https://preview.redd.it/n292wc61dpmc1.png?width=4164&format=png&auto=webp&s=76dcc8279e38327babe8c954c05b17906ba8453c
+
+## Tools
+
+1. Apache Airflow: Data pipeline orchestration
+2. Apache Kafka: Stream data handling
+3. Apache Spark: batch data processing
+4. Apache Cassandra: NoSQL database to store time series data
+5. Docker + Kubernets: Containerization and Docker Orchestration
+6. Pytorch: Deep learning model
+7. Grafna: Stream Data visualization
+8. Python: produce streaming data with multithreading
+
+## Project Design Choice
+
+## Kafka
+
+* Why Kafka?
+   * Kafak serves a stream data handler to feed data into spark and deep learning model
+* Design of kafka
+   * I utilize Python's multi-threading capabilities to simultaneously produce stock data, enhancing the throughput by exploiting parallelism. Consequently, I partition the topic according to the number of stocks, allowing each thread to direct its data into a distinct partition, thereby optimizing the data flow and maximizing efficiency
+
+## Cassandra Database Design
+
+* Stock data contains the data of `stock` symbol and `utc_timestamp`, which can be used to uniquely identify the single data point. Therefore I use those two features as the primary key
+* Use `utc_timestamp` as the clustering key to store the time series data in ascending order for efficient read(sequantial read for a time series data) and high throughput write(real-time data only appends to the end of parition)
+
+## Deep learning model Discussion
+
+* Data
+   * Train Data Dimension (N, T, D)
+      * N is number of data in a batch
+      * T=200 look back two hundred seconds data
+      * D=5 the features in the data (price, number of transactions, high price, low price, volumes)
+   * Prediction Data Dimension (1, 200, 5)
+* Data Preprocessing:
+   * Use MinMaxScaler to make sure each feature has similar scale
+* Model Structure:
+   * X->\[LSTM \* 5\]->Linear->Price-Prediction
+* How the Model works:
+   * At current timestamp t, get latest 200 time sereis data before $t$ in ascending `utc_timestamp` order. Feed the data into deep learning model which will predict the current SPY stock prie at time t.
+* Due to the limited computational resources on my local machine, the ""real-time"" prediction lags behind actual time because of the long computation duration required.
+
+## Future Directions
+
+1. Deploy the local kubernets to AWS EKS and Use GPU accelerator on cloud
+2. Train a better deep learning model to make prediction more accurate and faster",16,6,AffectionateEmu8146,2024-03-06 11:54:16,https://www.reddit.com/r/dataengineering/comments/1b7xuw3/endend_stock_streaming_projectk8s_airflow_kafka/,1,False,False,False,False,"Hello everyone, recently I completed another personal project. Any suggestions are welcome.
+
+[Github Repo](https://github.com/Zzdragon66/stock-streaming-project)
+
+## Project Description
+
+* This project leverages Python, Kafka, and Spark to process real-time streaming data from both stock markets and Reddit. It employs a Long Short-Term Memory (LSTM) deep learning model to conduct real-time predictions on SPY (S&P 500 ETF) stock data. Additionally, the project utilizes Grafana for the real-time visualization of stock data, predictive analytics, and reddit data, providing a comprehensive and dynamic overview of market trends and sentiments.
+
+## Demo
+
+&#x200B;
+
+https://i.redd.it/t85j4210dpmc1.gif
+
+## Project Structure
+
+&#x200B;
+
+https://preview.redd.it/n292wc61dpmc1.png?width=4164&format=png&auto=webp&s=76dcc8279e38327babe8c954c05b17906ba8453c
+
+## Tools
+
+1. Apache Airflow: Data pipeline orchestration
+2. Apache Kafka: Stream data handling
+3. Apache Spark: batch data processing
+4. Apache Cassandra: NoSQL database to store time series data
+5. Docker + Kubernets: Containerization and Docker Orchestration
+6. Pytorch: Deep learning model
+7. Grafna: Stream Data visualization
+8. Python: produce streaming data with multithreading
+
+## Project Design Choice
+
+## Kafka
+
+* Why Kafka?
+   * Kafak serves a stream data handler to feed data into spark and deep learning model
+* Design of kafka
+   * I utilize Python's multi-threading capabilities to simultaneously produce stock data, enhancing the throughput by exploiting parallelism. Consequently, I partition the topic according to the number of stocks, allowing each thread to direct its data into a distinct partition, thereby optimizing the data flow and maximizing efficiency
+
+## Cassandra Database Design
+
+* Stock data contains the data of `stock` symbol and `utc_timestamp`, which can be used to uniquely identify the single data point. Therefore I use those two features as the primary key
+* Use `utc_timestamp` as the clustering key to store the time series data in ascending order for efficient read(sequantial read for a time series data) and high throughput write(real-time data only appends to the end of parition)
+
+## Deep learning model Discussion
+
+* Data
+   * Train Data Dimension (N, T, D)
+      * N is number of data in a batch
+      * T=200 look back two hundred seconds data
+      * D=5 the features in the data (price, number of transactions, high price, low price, volumes)
+   * Prediction Data Dimension (1, 200, 5)
+* Data Preprocessing:
+   * Use MinMaxScaler to make sure each feature has similar scale
+* Model Structure:
+   * X->\[LSTM \* 5\]->Linear->Price-Prediction
+* How the Model works:
+   * At current timestamp t, get latest 200 time sereis data before $t$ in ascending `utc_timestamp` order. Feed the data into deep learning model which will predict the current SPY stock prie at time t.
+* Due to the limited computational resources on my local machine, the ""real-time"" prediction lags behind actual time because of the long computation duration required.
+
+## Future Directions
+
+1. Deploy the local kubernets to AWS EKS and Use GPU accelerator on cloud
+2. Train a better deep learning model to make prediction more accurate and faster"
+1b7mo16,Senior DE and above: what happened when you changed industries? Did it have a big affect on your career?,"I'm curious to hear about how much the industry sector of your company has affected your career and your job satisfaction. I'm working for a property management company in my first DE job and I'm learning a ton, but I'm not sure if real estate is really my jam so to speak. What are good industries to work for in DE right now?",12,13,tedward27,2024-03-06 01:17:36,https://www.reddit.com/r/dataengineering/comments/1b7mo16/senior_de_and_above_what_happened_when_you/,0,False,False,False,False,"I'm curious to hear about how much the industry sector of your company has affected your career and your job satisfaction. I'm working for a property management company in my first DE job and I'm learning a ton, but I'm not sure if real estate is really my jam so to speak. What are good industries to work for in DE right now?"
+1b7mhka,What is Hadoop and it's relation with Spark and BigData?,"Hi,
+
+Coming from someone outside the data engineer field, I am just trying to understand what Hadoop is for?
+
+I know, I've googled and read posts, articles and all and it doesn't really stick on me.
+
+Is it really considered a file system or is it just an algorithm to distribute data across nodes in a cluster?
+
+Docs says it's good to process datasets. What are datasets? Are these files, databases? CSVs?\\
+
+How does Hadoop relates to these concepts, datasets, HDFS and ORC (Optimized Row Columnar)
+
+I really think a simple example that I couldnt really find in internet could be the key for me to understand that once and for all.
+
+And finally, how Spark and BigData relates to it?",12,21,erudes91,2024-03-06 01:09:27,https://www.reddit.com/r/dataengineering/comments/1b7mhka/what_is_hadoop_and_its_relation_with_spark_and/,0,False,False,False,False,"Hi,
+
+Coming from someone outside the data engineer field, I am just trying to understand what Hadoop is for?
+
+I know, I've googled and read posts, articles and all and it doesn't really stick on me.
+
+Is it really considered a file system or is it just an algorithm to distribute data across nodes in a cluster?
+
+Docs says it's good to process datasets. What are datasets? Are these files, databases? CSVs?\\
+
+How does Hadoop relates to these concepts, datasets, HDFS and ORC (Optimized Row Columnar)
+
+I really think a simple example that I couldnt really find in internet could be the key for me to understand that once and for all.
+
+And finally, how Spark and BigData relates to it?"
+1b7nrzd,What should I prioritize learning,"I'm a data analytics professional of 6 years who started becoming interested in DE after finding software engineering more interesting than my statistics/data analysis work. I first started out by taking python OOP, computer science fundamental and full stack courses. I enjoyed that stuff and had some full stack knowledge beforehand, but the issue was from a career perspective that I had so much experience in data that full stack dev seemed like a disconnect from my past work and I started to look at something that would blend my data skills with software engineering interests. 
+
+I started looking into DE, but I didn't quite understand where to even start. I have automated data workflows in the past, but I was using SQL, R and Cron-literally leveraging whatever tools I had because the work previous analysts were doing was very manual and tedious. I don't have formal experience with cloud technologies, airflow, kafka, databricks, etc. I used Docker and AWS on personal projects and kind of understand it, but I'm not an expert by any means. 
+
+I just got my first DE job after hundreds of applications for data engineer, software engineer and data science roles. I'm excited but I also don't know what I should prioritize in my learning journey. I bought the joe reis data engineering book months ago and am doing the data engineering zoomcamp, but am so behind on that due to other life things. The DE zoomcamp seems like a great resource so far and it's amazing it's free-but I'm sort of feeling like I'm going through the motions without really understanding what exactly I'm doing. I also saw that AWS has certifications and the job I'm going to be doing uses Redshift so I thought I'd look into that. 
+
+Any suggestions on what to start with? ",9,2,thro0away12,2024-03-06 02:08:53,https://www.reddit.com/r/dataengineering/comments/1b7nrzd/what_should_i_prioritize_learning/,0,False,False,False,False,"I'm a data analytics professional of 6 years who started becoming interested in DE after finding software engineering more interesting than my statistics/data analysis work. I first started out by taking python OOP, computer science fundamental and full stack courses. I enjoyed that stuff and had some full stack knowledge beforehand, but the issue was from a career perspective that I had so much experience in data that full stack dev seemed like a disconnect from my past work and I started to look at something that would blend my data skills with software engineering interests. 
+
+I started looking into DE, but I didn't quite understand where to even start. I have automated data workflows in the past, but I was using SQL, R and Cron-literally leveraging whatever tools I had because the work previous analysts were doing was very manual and tedious. I don't have formal experience with cloud technologies, airflow, kafka, databricks, etc. I used Docker and AWS on personal projects and kind of understand it, but I'm not an expert by any means. 
+
+I just got my first DE job after hundreds of applications for data engineer, software engineer and data science roles. I'm excited but I also don't know what I should prioritize in my learning journey. I bought the joe reis data engineering book months ago and am doing the data engineering zoomcamp, but am so behind on that due to other life things. The DE zoomcamp seems like a great resource so far and it's amazing it's free-but I'm sort of feeling like I'm going through the motions without really understanding what exactly I'm doing. I also saw that AWS has certifications and the job I'm going to be doing uses Redshift so I thought I'd look into that. 
+
+Any suggestions on what to start with? "
+1b7meq0,"Let’s have a talk about connascence, shall we?","I’m just shocked… flabbergasted, actually, that my entire degree had no mention of this word.
+
+Connascence is a concept similar to dependencies and coupling. If a change in one part of something requires changes in other parts of something, that’s connascence. Apparently there’s a decent amount of academic work done on this subject, fresh for the study. 
+
+My first impressions is that you can probably explain very well why Docker is so successful, with only a solid understanding of connascence and how servers / applications work. It minimizes connascence between the machine and the app.
+
+There are categories: static connascence and dynamic connascence. Both have subcategories, such as value connascence, identity connascence, name connascence, …
+
+I’m finding this neat because it makes talking about an abstract and difficult topic, easier. I’m suddenly making realizations about many of my systems and their connascence, how I could change their connascence measures…
+
+This is cool stuff, guys.",8,8,DuckDatum,2024-03-06 01:05:42,https://www.reddit.com/r/dataengineering/comments/1b7meq0/lets_have_a_talk_about_connascence_shall_we/,0,False,False,False,False,"I’m just shocked… flabbergasted, actually, that my entire degree had no mention of this word.
+
+Connascence is a concept similar to dependencies and coupling. If a change in one part of something requires changes in other parts of something, that’s connascence. Apparently there’s a decent amount of academic work done on this subject, fresh for the study. 
+
+My first impressions is that you can probably explain very well why Docker is so successful, with only a solid understanding of connascence and how servers / applications work. It minimizes connascence between the machine and the app.
+
+There are categories: static connascence and dynamic connascence. Both have subcategories, such as value connascence, identity connascence, name connascence, …
+
+I’m finding this neat because it makes talking about an abstract and difficult topic, easier. I’m suddenly making realizations about many of my systems and their connascence, how I could change their connascence measures…
+
+This is cool stuff, guys."
+1b7zezu,A tool to quickly extract data from websites,,7,0,GeekLifer,2024-03-06 13:15:25,https://v.redd.it/94pkdfw2rpmc1,0,False,False,False,False,
+1b82sdv,Help with Imposter Syndrome,"Context: I graduated June 2021 from a good UC with a BS in Data Science, but took an opportunity as a contractor at MAANG to get some industry experience in Data Engineering.
+
+I’ve been working as a contractor here for about 2 years, yet I feel like my imposter syndrome is still something I’m struggling with. The title as a contractor also creates this negative perception of myself as well. At this point, I think it’s hindering my progress.
+
+Many of the FTE I’ve worked with have told me I have the skills to transfer to a full time position. I recently failed the full loop for transferring to a FTE. Consequently, this rejection adds to my imposter syndrome of not being enough.
+
+How did you guys get over your imposter syndrome? How did you guys stop giving a fuck about what others thought and just do what you do to excel? Thanks!
+",5,2,kabzthegang,2024-03-06 15:40:13,https://www.reddit.com/r/dataengineering/comments/1b82sdv/help_with_imposter_syndrome/,0,False,False,False,False,"Context: I graduated June 2021 from a good UC with a BS in Data Science, but took an opportunity as a contractor at MAANG to get some industry experience in Data Engineering.
+
+I’ve been working as a contractor here for about 2 years, yet I feel like my imposter syndrome is still something I’m struggling with. The title as a contractor also creates this negative perception of myself as well. At this point, I think it’s hindering my progress.
+
+Many of the FTE I’ve worked with have told me I have the skills to transfer to a full time position. I recently failed the full loop for transferring to a FTE. Consequently, this rejection adds to my imposter syndrome of not being enough.
+
+How did you guys get over your imposter syndrome? How did you guys stop giving a fuck about what others thought and just do what you do to excel? Thanks!
+"
+1b7k1yc,Survey questionnaire metadata industry format?,"I'm working for a small market research company and I'm trying to do some machine learning on survey data. Most of the data we get from clients is in bad shape and I need to be able to format it into a particular shape for this. I'm looking for a general metadata, machine readable format for survey questionnaires. There doesn't seem to be an industrial standard or even any attempts at one?
+
+The closest thing I've found is what [google forms exports](https://github.com/stevenschmatz/export-google-form), but this is very Google. I thought there would be an RDF schema but there is none (that I have found). Can't see anything from the W3C?
+
+Surely this is a ""good idea"" as it will allow the same survey to be taken on different platforms or reproduced at different times/places/ languages or even act as a description of the resulting data?
+
+Hoping that there is something I've missed...
+
+Update: Given the lackluster response I take it there is no such standard. Sooooo, do you want to join me in making one?",3,5,FMWizard,2024-03-05 23:22:31,https://www.reddit.com/r/dataengineering/comments/1b7k1yc/survey_questionnaire_metadata_industry_format/,1,False,False,False,False,"I'm working for a small market research company and I'm trying to do some machine learning on survey data. Most of the data we get from clients is in bad shape and I need to be able to format it into a particular shape for this. I'm looking for a general metadata, machine readable format for survey questionnaires. There doesn't seem to be an industrial standard or even any attempts at one?
+
+The closest thing I've found is what [google forms exports](https://github.com/stevenschmatz/export-google-form), but this is very Google. I thought there would be an RDF schema but there is none (that I have found). Can't see anything from the W3C?
+
+Surely this is a ""good idea"" as it will allow the same survey to be taken on different platforms or reproduced at different times/places/ languages or even act as a description of the resulting data?
+
+Hoping that there is something I've missed...
+
+Update: Given the lackluster response I take it there is no such standard. Sooooo, do you want to join me in making one?"
+1b81nx5,Expose data from S3,"Hello everyone,
+
+we have data stored in an S3 bucket in the form of raw CSV files. Adobe is currently accessing this data directly from the S3 bucket. However, these files contain sensitive information. I’m exploring options to ensure that we maintain ownership of the data while allowing Adobe to access it securely.
+
+Any suggestions or use cases or right way to get this done propely . We are having mulitple third parties using the data not only adobe. Just asking what are my options here please help.",2,4,priyasweety1,2024-03-06 14:54:23,https://www.reddit.com/r/dataengineering/comments/1b81nx5/expose_data_from_s3/,0,False,False,False,False,"Hello everyone,
+
+we have data stored in an S3 bucket in the form of raw CSV files. Adobe is currently accessing this data directly from the S3 bucket. However, these files contain sensitive information. I’m exploring options to ensure that we maintain ownership of the data while allowing Adobe to access it securely.
+
+Any suggestions or use cases or right way to get this done propely . We are having mulitple third parties using the data not only adobe. Just asking what are my options here please help."
+1b81nob,What do you think about Oxia: a new high-performant metadata store?,"**Disclaimer:** I'm NOT a StreamNative employee, but recently became an Apache Pulsar committer.
+
+Oxia is a new metadata store and coordination system similar to Zookeeper or Etcd. But in comparison with the others, it can store 100s of GBs of data and can handle millions of reads and writes per second.
+
+Oxia GitHub repository: [https://github.com/streamnative/oxia](https://github.com/streamnative/oxia)
+
+It's licensed under Apache License 2.0.
+
+The Java client has been just open-sourced. Here is a blog post: [https://streamnative.io/blog/the-oxia-java-client-library-is-now-open-source](https://streamnative.io/blog/the-oxia-java-client-library-is-now-open-source)
+
+Oxia is already integrated with Pulsar but isn't a default option yet. Folks from StreamNative claim that they used it in the cloud for a few months without any problems.
+
+I didn't see any independent benchmarks yet, therefore I can't validate the performance and stability claims. Probably this post may change it and attract engineers who are interested in trying Oxia for their projects and publicly share the results.
+
+I understand that it may be not a very interesting topic for many data engineers, but it may be interesting for engineers who build distributed systems FOR data engineers.  
+I would highly value hearing your thoughts on the project.",2,2,visortelle,2024-03-06 14:54:07,https://www.reddit.com/r/dataengineering/comments/1b81nob/what_do_you_think_about_oxia_a_new_highperformant/,1,False,False,False,False,"**Disclaimer:** I'm NOT a StreamNative employee, but recently became an Apache Pulsar committer.
+
+Oxia is a new metadata store and coordination system similar to Zookeeper or Etcd. But in comparison with the others, it can store 100s of GBs of data and can handle millions of reads and writes per second.
+
+Oxia GitHub repository: [https://github.com/streamnative/oxia](https://github.com/streamnative/oxia)
+
+It's licensed under Apache License 2.0.
+
+The Java client has been just open-sourced. Here is a blog post: [https://streamnative.io/blog/the-oxia-java-client-library-is-now-open-source](https://streamnative.io/blog/the-oxia-java-client-library-is-now-open-source)
+
+Oxia is already integrated with Pulsar but isn't a default option yet. Folks from StreamNative claim that they used it in the cloud for a few months without any problems.
+
+I didn't see any independent benchmarks yet, therefore I can't validate the performance and stability claims. Probably this post may change it and attract engineers who are interested in trying Oxia for their projects and publicly share the results.
+
+I understand that it may be not a very interesting topic for many data engineers, but it may be interesting for engineers who build distributed systems FOR data engineers.  
+I would highly value hearing your thoughts on the project."
+1b7vmpd,Need suggestions on using Athena ,"Hi,
+I have parquet files arriving at S3 regularly. So I created folder structure as root/yyyy/mm/dd/ and in the day I have multiple small parquet files.
+The parquet file contain time series data.
+I want to generate a histogram in grafana for one of the columns.  How can efficiently achieve this. I cannot use grafana histogram plot because it requires all the rows. 
+For couple of days it's fine. But when I want to calculate over multiple months I get timeout error. And even in Athena it takes more than a minute to calculate the buckets and counts. What I was thinking is to use ctas command to create a table with  statistics for each column and insert or update the fields every day with stats from new data. Is this the correct approach?",2,1,nanosuituser,2024-03-06 09:31:40,https://www.reddit.com/r/dataengineering/comments/1b7vmpd/need_suggestions_on_using_athena/,1,False,False,False,False,"Hi,
+I have parquet files arriving at S3 regularly. So I created folder structure as root/yyyy/mm/dd/ and in the day I have multiple small parquet files.
+The parquet file contain time series data.
+I want to generate a histogram in grafana for one of the columns.  How can efficiently achieve this. I cannot use grafana histogram plot because it requires all the rows. 
+For couple of days it's fine. But when I want to calculate over multiple months I get timeout error. And even in Athena it takes more than a minute to calculate the buckets and counts. What I was thinking is to use ctas command to create a table with  statistics for each column and insert or update the fields every day with stats from new data. Is this the correct approach?"
+1b7oap5,Team meeting demo topics,"On your data team, if you were to implement a weekly meeting to demo new tools or techniques, what are some of the things you would want to see?",2,1,curiosickly,2024-03-06 02:32:58,https://www.reddit.com/r/dataengineering/comments/1b7oap5/team_meeting_demo_topics/,1,False,False,False,False,"On your data team, if you were to implement a weekly meeting to demo new tools or techniques, what are some of the things you would want to see?"
+1b7juwd,Data format translation tools,"I’m curious what people use for translating various data formats. My team has been using gdal (python bindings) converting spatial (shapefile, geodabase) and non-spatial data (csv, json, excel). we are currently exploring other tools that could perform a similar function and that:
+
+1) has more readable code
+2) work with wide variety of data formats
+3) performant 
+
+",2,3,sashathecrimean,2024-03-05 23:14:33,https://www.reddit.com/r/dataengineering/comments/1b7juwd/data_format_translation_tools/,1,False,False,False,False,"I’m curious what people use for translating various data formats. My team has been using gdal (python bindings) converting spatial (shapefile, geodabase) and non-spatial data (csv, json, excel). we are currently exploring other tools that could perform a similar function and that:
+
+1) has more readable code
+2) work with wide variety of data formats
+3) performant 
+
+"
+1b7i2u5,Question on architecting data solutions for newbie,"I am a new BA (have always been more IT-adjacent and hobbyist programmer) in a company with a very immature IT department and no data warehousing. 
+
+What are some ways in which I can build applications for the team/department level that can utilize the stability of databases and move us away from running operations via Excel. Are there best practices or standard toolkits that I should look towards when building solutions?
+
+From a cursory search I saw that Docker + Python + Postgres may be an approach to consider, but as this is my first foray I wasn't sure if that is overengineering or even a standard approach, and didn't know whether there is a simpler tech stack that might be more business friendly / stable / easy to maintain.
+
+&#x200B;
+
+&#x200B;",2,2,YoghurtDangerous893,2024-03-05 22:04:23,https://www.reddit.com/r/dataengineering/comments/1b7i2u5/question_on_architecting_data_solutions_for_newbie/,0,False,False,False,False,"I am a new BA (have always been more IT-adjacent and hobbyist programmer) in a company with a very immature IT department and no data warehousing. 
+
+What are some ways in which I can build applications for the team/department level that can utilize the stability of databases and move us away from running operations via Excel. Are there best practices or standard toolkits that I should look towards when building solutions?
+
+From a cursory search I saw that Docker + Python + Postgres may be an approach to consider, but as this is my first foray I wasn't sure if that is overengineering or even a standard approach, and didn't know whether there is a simpler tech stack that might be more business friendly / stable / easy to maintain.
+
+&#x200B;
+
+&#x200B;"
+1b7d4qw,How to Grab Keys of a Nested Dictionary in a Pyspark Column? Put Them as Values in New Column?,"I have a pyspark dataframe that has a column with values in this format (read.json on json files):
+
+{50:{""A"":3, ""B"":2}, 60:{""A"":6, ""B"":5}} (This field is a StructField with StructTypes)
+
+I have been trying to figure out how to get the data into this format:
+
+Columns: |value|A|B|
+
+|\[50,60\]|\[3,2\]|\[2,5\]|
+
+This is my immediate issue, but to those who are interested in even more of a challenge I actually have two columns with nested dictionaries:
+
+column1| column2
+
+{50: {""A"":3, ""B"":2}, 60:{""A"":6, ""B"":5}} | {""value"": 16:{certain\_info1: 16}, ""value"": 60 : {certain\_info1: 42}}
+
+my ultimate goal is to have the data in this format
+
+Columns: |value|A|B|certain\_info1|
+
+|60|6|5|42|
+
+To be clear, the ""value"" info is not in the same order in the two columns, and the ""value"" info is not a key but the value TO a key in the second column.
+
+I have been banging my head on this all day. Would love some advice or help. Thanks!",2,9,datatastic08200,2024-03-05 18:50:56,https://www.reddit.com/r/dataengineering/comments/1b7d4qw/how_to_grab_keys_of_a_nested_dictionary_in_a/,1,False,False,False,False,"I have a pyspark dataframe that has a column with values in this format (read.json on json files):
+
+{50:{""A"":3, ""B"":2}, 60:{""A"":6, ""B"":5}} (This field is a StructField with StructTypes)
+
+I have been trying to figure out how to get the data into this format:
+
+Columns: |value|A|B|
+
+|\[50,60\]|\[3,2\]|\[2,5\]|
+
+This is my immediate issue, but to those who are interested in even more of a challenge I actually have two columns with nested dictionaries:
+
+column1| column2
+
+{50: {""A"":3, ""B"":2}, 60:{""A"":6, ""B"":5}} | {""value"": 16:{certain\_info1: 16}, ""value"": 60 : {certain\_info1: 42}}
+
+my ultimate goal is to have the data in this format
+
+Columns: |value|A|B|certain\_info1|
+
+|60|6|5|42|
+
+To be clear, the ""value"" info is not in the same order in the two columns, and the ""value"" info is not a key but the value TO a key in the second column.
+
+I have been banging my head on this all day. Would love some advice or help. Thanks!"
+1b86dyj,Parallelize Tasks execution in Airflow," Hi everyone! I hope you're all doing well.
+
+I'm working on a pipeline to scrape data from SofaScore. On average, I'll need to scrape 36 matches daily, requiring 72 total requests (two per match – one for statistics and one for highlights). To optimize this process, I'd like to parallelize the DAG execution.
+
+Could you advise on the best practices for this? Should I define a task for each match, or create two separate DAGs (one for statistics and one for highlights) and trigger them both for each match?",1,0,Ordinary_Run_2513,2024-03-06 17:58:46,https://www.reddit.com/r/dataengineering/comments/1b86dyj/parallelize_tasks_execution_in_airflow/,1,False,False,False,False," Hi everyone! I hope you're all doing well.
+
+I'm working on a pipeline to scrape data from SofaScore. On average, I'll need to scrape 36 matches daily, requiring 72 total requests (two per match – one for statistics and one for highlights). To optimize this process, I'd like to parallelize the DAG execution.
+
+Could you advise on the best practices for this? Should I define a task for each match, or create two separate DAGs (one for statistics and one for highlights) and trigger them both for each match?"
+1b8657k,Concerns About the Future of My Position,"Over the past year or two I've set up a postgres product database for a small-medium sized business that I work for from scratch (and with no previous experience). On top of this, I've streamlined several very manual and time consuming jobs, originally in VBA but now more in Python. As I've progressed I've become increasingly anxious about the fact that I'm the only one who knows how our systems work, and given that I plan to leave the company within the next 5 years, that I'm carving out job requirements that will render my replacement too expensive for the company. How common are roles within the industry that require skills like SQL and Python (plus a bit of PL/pgSQL and VBA) that pay something like £30000-40000 a year? And what are some best practices or considerations that I can put in place to future-proof my job role for after I've left?
+
+To provide a bit more detail for my responsibilities, I have set up and I maintain a database full of our product data. This database is mostly queried for different formats of product data and pricing to share with customers. I'm also currently working on a Python project to maintain product-file associations and aid in managing product files (keeping directories clean, making sure naming conventions are followed, etc.). I would like to implement some further systems to maintain data quality across different platforms (eCommerce, finance systems, stock control systems, etc.). I would also like to make editing our product data easy for non-technical staff, as currently all updates are done through me using pgadmin. Lastly I would like to document how all of our systems interact as a whole, as currently everything is divided between our IT supplier, an in-house IT guy, external contractors who code systems for us, and me. Everything is currently glued together in a very ad-hoc fashion.
+
+I've taught myself all the skills I've used above as I've gone, but I'm still very inexperienced and so would really appreciate any guidance as to what kinds of technologies, practices and skills are appropriate for small-medium sized businesses, as well as if there is any standard procedure I should follow to identify business needs and communicate these to future employees, as I really don't want to leave an expensive mess behind that only I know how to operate.",1,0,Patrick_Gently,2024-03-06 17:49:11,https://www.reddit.com/r/dataengineering/comments/1b8657k/concerns_about_the_future_of_my_position/,1,False,False,False,False,"Over the past year or two I've set up a postgres product database for a small-medium sized business that I work for from scratch (and with no previous experience). On top of this, I've streamlined several very manual and time consuming jobs, originally in VBA but now more in Python. As I've progressed I've become increasingly anxious about the fact that I'm the only one who knows how our systems work, and given that I plan to leave the company within the next 5 years, that I'm carving out job requirements that will render my replacement too expensive for the company. How common are roles within the industry that require skills like SQL and Python (plus a bit of PL/pgSQL and VBA) that pay something like £30000-40000 a year? And what are some best practices or considerations that I can put in place to future-proof my job role for after I've left?
+
+To provide a bit more detail for my responsibilities, I have set up and I maintain a database full of our product data. This database is mostly queried for different formats of product data and pricing to share with customers. I'm also currently working on a Python project to maintain product-file associations and aid in managing product files (keeping directories clean, making sure naming conventions are followed, etc.). I would like to implement some further systems to maintain data quality across different platforms (eCommerce, finance systems, stock control systems, etc.). I would also like to make editing our product data easy for non-technical staff, as currently all updates are done through me using pgadmin. Lastly I would like to document how all of our systems interact as a whole, as currently everything is divided between our IT supplier, an in-house IT guy, external contractors who code systems for us, and me. Everything is currently glued together in a very ad-hoc fashion.
+
+I've taught myself all the skills I've used above as I've gone, but I'm still very inexperienced and so would really appreciate any guidance as to what kinds of technologies, practices and skills are appropriate for small-medium sized businesses, as well as if there is any standard procedure I should follow to identify business needs and communicate these to future employees, as I really don't want to leave an expensive mess behind that only I know how to operate."
+1b864dd,Blind75 for DE system design?,"Do we have any resources to prepare for DE system design where a list covers most design, architectural patterns ?
+
+If not, is anyone interested in building one ?",1,1,Jealous-Bat-7812,2024-03-06 17:48:17,https://www.reddit.com/r/dataengineering/comments/1b864dd/blind75_for_de_system_design/,1,False,False,False,False,"Do we have any resources to prepare for DE system design where a list covers most design, architectural patterns ?
+
+If not, is anyone interested in building one ?"
+1b85yc5,"Are there any use cases for Scala over Python, using Spark with the DataFrame API?","Most of the work at my job is focused around a web scrapping | ETL | ML pipeline, where almost everything is implemented in PySpark, using DataFrames. I've recently started learning Scala for my masters. My feeling is that I should be able to significantly improve the performance of some kind of processes by migrating to Scala, but I don't know what to look for. 
+
+My guess is that any code that makes a significant use of udfs could use a migration. Does anyone have any specific benchmark numbers on this? Do you know of any other use cases, apart from this?",1,5,sepes_15,2024-03-06 17:41:52,https://www.reddit.com/r/dataengineering/comments/1b85yc5/are_there_any_use_cases_for_scala_over_python/,1,False,False,False,False,"Most of the work at my job is focused around a web scrapping | ETL | ML pipeline, where almost everything is implemented in PySpark, using DataFrames. I've recently started learning Scala for my masters. My feeling is that I should be able to significantly improve the performance of some kind of processes by migrating to Scala, but I don't know what to look for. 
+
+My guess is that any code that makes a significant use of udfs could use a migration. Does anyone have any specific benchmark numbers on this? Do you know of any other use cases, apart from this?"
+1b85ecm,Transitioning to Data Engineering ,"Is there anyone out there who was working in completely different domain such as some support project with 2.5+years of experience and with no skills similar to Data Engineering and who still managed to transition to Data Engineering. 
+
+Looking for some guidance. Thanks in advance",1,1,iamDjsahu,2024-03-06 17:20:48,https://www.reddit.com/r/dataengineering/comments/1b85ecm/transitioning_to_data_engineering/,1,False,False,False,False,"Is there anyone out there who was working in completely different domain such as some support project with 2.5+years of experience and with no skills similar to Data Engineering and who still managed to transition to Data Engineering. 
+
+Looking for some guidance. Thanks in advance"
+1b85aca,Manage ELT pipelines with code using Terraform’s Airbyte provider,,1,1,JanethL,2024-03-06 17:16:51,https://medium.com/teradata/manage-elt-pipelines-with-code-using-terraforms-airbyte-provider-e79378fdf127,0,False,False,False,False,
+1b84xj4,Do I need prior experience to be  a Data Engineer?,"Hello yall. I’m 16 years old I go to a Vocational High School. I’m currently in the I.T shop and I’ve been interested in Data Engineering. It seems pretty interesting and new. Data is very cool to me. I researched it some more that data engineer is a non entry level job. Is that true? Do you need to be a data analyst, data scientist prior to becoming a data engineer? Or can you get a degree in data and become one right out of college? ",2,9,Forzahorizonguy,2024-03-06 17:03:30,https://www.reddit.com/r/dataengineering/comments/1b84xj4/do_i_need_prior_experience_to_be_a_data_engineer/,0,False,False,False,False,"Hello yall. I’m 16 years old I go to a Vocational High School. I’m currently in the I.T shop and I’ve been interested in Data Engineering. It seems pretty interesting and new. Data is very cool to me. I researched it some more that data engineer is a non entry level job. Is that true? Do you need to be a data analyst, data scientist prior to becoming a data engineer? Or can you get a degree in data and become one right out of college? "
+1b839io,Parsing dbt's manifest.json for DWH Logging?,"hi r/dataengineering
+
+I'm looking for advice on parsing dbt's manifest.json and logging the extracted metadata into our data warehouse for monitoring purposes. The use case is that we'd build some kind power BI report to visualize all our models and tests. we've already done that with run\_results.json which we parse via  
+an run-on-end hook with macros. We need manifest.json because it contains tags which we'd like to vusalize in our monitoring dashboard. We attempted to use the same logic with manifest (use hooks to call macros), but from my understanding, you cannot directly parse the manifest within 'on-run-end' hooks. I know that some of the information i'm looking for will already be visualized within the dbt docs, but not under the format we would like it to be. 
+
+Has anyone done something similar with parsing the manifest? How did you approach it? I'm thinking of some kind of Python script to just parse the json into a lakehouse/warehouse and then join it with the run\_results via the invocation ID + result\_id? Using python scripts does feel anti dbt tough..
+
+Context: we're calling dbt via bash commands in fabric notebooks.
+
+",1,2,Jeannetton,2024-03-06 15:59:20,https://www.reddit.com/r/dataengineering/comments/1b839io/parsing_dbts_manifestjson_for_dwh_logging/,1,False,False,False,False,"hi r/dataengineering
+
+I'm looking for advice on parsing dbt's manifest.json and logging the extracted metadata into our data warehouse for monitoring purposes. The use case is that we'd build some kind power BI report to visualize all our models and tests. we've already done that with run\_results.json which we parse via  
+an run-on-end hook with macros. We need manifest.json because it contains tags which we'd like to vusalize in our monitoring dashboard. We attempted to use the same logic with manifest (use hooks to call macros), but from my understanding, you cannot directly parse the manifest within 'on-run-end' hooks. I know that some of the information i'm looking for will already be visualized within the dbt docs, but not under the format we would like it to be. 
+
+Has anyone done something similar with parsing the manifest? How did you approach it? I'm thinking of some kind of Python script to just parse the json into a lakehouse/warehouse and then join it with the run\_results via the invocation ID + result\_id? Using python scripts does feel anti dbt tough..
+
+Context: we're calling dbt via bash commands in fabric notebooks.
+
+"
+1b81qqc,Best practice how to create and maintain custom roles in Azure?,"Hi y'all,  
+
+
+Is there a best practice how to create custom roles in azure? Or better how to choose from thousands of grants and making sure the custom role contains exactly what it needs - not to much and not to less?  
+Or is everyone just reusing/combining built-in roles?
+
+Details and background:
+
+We, a smol team of data engineers, are doing our first steps in setting up our azure platform, currently.  
+We created a pipeline with Azure DevOps and can create resources via Terraform.  
+
+
+So far so good, but now we realized we want to create multiple resource groups in the future. And setting up devops service principle on a higher level -> on the management group level is not working because Terraform has n open enhancement that stops us, see here:   
+[https://github.com/microsoft/azure-pipelines-terraform/issues/81](https://github.com/microsoft/azure-pipelines-terraform/issues/81)
+
+Now we are thinking of implementing the mentioned workaround in Git Hub, for which we need to create a custom role. And that leads me back to my opening question.  
+
+
+Furthermore, we are concerned that creating these custom roles might cause n endless debugging loop in the future as MS loves to change and rename things, or add new stuff. And from one day to another your application/pipeline is offline and you start researching which role needs adaption or addition.",1,1,hansguckdieluft,2024-03-06 14:57:40,https://www.reddit.com/r/dataengineering/comments/1b81qqc/best_practice_how_to_create_and_maintain_custom/,1,False,False,False,False,"Hi y'all,  
+
+
+Is there a best practice how to create custom roles in azure? Or better how to choose from thousands of grants and making sure the custom role contains exactly what it needs - not to much and not to less?  
+Or is everyone just reusing/combining built-in roles?
+
+Details and background:
+
+We, a smol team of data engineers, are doing our first steps in setting up our azure platform, currently.  
+We created a pipeline with Azure DevOps and can create resources via Terraform.  
+
+
+So far so good, but now we realized we want to create multiple resource groups in the future. And setting up devops service principle on a higher level -> on the management group level is not working because Terraform has n open enhancement that stops us, see here:   
+[https://github.com/microsoft/azure-pipelines-terraform/issues/81](https://github.com/microsoft/azure-pipelines-terraform/issues/81)
+
+Now we are thinking of implementing the mentioned workaround in Git Hub, for which we need to create a custom role. And that leads me back to my opening question.  
+
+
+Furthermore, we are concerned that creating these custom roles might cause n endless debugging loop in the future as MS loves to change and rename things, or add new stuff. And from one day to another your application/pipeline is offline and you start researching which role needs adaption or addition."
+1b7x543,Data Engineering Solution,"So, I'm working on my thesis, and the problem is integrating diverse Big data (mainly JSON) from multiple providers effectively. My goal is to develop and process a versatile ETL Framework that integrates and handles diverse data formats. I have a Postgres database with the ideal output format that the input file has to be transformed in. I have a table with global rules, mainly regex expressions, to apply to every file. I have a providers table with the names of the providers that I receive, and the last table is the providers\_rules that have a provider\_id associated, the id of the attribute of the input file, and the id of the attribute of the output that corresponds to a match.   
+Example: I want to tell my framework that the [`event.4314985.id`](https://event.4314985.id) from input\_file corresponds to [`data.id`](https://data.id) in the output file.   
+The problem is, when the attributes aren't in the same depth, how can I do this matching?   
+PS: I'm using Python and Streamlit (for now)",1,0,SnooPeripherals1683,2024-03-06 11:11:27,https://www.reddit.com/r/dataengineering/comments/1b7x543/data_engineering_solution/,1,False,False,False,False,"So, I'm working on my thesis, and the problem is integrating diverse Big data (mainly JSON) from multiple providers effectively. My goal is to develop and process a versatile ETL Framework that integrates and handles diverse data formats. I have a Postgres database with the ideal output format that the input file has to be transformed in. I have a table with global rules, mainly regex expressions, to apply to every file. I have a providers table with the names of the providers that I receive, and the last table is the providers\_rules that have a provider\_id associated, the id of the attribute of the input file, and the id of the attribute of the output that corresponds to a match.   
+Example: I want to tell my framework that the [`event.4314985.id`](https://event.4314985.id) from input\_file corresponds to [`data.id`](https://data.id) in the output file.   
+The problem is, when the attributes aren't in the same depth, how can I do this matching?   
+PS: I'm using Python and Streamlit (for now)"
+1b7l586,Help me transform my company data stack,"I've worked at a small startup for a couple of years as a data analyst, though I have a background in data science and software engineering. I want to completely transform the data stack at my company as the current system is haphazard and causes a lot of overhead and operational issues. However, I often feel overwhelmed and don't feel like I have enough knowledge or experience to go about this properly (I am the only data analyst, and have no similar experience in such a digital transformation). 
+
+Let me break it down into a few details.
+
+My company is an urban research consultancy. They collect data in the form of surveys which contain respondent demographic information, and scores given by respondents to aspects of a neighbourhood. When data collection for a project is complete, a CSV file is extracted from the survey platform, the data is cleaned (more on that later), and some R scripts are run on the clean data to produce a JSON file with all the insights needed to make a report. 
+
+For some of these JSON files (i.e for type 1 reports):
+
+This JSON file is then paired with an existing InDesign template, and some JavaScript (Adobe ExtendScript) runs to produce a report with the data integrated into it. 
+
+For some other of these JSON files (i.e for type 2 reports):
+
+The JSON file is loaded into a web platform built using VueJS. This then creates an online report that is interactive, supports drilling down by several dimensions and looks quite spiffy if i might say so. The catch? All values are precalculated into the JSON - the web based report is completely static and could run offline. No calls to any API are made in the report. This results in minified JSON files being upto 21Mb's each, not to mention the whole thing being rather inflexible and tightly coupled. 
+
+At the end of each month, we take data collected during the month and append it to an Excel file which contains all our data (Let's call that AllData). Sometimes we want to run bespoke reports on data from AllData on some XYZ dimensions with ABC filters. I then have to manually go, snip out that data from the Excel file and paste it as a CSV before writing my R code on it. I know there has to be a better way.
+
+I promised more on the data cleaning. It consists of some or all of the following:
+
+1. Removing and/or renaming columns until the schema matches that of the AllData - this is because our scripts recognise the AllData schema, and because the ultimate destination of this data will be the AllData file. This part is easy.
+2. Flagging and/or removing dirty records. This part is somewhat tricky. We eyeball responses that we feel might not be honest or well thought out. These could be where all/most scores are similar, some columns contradict each other etc. 
+3. Flagging and/or removing spam. This is the trickiest. Spam records may look like legit responses but often we recognise them as coming in batches, so I can recognise and eliminate a batch of spam records with some shared characteristic, rather than 1 spam record by itself, if that makes sense. Sometimes individual spam records do give themselves away with characteristics like email address (optional) and name (also optional) being completely and laughably different, or open ended answers (also optional) being extremely vague and unrelated to the question.
+
+What I want to ultimately pull off is some kind of RDBMS in to which our responses are collected. I also want to build an ETL/ELT process that runs monthly - or on trigger, performs all data cleaning and builds some kind of a data warehouse from which all our reports can be based - whether from InDesign, or from our SaaS - which would be fetching data in real time via a RESTful interface.
+
+I think i've just blurbed out a whole bunch here - will add more details later. Does anyone have any thoughts that come to mind?",1,3,ColdMango7786,2024-03-06 00:09:26,https://www.reddit.com/r/dataengineering/comments/1b7l586/help_me_transform_my_company_data_stack/,0,False,False,False,False,"I've worked at a small startup for a couple of years as a data analyst, though I have a background in data science and software engineering. I want to completely transform the data stack at my company as the current system is haphazard and causes a lot of overhead and operational issues. However, I often feel overwhelmed and don't feel like I have enough knowledge or experience to go about this properly (I am the only data analyst, and have no similar experience in such a digital transformation). 
+
+Let me break it down into a few details.
+
+My company is an urban research consultancy. They collect data in the form of surveys which contain respondent demographic information, and scores given by respondents to aspects of a neighbourhood. When data collection for a project is complete, a CSV file is extracted from the survey platform, the data is cleaned (more on that later), and some R scripts are run on the clean data to produce a JSON file with all the insights needed to make a report. 
+
+For some of these JSON files (i.e for type 1 reports):
+
+This JSON file is then paired with an existing InDesign template, and some JavaScript (Adobe ExtendScript) runs to produce a report with the data integrated into it. 
+
+For some other of these JSON files (i.e for type 2 reports):
+
+The JSON file is loaded into a web platform built using VueJS. This then creates an online report that is interactive, supports drilling down by several dimensions and looks quite spiffy if i might say so. The catch? All values are precalculated into the JSON - the web based report is completely static and could run offline. No calls to any API are made in the report. This results in minified JSON files being upto 21Mb's each, not to mention the whole thing being rather inflexible and tightly coupled. 
+
+At the end of each month, we take data collected during the month and append it to an Excel file which contains all our data (Let's call that AllData). Sometimes we want to run bespoke reports on data from AllData on some XYZ dimensions with ABC filters. I then have to manually go, snip out that data from the Excel file and paste it as a CSV before writing my R code on it. I know there has to be a better way.
+
+I promised more on the data cleaning. It consists of some or all of the following:
+
+1. Removing and/or renaming columns until the schema matches that of the AllData - this is because our scripts recognise the AllData schema, and because the ultimate destination of this data will be the AllData file. This part is easy.
+2. Flagging and/or removing dirty records. This part is somewhat tricky. We eyeball responses that we feel might not be honest or well thought out. These could be where all/most scores are similar, some columns contradict each other etc. 
+3. Flagging and/or removing spam. This is the trickiest. Spam records may look like legit responses but often we recognise them as coming in batches, so I can recognise and eliminate a batch of spam records with some shared characteristic, rather than 1 spam record by itself, if that makes sense. Sometimes individual spam records do give themselves away with characteristics like email address (optional) and name (also optional) being completely and laughably different, or open ended answers (also optional) being extremely vague and unrelated to the question.
+
+What I want to ultimately pull off is some kind of RDBMS in to which our responses are collected. I also want to build an ETL/ELT process that runs monthly - or on trigger, performs all data cleaning and builds some kind of a data warehouse from which all our reports can be based - whether from InDesign, or from our SaaS - which would be fetching data in real time via a RESTful interface.
+
+I think i've just blurbed out a whole bunch here - will add more details later. Does anyone have any thoughts that come to mind?"
+1b7k784,Anyone transitioned from Project Management to DE successfully?,"Hi folks,
+
+My current position is project coordinator, which mainly focuses on administrative tasks, such as reporting, budgets, forecasts etc.
+
+How smooth would it be, if I make a transition into DE, within the same organization? Do these two have some overlaps? Any advice will be appreciated. Thanks in advance.",1,3,Vw-Bee5498,2024-03-05 23:28:40,https://www.reddit.com/r/dataengineering/comments/1b7k784/anyone_transitioned_from_project_management_to_de/,1,False,False,False,False,"Hi folks,
+
+My current position is project coordinator, which mainly focuses on administrative tasks, such as reporting, budgets, forecasts etc.
+
+How smooth would it be, if I make a transition into DE, within the same organization? Do these two have some overlaps? Any advice will be appreciated. Thanks in advance."
+1b7exqa,Running serverless ML with Knative And Ceph,,1,0,Dave-at-Koor,2024-03-05 20:01:35,https://blog.koor.tech/blog/2024/machine-learning-storage/,1,False,False,False,False,
+1b7ew2v,Databricks Data Engineer Associate,Curious how difficult it is to pass this without any databricks experience at all? How many hours would be needed to put in to pass?,1,0,Much_Cherry_1347,2024-03-05 20:00:03,https://www.reddit.com/r/dataengineering/comments/1b7ew2v/databricks_data_engineer_associate/,0,False,False,False,False,Curious how difficult it is to pass this without any databricks experience at all? How many hours would be needed to put in to pass?
+1b7ze88,What would make your life easier?,"Testing around some ideas for a project, happy to get your feedback
+
+[View Poll](https://www.reddit.com/poll/1b7ze88)",0,2,razkaplan,2024-03-06 13:14:27,https://www.reddit.com/r/dataengineering/comments/1b7ze88/what_would_make_your_life_easier/,0,False,False,False,False,"Testing around some ideas for a project, happy to get your feedback
+
+[View Poll](https://www.reddit.com/poll/1b7ze88)"
+1b7fi8b,A Community for Event-Driven Analytics,"Hey everyone, I've built a community for data people to discuss/discover the power of event data applied across multiple industries!
+
+&#x200B;
+
+Check it out, it's absolutely free:  
+[https://join.slack.com/t/mavisaicommunity/shared\_invite/zt-2dglnb8if-H8YsIpK1feO81WV30JnmxQ](https://join.slack.com/t/mavisaicommunity/shared_invite/zt-2dglnb8if-H8YsIpK1feO81WV30JnmxQ) ",0,1,Icy_Rooster_2217,2024-03-05 20:23:59,https://www.reddit.com/r/dataengineering/comments/1b7fi8b/a_community_for_eventdriven_analytics/,0,False,False,False,False,"Hey everyone, I've built a community for data people to discuss/discover the power of event data applied across multiple industries!
+
+&#x200B;
+
+Check it out, it's absolutely free:  
+[https://join.slack.com/t/mavisaicommunity/shared\_invite/zt-2dglnb8if-H8YsIpK1feO81WV30JnmxQ](https://join.slack.com/t/mavisaicommunity/shared_invite/zt-2dglnb8if-H8YsIpK1feO81WV30JnmxQ) "
