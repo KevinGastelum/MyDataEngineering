@@ -92,6 +92,8 @@ Create an EC2 instance with access to your S3 bucket - https://repost.aws/knowle
 
 Trigger the Airflow DAG to pull data from the Reddit API and make sure your Reddit data is being stored in your S3 bucket (see example below)
 
+### AWS EC2 instance and S3 storage bucket
+
 <img src="images\EC2--S3.png">
 
 ### AWS Glue Script
