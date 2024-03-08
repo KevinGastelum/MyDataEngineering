@@ -98,7 +98,7 @@ Trigger the Airflow DAG to pull data from the Reddit API and make sure your Redd
 
 ### AWS Glue Setup with AWS Athena
 
-Set up AWS Glue to automatically discover when S3 bucket has new data and keep the catalog up to date.
+Set AWS Glue to automatically discover when S3 bucket has new data and keep the catalog up to date.
 
 <img src="images\AWS_glue.png">
 
