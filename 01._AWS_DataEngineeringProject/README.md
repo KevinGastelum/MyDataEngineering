@@ -136,6 +136,8 @@ AmazonS3_node1709844036570 = glueContext.write_dynamic_frame.from_options(frame=
 job.commit()
 ```
 
+Next set up a crawler to automatically discover when S3 bucket has new data and keep the catalog up to date.
+
 ### Athena to Query the S3 data
 
 ### Redshift
