@@ -98,7 +98,7 @@ Trigger the Airflow DAG to pull data from the Reddit API and make sure your Redd
 
 ### AWS Glue Setup
 
-Automize fetching and cleaning the data with AWS Glue
+Fetching and cleaning the data with AWS Glue
 
 ```python
 import sys
