@@ -142,7 +142,7 @@ job.commit()
 
 ### Using AWS Athena to Query data
 
-With the help of AWS Glue our data becomes easier to work with inside the AWS infrastructure, AWS Athena allows us to Query the data for DataWarehousing
+With the help of AWS Glue our data becomes easier to work with, AWS Athena allows us to Query the data for DataWarehousing
 <img src="images\aws_athena.png">
 
 ### Redshift for a robust Data Warehousing
