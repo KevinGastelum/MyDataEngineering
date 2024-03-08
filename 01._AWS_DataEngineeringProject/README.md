@@ -142,9 +142,12 @@ job.commit()
 
 ### Athena to Query the data
 
-With the help of AWS Glue our data becomes easier to work with in AWS, allowing us to Query our data using AWS Athena
+With the help of AWS Glue our data becomes easier to work with inside AWS, allowing us to Query our data using AWS Athena
+<img src="images\aws_athena.png">
 
 ### Redshift for a robust Data Warehousing
+
+<img src="images\aws_redshift2.png">
 
 <!-- - Set up AWS (EC2, S3, Lambda, Glue, Athena)
   Set up Ec2 instance and s3 bucket for -->
