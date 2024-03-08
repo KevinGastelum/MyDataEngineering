@@ -102,7 +102,7 @@ Set up AWS Glue to automatically discover when S3 bucket has new data and keep t
 
 <img src="images\AWS_glue.png">
 
-Fetching and cleaning data from S3 bucket with AWS Glue:
+Script to Fetch and clean data from S3 bucket with AWS Glue:
 
 ```python
 import sys
