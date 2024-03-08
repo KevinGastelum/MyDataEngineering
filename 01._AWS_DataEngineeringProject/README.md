@@ -134,6 +134,10 @@ AmazonS3_node1709844036570 = glueContext.write_dynamic_frame.from_options(frame=
 job.commit()
 ```
 
+### Athena
+
+### Redshift
+
 <!-- - Set up AWS (EC2, S3, Lambda, Glue, Athena)
   Set up Ec2 instance and s3 bucket for -->
 
