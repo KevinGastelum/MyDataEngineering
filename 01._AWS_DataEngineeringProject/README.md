@@ -96,7 +96,9 @@ Trigger the Airflow DAG to pull data from the Reddit API and make sure your Redd
 
 <img src="images\EC2--S3.png">
 
-### AWS Glue Script
+### AWS Glue Setup
+
+Automize fetching and cleaning the data with AWS Glue
 
 ```python
 import sys
@@ -134,7 +136,7 @@ AmazonS3_node1709844036570 = glueContext.write_dynamic_frame.from_options(frame=
 job.commit()
 ```
 
-### Athena
+### Athena to Query the S3 data
 
 ### Redshift
 
