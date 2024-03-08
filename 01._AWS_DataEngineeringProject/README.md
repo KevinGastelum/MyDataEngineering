@@ -6,7 +6,7 @@
 - [Step 2](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#step-2---setting-up-environment-variables-credentials-and-api-keys) - Set up your environment variables, credentials and API keys
 - [Step 3](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#step-3---set-up-docker-to-run-apache-airflow-celery-redis-and-postgres-database) - Set up Docker in order to run Apache Airflow, Celery, and Postgres Database
 - [Step 4](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#step-4---set-up-aws-ec2-s3-lambda-glue-athena) - Set up AWS (EC2, S3, Lambda, Glue, Athena)
-- Step 5 - Ensure everything is running correctly
+- [Step 5](#redshift-for-a-robust-data-warehousing) - Ensure everything is running correctly
 
 ## Step 1 - Download project files to your local directory using Git
 
