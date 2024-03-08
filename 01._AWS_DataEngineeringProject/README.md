@@ -140,9 +140,11 @@ AmazonS3_node1709844036570 = glueContext.write_dynamic_frame.from_options(frame=
 job.commit()
 ```
 
-### Athena to Query the S3 data
+### Athena to Query the data
 
-### Redshift
+With the help of AWS Glue our data becomes easier to work with in AWS, allowing us to Query our data using AWS Athena
+
+### Redshift for a robust Data Warehousing
 
 <!-- - Set up AWS (EC2, S3, Lambda, Glue, Athena)
   Set up Ec2 instance and s3 bucket for -->
