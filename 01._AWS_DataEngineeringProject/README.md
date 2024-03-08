@@ -96,7 +96,7 @@ Trigger the Airflow DAG to pull data from the Reddit API and make sure your Redd
 
 <img src="images\EC2--S3.png">
 
-### AWS Glue Setup with AWS Athena
+### AWS Glue Setup
 
 Set AWS Glue to automatically discover when S3 bucket has new data and keep the catalog up to date.
 
@@ -140,9 +140,9 @@ AmazonS3_node1709844036570 = glueContext.write_dynamic_frame.from_options(frame=
 job.commit()
 ```
 
-### Athena to Query the data
+### Using AWS Athena to Query data
 
-With the help of AWS Glue our data becomes easier to work with inside AWS, allowing us to Query our data using AWS Athena
+With the help of AWS Glue our data becomes easier to work with inside the AWS infrastructure, AWS Athena allows us to Query the data for DataWarehousing
 <img src="images\aws_athena.png">
 
 ### Redshift for a robust Data Warehousing
