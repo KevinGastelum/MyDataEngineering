@@ -98,11 +98,7 @@ Trigger the Airflow DAG to pull data from the Reddit API and make sure your Redd
 
 ### AWS Glue Setup with AWS Athena
 
-Fetching the data from the S3 bucket with AWS Glue
-
-In order to work with the data stored in the S3 bucket we need to set up AWS Glue
-
-Set up a crawler to automatically discover new data and keep the catalog up to date
+Fetching and cleaning data from S3 bucket with AWS Glue:
 
 ```python
 import sys
