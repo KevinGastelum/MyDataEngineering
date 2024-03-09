@@ -1,5 +1,7 @@
 # AWS End to End Data Engineering Project
 
+The purpose of this pipeline is to automize fetching/scraping data from Reddit post, we will be using the Reddit API, Apache Airflow to trigger a task be run once a day, Docker to run everything in a containerized local environment, and Postgres SQL database to store the fetched data. After setting everything up locally we want this pipeline running on Cloud infrastructure to provide AWS Cloud infrastucture to have Data Warehousing using AWS S3, AWS Glue, AWS Athena, and AWS Redshift
+
 ### Steps to reproduce this Data Pipeline
 
 - [Step 1](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#step-1---download-project-files-to-your-local-directory-using-git) - Download projects files
