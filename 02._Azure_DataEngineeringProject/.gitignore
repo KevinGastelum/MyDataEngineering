@@ -50,4 +50,5 @@ dist/
 .eggs/
 pip-log.txt
 logs
+.idea
 
