@@ -12,6 +12,7 @@ env/
 .secret
 .vscode/
 config.ini
+*.conf
 
 # log files
 *.log
