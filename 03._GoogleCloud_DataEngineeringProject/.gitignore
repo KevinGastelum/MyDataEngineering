@@ -50,4 +50,5 @@ dist/
 *.egg-info/
 .eggs/
 pip-log.txt
+logs
 
