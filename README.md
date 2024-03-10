@@ -2,7 +2,7 @@
 
 ## Reddit real-time Data Extraction --> Data Warehousing --> Data Modeling --> Data Pipeline
 
-End to End AWS project to extract, transform, and load (ETL) real-time data from Reddit posts into a Redshift data warehouse. This pipeline integrates multiple technologies to ensure efficient data handling and storage.
+The purpose of this pipeline is to automize fetching/scraping data from Reddit post, we will be using the Reddit API, Apache Airflow to trigger tasks that run once a day, Docker to run everything in a containerized local environment, and SQL Postgres database to store the fetched data. After setting everything up locally we want this pipeline running on Cloud infrastructure which provides additional security, storage and processing capacity. I'll set up the pipeline using AWS to fully automate fetching, cleaning, and storing live data using AWS S3, AWS Lambda,AWS Glue, AWS Athena, and AWS Redshift.
 
 <img src="01._AWS_DataEngineeringProject\images\RedditDataEngineering-.png">
 
