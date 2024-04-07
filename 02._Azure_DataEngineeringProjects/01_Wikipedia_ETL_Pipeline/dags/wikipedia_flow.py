@@ -19,8 +19,8 @@ extract_data_from_wikipedia = PythonOperator(
   python_callable = get_wikipedia_page,
   provide_context = True,
   op_kwargs = {
-    'url': 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'
-  }
+    'url': 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'}
+    dag=dag,
 )
 
 # Preprocessing
