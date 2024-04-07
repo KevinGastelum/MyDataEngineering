@@ -2,6 +2,7 @@ from airflow import DAG
 from datetime import datetime
 
 from airflow.operators.python import PythonOperator
+from pipelines.wikipedia_pipeline import get_wikipedia_page
 
 dag = DAG(
   dag_id = 'wikipedia_flow',
