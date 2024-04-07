@@ -1,4 +1,4 @@
-# Azure Data Engineering (End to End) Pipelines
+# Azure Data Engineering Pipelines (End to End projects)
 
 | Project Name       |                                                              Description                                                              |                                                                       Services & Tools |
 | :----------------- | :-----------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------: |
