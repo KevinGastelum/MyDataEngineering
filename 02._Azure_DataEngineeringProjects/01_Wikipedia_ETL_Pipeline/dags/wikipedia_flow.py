@@ -11,7 +11,7 @@ dag = DAG(
   dag_id = 'wikipedia_flow',
   default_args={
     'owner': 'Kevin Gastelum',
-    'start_date': datetime(2024, 04, 06),
+    'start_date': datetime(2024, 4, 6),
   },
   schedule_interval = None,
   catchup = False
