@@ -2,9 +2,10 @@ from airflow import DAG
 from datetime import datetime
 import os
 import sys
-
 from airflow.operators.python import PythonOperator
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from pipelines.wikipedia_pipeline import get_wikipedia_page
+
 
 dag = DAG(
   dag_id = 'wikipedia_flow',

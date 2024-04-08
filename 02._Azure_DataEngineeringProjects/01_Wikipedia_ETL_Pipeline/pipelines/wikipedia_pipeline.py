@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 
 
 def get_wikipedia_page(url):
@@ -14,4 +15,9 @@ def get_wikipedia_page(url):
     print(f'An error ocurred: {e}')
 
 def get_wikipedia_data(html):
-  from bs4 import BeautifulSoup 
+  soup = BeautifulSoup(html, 'htnl.parser')
+  table = soup.find_all('table', {'class': 'wikitable sortable'})[0]
+
+  table_rows = table.find_all('tr')
+
+  return table
