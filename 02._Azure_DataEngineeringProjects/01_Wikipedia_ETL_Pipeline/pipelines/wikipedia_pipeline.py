@@ -12,3 +12,6 @@ def get_wikipedia_page(url):
     return response.text
   except requests.RequestException as e:
     print(f'An error ocurred: {e}')
+
+def get_wikipedia_data(html):
+  from bs4 import BeautifulSoup 
