@@ -1,5 +1,7 @@
 from airflow import DAG
 from datetime import datetime
+import os
+import sys
 
 from airflow.operators.python import PythonOperator
 from pipelines.wikipedia_pipeline import get_wikipedia_page
