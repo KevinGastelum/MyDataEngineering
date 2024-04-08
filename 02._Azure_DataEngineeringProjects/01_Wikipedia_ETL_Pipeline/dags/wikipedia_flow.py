@@ -10,7 +10,7 @@ dag = DAG(
     'owner': 'Kevin Gastelum',
     'start_date': datetime(2024, 04, 06),
   },
-  schedule_interval = None
+  schedule_interval = None,
   catchup = False
 )
 
