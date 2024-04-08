@@ -48,7 +48,7 @@ Flask-SQLAlchemy
 Flask-WTF
 frozenlist
 fsspec
-google-re
+google-re2
 googleapis-common-protos
 grpcio
 gunicorn
