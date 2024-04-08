@@ -20,4 +20,4 @@ def get_wikipedia_data(html):
 
   table_rows = table.find_all('tr')
 
-  return table
+  return table_rows
