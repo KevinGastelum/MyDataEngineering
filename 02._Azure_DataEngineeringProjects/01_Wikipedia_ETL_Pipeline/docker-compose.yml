@@ -3,8 +3,9 @@ version: '3'
 services:
   webserver:
     image: apache/airflow:2.6.0-python3.9
-    command: webserver
-    entrypoint: ['/opt/airflow/script/entrypoint.sh']
+    # command: webserver
+    command: bash -c "airflow db init && airflow webserver"
+    # entrypoint: ['/opt/airflow/script/entrypoint.sh']
     #    restart: always
     depends_on:
       - postgres
