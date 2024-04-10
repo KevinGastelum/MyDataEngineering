@@ -20,7 +20,7 @@ def get_wikipedia_data(html):
   # print(f"Found {len(tables)} tables")
 
   if len(tables) >= 2:
-    table_rows = tables[1].find_all('tr') # Table we want is in index pos 1
+    table_rows = tables[1].find_all('tr') # Table with our data is in index pos 1
     return table_rows
   return []
 
