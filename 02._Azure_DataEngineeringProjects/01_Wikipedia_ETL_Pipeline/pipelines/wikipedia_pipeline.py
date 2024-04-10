@@ -15,7 +15,7 @@ def get_wikipedia_page(url):
 
 def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
-  table = soup.select_one('table', {'table.wikitable.sortable.sticky-header.jquery-tablesorter'})
+  table = soup.select_one('table.wikitable')
 
   table_rows = table.find_all('tr')
 
@@ -29,4 +29,11 @@ def extract_wikipedia_data(**kwargs):
   print(rows)
 
 # print(get_wikipedia_page())
-# get_wikipedia_page('https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity')
+url = 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'
+
+html = get_wikipedia_page(url)
+
+rows = get_wikipedia_data(html)
+
+for row in rows:
+  print(row)
