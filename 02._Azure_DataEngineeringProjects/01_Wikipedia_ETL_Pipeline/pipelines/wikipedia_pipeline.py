@@ -17,10 +17,10 @@ def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
   tables = soup.find_all('table', class_='wikitable')
 
-  print(f"Found {len(tables)} tables")
+  # print(f"Found {len(tables)} tables")
 
   if len(tables) >= 2:
-    table_rows = tables[1].find_all('tr')
+    table_rows = tables[1].find_all('tr') # Table we want is in index pos 1
     return table_rows
   return []
 
@@ -32,12 +32,13 @@ def extract_wikipedia_data(**kwargs):
 
   print(rows)
 
+######## DEBUGGING ########
 # print(get_wikipedia_page())
-url = 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'
+# url = 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'
 
-html = get_wikipedia_page(url)
+# html = get_wikipedia_page(url)
 
-rows = get_wikipedia_data(html)
+# rows = get_wikipedia_data(html)
 
-for row in rows:
-  print(row)
+# for row in rows:
+#   print(row)
