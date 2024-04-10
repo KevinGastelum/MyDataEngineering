@@ -4,7 +4,7 @@ import os
 import sys
 from airflow.operators.python import PythonOperator
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from pipelines.wikipedia_pipeline import extract_wikipedia_data
+from pipelines.wikipedia_pipeline import extract_wikipedia_data, get_wikipedia_page
 
 
 dag = DAG(
@@ -25,7 +25,7 @@ extract_data_from_wikipedia = PythonOperator(
   op_kwargs = { 'url': 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity' },
   dag=dag,
 )
-
+# print(get_wikipedia_page('https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'))
 # Preprocessing
 
 # Write
