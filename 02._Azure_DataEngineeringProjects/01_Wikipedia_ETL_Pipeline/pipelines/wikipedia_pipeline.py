@@ -15,7 +15,7 @@ def get_wikipedia_page(url):
 
 def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
-  table = soup.select_one('table', {'table.wikitable.sortable.sticky-header.jquery-tablesorter'})[0]
+  table = soup.select_one('table', {'table.wikitable.sortable.sticky-header.jquery-tablesorter'})
 
   table_rows = table.find_all('tr')
 
