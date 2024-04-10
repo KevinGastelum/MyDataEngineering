@@ -15,11 +15,29 @@ def get_wikipedia_page(url):
 
 def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
-  table = soup.select('table.wikitable.sortable.sticky-header.jquery-tablesorter')
+  tables = soup.find_all('table', class_='wikitable sortable sticky-header jquery-tablesorter')
 
-  table_rows = table.find_all('tr')
+  if len(tables) >= 2:
+    table_rows = tables[0].find_all('tr')
+    return table_rows
+  return []
 
-  return table_rows
+#   print(f"Found {len(tables)} tables with class 'wikitable sortable'")
+
+#   for i, table in enumerate(tables):
+#       print(f"Table {i}:")
+#       print(table)
+#       print("\n")
+
+# # Assuming the first table is the one we want
+#   if tables:
+#       table_rows = tables[0].find_all('tr')
+#       return table_rows
+#   return []
+
+  # table_rows = table.find_all('tr')
+
+  # return table_rows
 
 def extract_wikipedia_data(**kwargs):
   url = kwargs['url']
