@@ -17,8 +17,10 @@ def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
   tables = soup.find_all('table', class_='wikitable sortable sticky-header jquery-tablesorter')
 
+  print(f"Found {len(tables)} tables")
+
   if len(tables) >= 2:
-    table_rows = tables[0].find_all('tr')
+    table_rows = tables[2].find_all('tr')
     return table_rows
   return []
 
