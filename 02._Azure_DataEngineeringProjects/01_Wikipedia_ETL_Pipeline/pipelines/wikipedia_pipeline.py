@@ -30,7 +30,20 @@ def extract_wikipedia_data(**kwargs):
   html = get_wikipedia_page(url)
   rows = get_wikipedia_data(html)
 
-  print(rows)
+  data = []
+
+  for i in range(1, len(rows)):
+    tds = rows[i].find_all('td')
+    values = {
+      'rank': i,
+      'stadium': tds[0].text,
+      'capacity': tds[1].text,
+      'region': tds[2].text,
+      'country': tds[3].text,
+      'city': tds[4].text,
+      'images': tds[5].text,
+      'home_team': tds[6].text,
+    }
 
 ######## DEBUGGING ########
 # print(get_wikipedia_page())
