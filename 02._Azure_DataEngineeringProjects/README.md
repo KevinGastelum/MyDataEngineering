@@ -6,7 +6,7 @@
 | 02                                     | Blank Example                                                                                                                                  |                                                               centered                                                                |                                                                                    $12 |
 | 03                                     | Blank Example 2                                                                                                                                |                                                             right-aligned                                                             |                                                                                     $1 |
 
-## Project 01 - Wikipedia Analysis
+## [Project 01](https://github.com/KevinGastelum/MyDataEngineering/tree/main/02._Azure_DataEngineeringProjects/01_Wikipedia_ETL_Pipeline) - Wikipedia Analysis
 
 <img src="01_Wikipedia_ETL_Pipeline\data\wiki_table.png">
 
