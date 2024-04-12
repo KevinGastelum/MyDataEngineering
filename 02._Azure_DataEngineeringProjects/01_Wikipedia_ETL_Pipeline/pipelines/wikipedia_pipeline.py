@@ -41,7 +41,7 @@ def extract_wikipedia_data(**kwargs):
       'region': tds[2].text,
       'country': tds[3].text,
       'city': tds[4].text,
-      'images': tds[5].text('img').get('src').split,
+      'images': tds[5].text('img').get('src').split("//")[1] if tds[5].find('img') else "NO_IMAGE",
       'home_team': tds[6].text,
     }
 
