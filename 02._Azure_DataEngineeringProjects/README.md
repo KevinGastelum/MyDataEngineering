@@ -8,4 +8,9 @@
 
 ## Project 01 - Wikipedia Analysis
 
+<img src = "02.\_Azure_DataEngineeringProjects\01_Wikipedia_ETL_Pipeline\data\wiki_table.png">
+
 Created and deployed an end to end pipeline to perform data extraction, cleaning, and visualization of analysis.
+
+- Data Extraction: Wikipedia Website
+-
