@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import pandas as pd
 
 
 def get_wikipedia_page(url):
@@ -46,6 +47,8 @@ def extract_wikipedia_data(**kwargs):
     }
     data.append(values)
   print(data)
+  data_df = pd.Dataframe(data)
+  data_df.to_csv("data/output.csv", index=False)
   return data
 
 ######## DEBUGGING ########
