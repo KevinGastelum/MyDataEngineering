@@ -8,7 +8,7 @@
 
 ## Project 01 - Wikipedia Analysis
 
-<img src = "data\wiki_table.png">
+<img src="01_Wikipedia_ETL_Pipeline\data\wiki_table.png">
 
 Created and deployed an end to end pipeline to perform data extraction, cleaning, and visualization of analysis.
 
