@@ -44,6 +44,9 @@ def extract_wikipedia_data(**kwargs):
       'images': tds[5].text('img').get('src').split("//")[1] if tds[5].find('img') else "NO_IMAGE",
       'home_team': tds[6].text,
     }
+    data.append(values)
+  print(data)
+  return data
 
 ######## DEBUGGING ########
 # print(get_wikipedia_page())
