@@ -26,6 +26,11 @@ def get_wikipedia_data(html):
   return []
 
 
+def clean_text(text):
+  text = str(text).strip()
+
+  text = text.replace()
+
 def extract_wikipedia_data(**kwargs):
   url = kwargs['url']
   html = get_wikipedia_page(url)
@@ -47,7 +52,7 @@ def extract_wikipedia_data(**kwargs):
     }
     data.append(values)
   print(data)
-  data_df = pd.Dataframe(data)
+  data_df = pd.DataFrame(data)
   data_df.to_csv("data/output.csv", index=False)
   return data
 
