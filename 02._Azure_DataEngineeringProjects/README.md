@@ -6,4 +6,6 @@
 | 02                                                                                                                             | Blank Example                                                                                                                                  |                                                               centered                                                                |                                                                                    $12 |
 | 03                                                                                                                             | Blank Example 2                                                                                                                                |                                                             right-aligned                                                             |                                                                                     $1 |
 
-##
+## Project 01 - Wikipedia Analysis
+
+Create and deploy an end to end pipeline to perform data extraction, cleaning, and visualization of analysis.
