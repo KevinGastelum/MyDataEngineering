@@ -18,9 +18,9 @@ Created and deployed an end to end workflow pipeline to perform data extraction,
 - **Workflow Automation**: Apache Airflow
 - **Database Management**: PostgreSQL
 - **Cloud Storage**: Azure Blob
-- **Data Transformation**: Azure Synapse
-- **Query Service**: Azure Data Factory
-- **Data Warehousing**: Azure Datalake
+- **Data Transformation**: Azure Data Factory
+- **Query Service**: Azure Synapse
+- **Data Warehousing**: Azure Databricks
 - **Data Visualization**: Power BI
 
 - ***
