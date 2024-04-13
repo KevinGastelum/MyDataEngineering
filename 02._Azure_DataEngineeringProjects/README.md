@@ -15,12 +15,12 @@ Created and deployed an end to end workflow pipeline to perform data extraction,
 ## Technologies Used
 
 - **Data Extraction**: Wikipedia Website
-- **Workflow Automation**:
+- **Workflow Automation**: Apache Airflow
 - **Database Management**: PostgreSQL
-- **Cloud Storage**: Amazon S3
-- **Data Transformation**: AWS Glue, Lambda
-- **Query Service**: Amazon Athena
-- **Data Warehousing**: Amazon Redshift
-- **Data Visualization**:
+- **Cloud Storage**: Azure Blob
+- **Data Transformation**: Azure Synapse
+- **Query Service**: Azure Data Factory
+- **Data Warehousing**: Azure Datalake
+- **Data Visualization**: Power BI
 
 - ***

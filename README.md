@@ -15,7 +15,7 @@ The purpose of this pipeline is to automize fetching/scraping data from Reddit p
 - **Data Transformation**: AWS Glue, Lambda
 - **Query Service**: Amazon Athena
 - **Data Warehousing**: Amazon Redshift
-- **Data Visualization**:
+- **Data Visualization**: Quicksight
 
 <!-- ## Data Pipeline
 
