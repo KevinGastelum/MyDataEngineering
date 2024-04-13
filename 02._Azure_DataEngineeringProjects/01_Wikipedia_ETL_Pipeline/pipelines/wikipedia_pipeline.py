@@ -67,3 +67,4 @@ def extract_wikipedia_data(**kwargs):
 # for row in rows:
 #   print(row)
 
+
