@@ -71,6 +71,9 @@ def extract_wikipedia_data(**kwargs):
   kwargs['ti'].xcom_push(key='rows', value=json_rows)
   return "OK"
 
+def transform_wikipedia_data(**kwargs):
+  data = kwargs['ti'].xcom_pull(key='rows', task_ids='')
+
 ######## DEBUGGING ########
 # print(get_wikipedia_page())
 # url = 'https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity'
