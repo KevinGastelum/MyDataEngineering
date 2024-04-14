@@ -1,6 +1,6 @@
 # [Azure End to End Data Engineering Project](https://github.com/KevinGastelum/MyDataEngineering/tree/main/02._Azure_DataEngineeringProjects)
 
-Created and deployed this workflow to perform data extraction, cleaning, and visualization of analysis. Step 1 Create a docker image to containerize the entire pipeline (server, database, python code) and deploy locally or on the cloud. Since I'll be using Azure I'll store my data in Azure Data Lake, and process
+Created and deployed this Azure workflow to perform data extraction, cleaning, and visualization of analysis. Step 1 Create a docker image to containerize the entire pipeline (server, database, python code) and deploy locally or on the cloud.
 
 ## Technologies Used
 
