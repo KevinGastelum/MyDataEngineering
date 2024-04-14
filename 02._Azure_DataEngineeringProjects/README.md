@@ -8,7 +8,7 @@
 
 ## [Project 01](https://github.com/KevinGastelum/MyDataEngineering/tree/main/02._Azure_DataEngineeringProjects/01_Wikipedia_ETL_Pipeline) - Wikipedia Analysis
 
-Created and deployed an end to end workflow pipeline to perform data extraction, cleaning, and visualization of analysis. Also created a docker image to containerize the entire workflow (server, database, python code) and deploy locally or on the cloud. Since I'll be using Azure I'll store my data in Azure Data Lake, and process
+Created and deployed an end to end workflow pipeline to perform data extraction, cleaning, and visualization of data. Also created a docker image to containerize the entire workflow (server, database, python code) and deploy locally or on the cloud. Since I'll be using Azure I'll store my data in Azure Data Lake, and process
 
 <img src="01_Wikipedia_ETL_Pipeline\data\wiki_table.png">
 
