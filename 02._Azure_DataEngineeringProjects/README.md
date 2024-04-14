@@ -22,5 +22,3 @@ Created and deployed an end to end workflow pipeline to perform data extraction,
 - **Query Service**: Azure Synapse
 - **Data Warehousing**: Azure Databricks
 - **Data Visualization**: Power BI
-
-- ***
