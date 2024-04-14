@@ -25,7 +25,6 @@ def get_wikipedia_data(html):
     return table_rows
   return []
 
-
 def clean_text(text):
   text = str(text).strip()
   text = text.replace('&nbsp', '')
@@ -37,7 +36,7 @@ def clean_text(text):
     text = text.split(' (formerly)')[0]
   if text == '\n':
     return ""
-
+  return text.replace('\n', '')
 
 def extract_wikipedia_data(**kwargs):
   url = kwargs['url']
