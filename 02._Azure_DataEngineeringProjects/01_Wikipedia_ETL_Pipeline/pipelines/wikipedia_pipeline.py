@@ -28,8 +28,14 @@ def get_wikipedia_data(html):
 
 def clean_text(text):
   text = str(text).strip()
+  text = text.replace('&nbsp', '')
+  if text.find(' ♦'):
+    text = text.split(' ♦')[0]
+  if text.find('[') != -1:
+    text = text.split('[')[0]
+  if text.find(' (formerly)') != -1:
+    
 
-  text = text.replace()
 
 def extract_wikipedia_data(**kwargs):
   url = kwargs['url']
