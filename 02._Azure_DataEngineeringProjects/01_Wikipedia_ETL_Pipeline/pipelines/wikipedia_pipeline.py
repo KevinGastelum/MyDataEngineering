@@ -15,7 +15,6 @@ def get_wikipedia_page(url):
   except requests.RequestException as e:
     print(f'An error ocurred: {e}')
 
-
 def get_wikipedia_data(html):
   soup = BeautifulSoup(html, 'html.parser')
   tables = soup.find_all('table', class_='wikitable')
@@ -26,7 +25,6 @@ def get_wikipedia_data(html):
     table_rows = tables[1].find_all('tr') # Table with our data is in index pos 1
     return table_rows
   return []
-
 
 def clean_text(text):
   text = str(text).strip()
@@ -41,7 +39,6 @@ def clean_text(text):
     return ""
   
   return text.replace('\n', '')
-
 
 def extract_wikipedia_data(**kwargs):
   url = kwargs['url']
