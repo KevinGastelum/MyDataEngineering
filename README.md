@@ -2,6 +2,8 @@
 
 Created and deployed this Azure workflow to perform data extraction, cleaning, and visualization of data. Utilizing docker to containerize the entire pipeline (server, database, python code) and deploy locally or on the cloud.
 
+<img src="02._Azure_DataEngineeringProjects\01_Wikipedia_ETL_Pipeline\data\azure_pipeline.png">
+
 ## Technologies Used
 
 - **Data Extraction**: Wikipedia Website
