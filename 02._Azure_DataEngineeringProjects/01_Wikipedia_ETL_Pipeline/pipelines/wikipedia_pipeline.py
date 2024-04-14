@@ -72,7 +72,7 @@ def extract_wikipedia_data(**kwargs):
   return "OK"
 
 def transform_wikipedia_data(**kwargs):
-  data = kwargs['ti'].xcom_pull(key='rows', task_ids='')
+  data = kwargs['ti'].xcom_pull(key='rows', task_ids='extract_data_from_wikipedia')
 
 ######## DEBUGGING ########
 # print(get_wikipedia_page())
