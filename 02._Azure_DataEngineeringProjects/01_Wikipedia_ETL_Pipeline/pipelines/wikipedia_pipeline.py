@@ -1,3 +1,4 @@
+import json
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -54,7 +55,7 @@ def extract_wikipedia_data(**kwargs):
     values = {
       'rank': i,
       'stadium': clean_text(tds[0].text),
-      'capacity': clean_text(tds[1].text),
+      'capacity': clean_text(tds[1].text).replace(',', ''),
       'region': clean_text(tds[2].text),
       'country': clean_text(tds[3].text),
       'city': clean_text(tds[4].text),
@@ -64,9 +65,11 @@ def extract_wikipedia_data(**kwargs):
     data.append(values)
 
   # print(data)
-  data_df = pd.DataFrame(data)
-  data_df.to_csv("data/output.csv", index=False)
-  return data
+  # data_df = pd.DataFrame(data)
+  # data_df.to_csv("data/output.csv", index=False)
+  json_rows = json.dumps(data)
+  kwargs['ti'].xcom_push(key='rows', value=json_rows)
+  return "OK"
 
 ######## DEBUGGING ########
 # print(get_wikipedia_page())
