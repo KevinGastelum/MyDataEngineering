@@ -53,13 +53,13 @@ def extract_wikipedia_data(**kwargs):
     tds = rows[i].find_all('td')
     values = {
       'rank': i,
-      'stadium': tds[0].text,
-      'capacity': tds[1].text,
-      'region': tds[2].text,
-      'country': tds[3].text,
-      'city': tds[4].text,
-      'images': tds[5].find('img').get('src').split("//")[1] if tds[5].find('img') else "NO_IMAGE",
-      'home_team': tds[6].text,
+      'stadium': clean_text(tds[0].text),
+      'capacity': clean_text(tds[1].text),
+      'region': clean_text(tds[2].text),
+      'country': clean_text(tds[3].text),
+      'city': clean_text(tds[4].text),
+      'images': clean_text(tds[5].find('img').get('src').split("//")[1] if tds[5].find('img') else "NO_IMAGE"),
+      'home_team': clean_text(tds[6].text),
     }
     data.append(values)
   print(data)
