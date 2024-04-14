@@ -34,7 +34,9 @@ def clean_text(text):
   if text.find('[') != -1:
     text = text.split('[')[0]
   if text.find(' (formerly)') != -1:
-    
+    text = text.split(' (formerly)')[0]
+  if text == '\n':
+    return ""
 
 
 def extract_wikipedia_data(**kwargs):
