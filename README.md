@@ -1,3 +1,18 @@
+# [Azure End to End Data Engineering Pipelines](https://github.com/KevinGastelum/MyDataEngineering/tree/main/02._Azure_DataEngineeringProjects)
+
+Created and deployed an end to end workflow pipeline to perform data extraction, cleaning, and visualization of analysis. Step 1 Create a docker image to containerize the entire workflow (server, database, python code) and deploy locally or on the cloud. Since I'll be using Azure I'll store my data in Azure Data Lake, and process
+
+## Technologies Used
+
+- **Data Extraction**: Wikipedia Website
+- **Workflow Automation**: Apache Airflow
+- **Database Management**: PostgreSQL
+- **Cloud Storage**: Azure Blob
+- **Data Transformation**: Azure Data Factory
+- **Query Service**: Azure Synapse
+- **Data Warehousing**: Azure Databricks
+- **Data Visualization**: Power BI
+
 # [AWS End to End Data Engineering Project](https://github.com/KevinGastelum/MyDataEngineering/tree/main/01._AWS_DataEngineeringProject#aws-end-to-end-data-engineering-project)
 
 ## Reddit real-time Data Extraction --> Data Warehousing --> Data Modeling --> Data Pipeline
