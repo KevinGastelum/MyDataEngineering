@@ -62,7 +62,8 @@ def extract_wikipedia_data(**kwargs):
       'home_team': clean_text(tds[6].text),
     }
     data.append(values)
-  print(data)
+
+  # print(data)
   data_df = pd.DataFrame(data)
   data_df.to_csv("data/output.csv", index=False)
   return data
