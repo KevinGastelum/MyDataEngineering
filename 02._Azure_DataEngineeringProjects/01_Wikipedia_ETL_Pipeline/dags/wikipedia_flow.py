@@ -4,7 +4,7 @@ import os
 import sys
 from airflow.operators.python import PythonOperator
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from pipelines.wikipedia_pipeline import extract_wikipedia_data
+from pipelines.wikipedia_pipeline import extract_wikipedia_data, transform_wikipedia_data
 
 
 dag = DAG(
