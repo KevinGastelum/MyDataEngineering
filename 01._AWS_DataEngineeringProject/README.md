@@ -197,11 +197,3 @@ docker compose up -d
 
 docker exec -it
 
-
---Fresh Start steps
-Set up VENV - Conda
-run reqs.txt to install all required packages
-pull in config.conf settings , data, logs, plugins, tests
-run docker build
-
--->
